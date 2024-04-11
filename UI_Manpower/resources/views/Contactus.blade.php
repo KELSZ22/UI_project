@@ -9,18 +9,22 @@
 <body>
   <nav class="bg-gray-300 p-4">
     <div class="container mx-auto flex justify-between items-center">
-      <div>
-        <a href="#" class="text-black font-bold text-xl">CREWNNECT</a>
+      <div >
+        <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
           <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
           <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
+          <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
+          <a href="#"><img class="h-8"
+                    src="images/contact-us.png"></a>
           <li><a href="#" class="text-black hover:text-red-300">Apply Now</a></li>
-          <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
-
+          <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
+          <a href="#"><img class="h-8"
+                    src="images/icon.png">
+</a>
         </ul>
       </div>
       <div class="block md:hidden">
@@ -33,7 +37,7 @@
     </div>
     <div id="mobile-menu" class="hidden md:hidden">
       <ul class="flex flex-col space-y-4">
-          <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
+          <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
           <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
@@ -109,7 +113,7 @@
                             </div>
                     </div>
                     <div class="m-0 h-full">
-                        <h2 class="text-black inter-bold text-4xl P-5 black text-center left-0 right-0 ml-auto mr-auto align-middle w-full lg:w-8/12 drop-shadow-[0_2px_2px_rgba(255,255,255,0.9)]">Hiring the right person is really important!</h2>
+                        <h2 class="text-white inter-bold text-4xl P-5 black text-center left-0 right-0 ml-auto mr-auto align-middle w-full lg:w-8/12 drop-shadow-[0_2px_2px_rgba(255,255,255,0.9)]">"If you work just for money, you'll never make it, but if you love what you're doing and you always put the customer first, success will be yours." – Ray Kroc, Founder McDonald's</h2>
                     </div>
                 </div>
         </main>
