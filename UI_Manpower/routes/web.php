@@ -21,3 +21,16 @@ Route::get('/login', function () {
 Route::get('/applyNow', function () {
     return view('applyNow');
 });
+
+//For Cms
+Route::get('/ClientData', function () {
+    return view('cms/ClientData');
+});
+
+Route::get('/WorkersData', function () {
+    return view('cms/WorkersData');
+});
+
+Route::get('/ApplicationData', function () {
+    return view('cms/ApplicationData');
+});
