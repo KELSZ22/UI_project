@@ -5,4 +5,3 @@ function toggleDropdown(menuId) {
     .getElementById(menuId);
     dropdownMenu.classList.toggle('hidden');
 }
-

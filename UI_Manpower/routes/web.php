@@ -29,3 +29,7 @@ Route::get('/applyNow', function () {
 Route::get('/jobs', function () {
     return view('jobs');
 });
+
+Route::get('/Data_Management', function () {
+    return view('cms/Data_Management');
+});
