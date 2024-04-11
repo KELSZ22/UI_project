@@ -21,3 +21,7 @@ Route::get('/login', function () {
 Route::get('/applyNow', function () {
     return view('applyNow');
 });
+
+Route::get('/jobs', function () {
+    return view('jobs');
+});
