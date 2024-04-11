@@ -102,11 +102,7 @@
                         <span id="job_position2_error" class="text-red-500 hidden">Please select a job position</span>
                         
                     </div>
-                </div>
-
-                
-                
-                
+                </div>             
             </div>
 
             <!-- Personal Data -->
@@ -318,38 +314,38 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label for="email" class="block text-gray-700 font-semibold">Position:</label>
-                        <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="onePosition" class="block text-gray-700 font-semibold">Position:</label>
+                        <input type="text" id="onePosition" name="onePosition" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Location Country:</label>
-                        <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="oneLocCountry" class="block text-gray-700 font-semibold">Location Country:</label>
+                        <input type="text" id="oneLocCountry" name="oneLocCountry" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div>
-                        <label for="email" class="block text-gray-700 font-semibold">2 Company Name:</label>
-                        <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="twoCompany" class="block text-gray-700 font-semibold">2 Company Name:</label>
+                        <input type="text" id="twoCompany" name="twoCompany" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Tenure Start:</label>
-                        <input type="date" id="dob" name="dob" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="twoTenurestart" class="block text-gray-700 font-semibold">Tenure Start:</label>
+                        <input type="date" id="twoTenurestart" name="twoTenurestart" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Tenure End:</label>
-                        <input type="date" id="dob" name="dob" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="twoTenureEnd" class="block text-gray-700 font-semibold">Tenure End:</label>
+                        <input type="date" id="twoTenureEnd" name="twoTenureEnd" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label for="email" class="block text-gray-700 font-semibold">Position:</label>
-                        <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="twoPosition" class="block text-gray-700 font-semibold">Position:</label>
+                        <input type="text" id="twoPosition" name="twoPosition" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Location Country:</label>
-                        <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="twoLocCountry" class="block text-gray-700 font-semibold">Location Country:</label>
+                        <input type="text" id="twoLocCountry" name="twoLocCountry" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                 </div>
             </div>
@@ -360,33 +356,33 @@
                 <h3 class="text-lg font-semibold mb-2 ">Character Reference</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label for="email" class="block text-gray-700 font-semibold">1 Complete Name:</label>
-                        <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="oneChacRef" class="block text-gray-700 font-semibold">1 Complete Name:</label>
+                        <input type="text" id="oneChacRef" name="oneChacRef" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Relation:</label>
-                        <input type="tel" id="phone" name="phone" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="oneRelation" class="block text-gray-700 font-semibold">Relation:</label>
+                        <input type="text" id="oneRelation" name="oneRelation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
-                        <label for="email" class="block text-gray-700 font-semibold">Company:</label>
-                        <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="oneChacCom" class="block text-gray-700 font-semibold">Company:</label>
+                        <input type="text" id="oneChacCom" name="oneChacCom" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Position:</label>
-                        <input type="tel" id="phone" name="phone" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="onePosChac" class="block text-gray-700 font-semibold">Position:</label>
+                        <input type="text" id="onePosChac" name="onePosChac" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Contact No:</label>
-                        <input type="tel" id="phone" name="phone" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <label for="oneChacContact" class="block text-gray-700 font-semibold">Contact No:</label>
+                        <input type="tel" id="oneChacContact" name="oneChacContact" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                     </div>
                 </div>
                 <div class="mb-10">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
                         <div>
-                            <label for="email" class="block text-gray-700 font-semibold">2 Complete Name:</label>
-                            <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            <label for="twoChacRef" class="block text-gray-700 font-semibold">2 Complete Name:</label>
+                            <input type="email" id="twoChacRef" name="twoChacRef" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         </div>
                         <div>
                             <label for="phone" class="block text-gray-700 font-semibold">Relation:</label>
@@ -468,24 +464,17 @@
             <div class="mb-4">
                 <label for="agree" class="inline-flex items-center">
                     <input type="checkbox" id="agree" name="agree" class="form-checkbox h-5 w-5 text-blue-600">
-                    <span class="ml-2 text-gray-700">You agree to our terms ang conditions.</span>
+                    <span class="ml-2 text-gray-700">I agree to the terms and conditions, which can be read <a href="#" class="text-blue-600 hover:text-blue-300">here</a>.</span>
                 </label>
             </div>
-            
 
             <!-- Submit Button -->
-            <div class="mt-4 text-center">
-                <button type="submit" onclick="validateForm()" class="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:border-gray-700">Submit Application</button>
+            <div class="mt-4 text-center" id="submit-section" style="display: none;">
+                <button type="submit" onclick="validateForm()" class="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit Application</button>
             </div>
-
-
             
         </div>
     </section>
-
-    
-    
-
 </section>
 
 <!-- Footer -->
@@ -500,163 +489,7 @@
       document.getElementById('mobile-menu').classList.toggle('hidden');
     });
 
-    function validateForm() {
-        const lastName = document.getElementById("last_name").value;
-        const firstName = document.getElementById("first_name").value;
-        const middleName = document.getElementById("middle_name").value;
-        const dob = document.getElementById("dob").value;
-        const height = document.getElementById("height").value;
-        const weight = document.getElementById("weight").value;
-        const age = document.getElementById("age").value;
-        const civilStatus = document.getElementById("civil_status").value;
-        const citizenship = document.getElementById("citizenship").value;
-
-        const email = document.getElementById("email").value;
-        const phone = document.getElementById("phone").value;
-        const degree = document.getElementById("degree").value;
-        const university = document.getElementById("university").value;
-        const jobPosition = document.getElementById("job_position").value;
-        const jobPosition2 = document.getElementById("job_position2").value;
-        
-        //Spouse
-        const spouseName = document.getElementById("spouse_Name").value;
-        const spouseOccupation = document.getElementById("spouse_Occupation").value;
-        const spouseChildren = document.getElementById("spouse_Children").value;
-        const spouseMobile = document.getElementById("spouse_Mobile").value;
-        const spouseLandline = document.getElementById("spouse_Landline").value;
-        
-        //Address
-        const Barangay = document.getElementById("Barangay").value;
-        const city = document.getElementById("city").value;
-        const province = document.getElementById("province").value;
-        const zip = document.getElementById("zip").value;
-
-        //passport
-        const passportSignature = document.getElementById("passportSignature").value;
-        const passportDoI = document.getElementById("passportDoI").value;
-        const passportDoE = document.getElementById("passportDoE").value;
-        const passportIA = document.getElementById("passportIA").value;
-
-        if (lastName === "") {
-            document.getElementById("last_name_error").classList.remove("hidden");
-        } else {
-            document.getElementById("last_name_error").classList.add("hidden");
-        }
-
-        if (firstName === "") {
-            document.getElementById("first_name_error").classList.remove("hidden");
-        } else {
-            document.getElementById("first_name_error").classList.add("hidden");
-        }
-
-        if (middleName=== "") {
-            document.getElementById("middle_name_error").classList.remove("hidden");
-        } else {
-            document.getElementById("middle_name_error").classList.add("hidden");
-        }
-
-        if (dob === "") {
-            document.getElementById("dob_error").classList.remove("hidden");
-        } else {
-            document.getElementById("dob_error").classList.add("hidden");
-        }
-
-        if (height === "") {
-            document.getElementById("height_error").classList.remove("hidden");
-        } else {
-            document.getElementById("height_error").classList.add("hidden");
-        }
-        
-        if (weight === "") {
-            document.getElementById("weight_error").classList.remove("hidden");
-        } else {
-            document.getElementById("weight_error").classList.add("hidden");
-        }
-        
-        if (age === "") {
-            document.getElementById("age_error").classList.remove("hidden");
-        } else {
-            document.getElementById("age_error").classList.add("hidden");
-        }
-        
-        if (civilStatus === "") {
-            document.getElementById("civil_status_error").classList.remove("hidden");
-        } else {
-            document.getElementById("civil_status_error").classList.add("hidden");
-        }
-        
-        if (citizenship === "") {
-            document.getElementById("citizenship_error").classList.remove("hidden");
-        } else {
-            document.getElementById("citizenship_error").classList.add("hidden");
-        }
-
-        if (email === "") {
-            document.getElementById("email_error").classList.remove("hidden");
-        } else {
-            document.getElementById("email_error").classList.add("hidden");
-        }
-
-        if (phone === "") {
-            document.getElementById("phone_error").classList.remove("hidden");
-        } else {
-            document.getElementById("phone_error").classList.add("hidden");
-        }
-
-        if (degree === "") {
-            document.getElementById("degree_error").classList.remove("hidden");
-        } else {
-            document.getElementById("degree_error").classList.add("hidden");
-        }
-
-        if (university === "") {
-            document.getElementById("university_error").classList.remove("hidden");
-        } else {
-            document.getElementById("university_error").classList.add("hidden");
-        }
-
-        if (jobPosition === "") {
-            document.getElementById("job_position_error").classList.remove("hidden");
-        } else {
-            document.getElementById("job_position_error").classList.add("hidden");
-        }
-        if (jobPosition2 === "") {
-            document.getElementById("job_position2_error").classList.remove("hidden");
-        } else {
-            document.getElementById("job_position2_error").classList.add("hidden");
-        }
-
-        //Spouse Error
-        if (spouseName === "") {
-            document.getElementById("spouse_Name_error").classList.remove("hidden");
-        } else {
-            document.getElementById("spouse_Name_error").classList.add("hidden");
-        }
-        if (spouseOccupation === "") {
-            document.getElementById("spouse_Occupation_error").classList.remove("hidden");
-        } else {
-            document.getElementById("spouse_Occupation_error").classList.add("hidden");
-        }
-        if (spouseChildren === "") {
-            document.getElementById("spouse_Children_error").classList.remove("hidden");
-        } else {
-            document.getElementById("spouse_Children_error").classList.add("hidden");
-        }
-        if (spouseMobile === "") {
-            document.getElementById("spouse_Mobile_error").classList.remove("hidden");
-        } else {
-            document.getElementById("spouse_Mobile_error").classList.add("hidden");
-        }
-        if (spouseLandline === "") {
-            document.getElementById("spouse_Landline_error").classList.remove("hidden");
-        } else {
-            document.getElementById("spouse_Landline_error").classList.add("hidden");
-        }
-
-       
-
-    }
-
+    // Show submit button when agreement checkbox is checked
     document.getElementById("agree").addEventListener("change", function() {
         const submitSection = document.getElementById("submit-section");
         if (this.checked) {
@@ -665,6 +498,7 @@
             submitSection.style.display = "none";
         }
     });
+    
 
 </script>
 
