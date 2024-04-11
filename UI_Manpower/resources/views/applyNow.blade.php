@@ -16,10 +16,10 @@
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
-          <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
+          <li><a href="homepage" class="text-black hover:text-red-300">Home</a></li>
           <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
+          <li><a href="Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
           <li><a href="applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
 
@@ -35,12 +35,12 @@
     </div>
     <div id="mobile-menu" class="hidden md:hidden">
       <ul class="flex flex-col space-y-4">
-          <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
+          <li><a href="homepage" class="text-black hover:text-red-300">Home</a></li>
           <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
+          <li><a href="jobs" class="text-black hover:text-red-300">Jobs</a></li>
           <li><a href="Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
           <li><a href="applyUs" class="text-black hover:text-red-300">Apply Now</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
+          <li><a href="login" class="text-black hover:text-red-300">Login</a></li>
       </ul>
     </div>
 </nav>
@@ -62,48 +62,51 @@
     </div>
 
     <!-- Application Form -->
-    <section class="container mx-auto mt-8 px-4">
+    <section class="container mx-auto mt-8 px-4 ">
         <div class="bg-white p-4 rounded-lg shadow-md">
             <h2 class="text-2xl font-semibold text-center mb-4">Application Form</h2>
             
             <!-- Job Position Picker -->
-            <div class="mb-4 ">
+            <div class="mb-12 ">
                 <h3 class="text-lg font-semibold mb-2">Employment Applications</h3>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-3">
                     <div>
                         <label for="job_position" class="block text-gray-700 font-semibold">Position 1st Option</label>
-                        <select id="job_position" name="job_position" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <select type="text" id="job_position" name="job_position" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                             <option value="" disabled selected>Select Job Position</option>
-                            <option value="Software Engineer">Software Engineer</option>
-                            <option value="Graphic Designer">Graphic Designer</option>
-                            <option value="Marketing Manager">Marketing Manager</option>
-                            <option value="Sales Representative">Sales Representative</option>
+                            <option value="Construction">Construction</option>
+                            <option value="Education">Education</option>
+                            <option value="Hospitality">Hospitality</option>
+                            <option value="Information Technology">Information Technology</option>
+                            <option value="Manufacturing">Manufacturing</option>
+                            <option value="Medical and Healthcare">Medical and Healthcare</option>
+                            <option value="Personal Beauty and Wellness">Personal Beauty and Wellness</option>
+                            <option value="Retail">Retail</option>
                             <!-- Add more job positions as needed -->
                         </select>
                         <span id="job_position_error" class="text-red-500 hidden">Please select a job position</span>
                     </div>
                     <div>
                         <label for="job_position" class="block text-gray-700 font-semibold">Position 2nd Option</label>
-                        <select id="job_position2" name="job_position2" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <select type="text" id="job_position2" name="job_position2" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                             <option value="" disabled selected>Select Job Position</option>
-                            <option value="Software Engineer">Software Engineer</option>
-                            <option value="Graphic Designer">Graphic Designer</option>
-                            <option value="Marketing Manager">Marketing Manager</option>
-                            <option value="Sales Representative">Sales Representative</option>
-                            <!-- Add more job positions as needed -->
+                            <option value="Construction">Construction</option>
+                            <option value="Education">Education</option>
+                            <option value="Hospitality">Hospitality</option>
+                            <option value="Information Technology">Information Technology</option>
+                            <option value="Manufacturing">Manufacturing</option>
+                            <option value="Medical and Healthcare">Medical and Healthcare</option>
+                            <option value="Personal Beauty and Wellness">Personal Beauty and Wellness</option>
+                            <option value="Retail">Retail</option>
                         </select>
                         <span id="job_position2_error" class="text-red-500 hidden">Please select a job position</span>
                         
                     </div>
-                </div>
-
-                
-                
-                
+                </div>             
             </div>
 
             <!-- Personal Data -->
-            <div class="mb-4">
+            <div class="mb-12">
                 <h3 class="text-lg font-semibold mb-2">Personal Data</h3>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div>
@@ -155,8 +158,8 @@
             </div>
             
             <!-- Contact Information -->
-            <div class="mb-4">
-                <h3 class="text-lg font-semibold mb-2">Contact Information</h3>
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2 ">Contact Information</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                         <label for="email" class="block text-gray-700 font-semibold">Email:</label>
@@ -171,26 +174,287 @@
                 </div>
             </div>
 
-            <!-- Educational Attainment -->
-            <div class="mb-4">
-                <h3 class="text-lg font-semibold mb-2">Educational Attainment</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                        <label for="degree" class="block text-gray-700 font-semibold">Degree:</label>
-                        <input type="text" id="degree" name="degree" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                        <span id="degree_error" class="text-red-500 hidden">Please enter your degree</span>
+            <!-- Spouse Information -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2">Spouse Information</h3>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="spouse_Name" class="block text-gray-700 font-semibold">Full Name:</label>
+                            <input type="text" id="spouse_Name" name="spouse_Name" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="spouse_Occupation" class="block text-gray-700 font-semibold">Occupation:</label>
+                            <input type="text" id="spouse_Occupation" name="spouse_Occupation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
                     </div>
-                    <div>
-                        <label for="university" class="block text-gray-700 font-semibold">University:</label>
-                        <input type="text" id="university" name="university" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                        <span id="university_error" class="text-red-500 hidden">Please enter your university</span>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <div>
+                            <label for="spouse_Children" class="block text-gray-700 font-semibold">No of Children:</label>
+                            <input type="text" id="spouse_Children" name="spouse_Children" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                        </div>
+                        <div>
+                            <label for="spouse_Mobile" class="block text-gray-700 font-semibold">Mobile:</label>
+                            <input type="text" id="spouse_Mobile" name="spouse_Mobile" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                        </div>
+                        <div>
+                            <label for="spouse_Landline" class="block text-gray-700 font-semibold">Landline:</label>
+                            <input type="text" id="spouse_Landline" name="spouse_Landline" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Address  -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2">Address</h3>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="houseNStreet" class="block text-gray-700 font-semibold">House & Street:</label>
+                            <input type="houseNStreet" id="houseNStreet" name="houseNStreet" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="Barangay" class="block text-gray-700 font-semibold">Barangay:</label>
+                            <input type="text" id="Barangay" name="Barangay" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            <span id="Barangay_error" class="text-red-500 hidden">Please input</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <div>
+                            <label for="city" class="block text-gray-700 font-semibold">City or Municipality:</label>
+                            <input type="text" id="city" name="city" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            <span id="city_error" class="text-red-500 hidden">Please input</span>
+                        </div>
+                        <div>
+                            <label for="province" class="block text-gray-700 font-semibold">Province and Region:</label>
+                            <input type="text" id="province" name="province" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            <span id="province_error" class="text-red-500 hidden">Please input</span>
+                        </div>
+                        <div>
+                            <label for="zip" class="block text-gray-700 font-semibold">Zipcode:</label>
+                            <input type="text" id="zip" name="zip" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            <span id="zip_error" class="text-red-500 hidden">Please input</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            
+            <!-- Educational Attainment -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2">Educational Attainment</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="ES" class="block text-gray-700 font-semibold">Elemntary School:</label>
+                        <input type="text" id="ES" name="ES" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                    <div>
+                        <label for="ESGraduate" class="block text-gray-700 font-semibold">Graduated:</label>
+                        <input type="number" id="ESGraduate" name="ESGraduate" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                        
+                    </div>
+                    <div>
+                        <label for="HSGraduate" class="block text-gray-700 font-semibold">High School:</label>
+                        <input type="text" id="HS" name="HS" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                    <div>
+                        <label for="HSGraduate" class="block text-gray-700 font-semibold">Graduated:</label>
+                        <input type="number" id="HSGraduate" name="HSGraduate" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                        
+                    </div>
+                    <div>
+                        <label for="Collage" class="block text-gray-700 font-semibold">College:</label>
+                        <input type="text" id="Collage" name="Collage" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                    <div>
+                        <label for="CollageGraduate" class="block text-gray-700 font-semibold">Graduated:</label>
+                        <input type="number" id="CollageGraduate" name="CollageGraduate" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                        
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="degreeReceived" class="block text-gray-700 font-semibold">Degree Received:</label>
+                        <input type="text" id="degreeReceived" name="degreeReceived" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                </div>
+                <div class="grid grid-cols-1  gap-4">
+                    <div>
+                        <label for="specialSkills" class="block text-gray-700 font-semibold">Special Skills:</label>
+                        <input type="text" id="specialSkills" name="specialSkills" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                </div>
+            </div>
 
-            
+
+            <!-- Previous Employment Record -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2 ">Previous Employment Record</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div>
+                        <label for="oneCompanyName" class="block text-gray-700 font-semibold">1 Company Name:</label>
+                        <input type="text" id="oneCompanyName" name="oneCompanyName" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>                     
+                    </div>
+                    <div>
+                        <label for="oneTenureStart" class="block text-gray-700 font-semibold">Tenure Start:</label>
+                        <input type="date" id="oneTenureStart" name="oneTenureStart" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                    <div>
+                        <label for="oneTenureEnd" class="block text-gray-700 font-semibold">Tenure End:</label>
+                        <input type="date" id="oneTenureEnd" name="oneTenureEnd" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="onePosition" class="block text-gray-700 font-semibold">Position:</label>
+                        <input type="text" id="onePosition" name="onePosition" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                    <div>
+                        <label for="oneLocCountry" class="block text-gray-700 font-semibold">Location Country:</label>
+                        <input type="text" id="oneLocCountry" name="oneLocCountry" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div>
+                        <label for="twoCompany" class="block text-gray-700 font-semibold">2 Company Name:</label>
+                        <input type="text" id="twoCompany" name="twoCompany" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                    <div>
+                        <label for="twoTenurestart" class="block text-gray-700 font-semibold">Tenure Start:</label>
+                        <input type="date" id="twoTenurestart" name="twoTenurestart" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                    <div>
+                        <label for="twoTenureEnd" class="block text-gray-700 font-semibold">Tenure End:</label>
+                        <input type="date" id="twoTenureEnd" name="twoTenureEnd" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="twoPosition" class="block text-gray-700 font-semibold">Position:</label>
+                        <input type="text" id="twoPosition" name="twoPosition" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                    <div>
+                        <label for="twoLocCountry" class="block text-gray-700 font-semibold">Location Country:</label>
+                        <input type="text" id="twoLocCountry" name="twoLocCountry" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Character Reference -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2 ">Character Reference</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="oneChacRef" class="block text-gray-700 font-semibold">1 Complete Name:</label>
+                        <input type="text" id="oneChacRef" name="oneChacRef" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                    <div>
+                        <label for="oneRelation" class="block text-gray-700 font-semibold">Relation:</label>
+                        <input type="text" id="oneRelation" name="oneRelation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="oneChacCom" class="block text-gray-700 font-semibold">Company:</label>
+                        <input type="text" id="oneChacCom" name="oneChacCom" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                    <div>
+                        <label for="onePosChac" class="block text-gray-700 font-semibold">Position:</label>
+                        <input type="text" id="onePosChac" name="onePosChac" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                    <div>
+                        <label for="oneChacContact" class="block text-gray-700 font-semibold">Contact No:</label>
+                        <input type="tel" id="oneChacContact" name="oneChacContact" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                </div>
+                <div class="mb-10">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                        <div>
+                            <label for="twoChacRef" class="block text-gray-700 font-semibold">2 Complete Name:</label>
+                            <input type="email" id="twoChacRef" name="twoChacRef" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-semibold">Relation:</label>
+                            <input type="tel" id="phone" name="phone" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div>
+                            <label for="Company2" class="block text-gray-700 font-semibold">Company:</label>
+                            <input type="Company2" id="Company2" name="Company2" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="Position2" class="block text-gray-700 font-semibold">Position:</label>
+                            <input type="Position2" id="Position2" name="Position" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="ContactNo2" class="block text-gray-700 font-semibold">Contact No:</label>
+                            <input type="ContactNo2" id="ContactNo2" name="ContactNo2" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Passport Details -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2">Passport Details</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+                    <div>
+                        <label for="passportSignature" class="block text-gray-700 font-semibold">Signature:</label>
+                        <input type="passportSignature" id="passportSignature" name="passportSignature" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <span id="passportSignature_error" class="text-red-500 hidden">Please input</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
+                    <div>
+                        <label for="passportDoI" class="block text-gray-700 font-semibold">Date Of Issue:</label>
+                        <input type="passportDoI" id="passportDoI" name="passportDoI" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <span id="passportDoI_error" class="text-red-500 hidden">Please input</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
+                    <div>
+                        <label for="passportDoE" class="block text-gray-700 font-semibold">Date Of Expiration:</label>
+                        <input type="passportDoE" id="passportDoE" name="passportDoE" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <span id="passportDoE_error" class="text-red-500 hidden">Please input</span>
+                    </div>
+                </div>   
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-4 px-4">
+                    <div>
+                        <label for="passportIA" class="block text-gray-700 font-semibold">Issuing Authority:</label>
+                        <input type="passportIA" id="passportIA" name="passportIA" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <span id="passportIA_error" class="text-red-500 hidden">Please input</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acknowledgement -->
+            <div class="mb-12">
+                    <h3 class="text-lg font-semibold mb-2">Acknowledgement</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
+                        <div>
+                            <label for="email" class="block text-gray-700 font-semibold">Signature:</label>
+                            <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            <span id="email_error" class="text-red-500 hidden">Please enter your signature</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
+                        <div>
+                            <label for="dob" class="block text-gray-700 font-semibold">Date:</label>
+                            <input type="date" id="dob" name="dob" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                    </div>      
+            </div>
         </div>
     </section>
 
@@ -200,27 +464,17 @@
             <div class="mb-4">
                 <label for="agree" class="inline-flex items-center">
                     <input type="checkbox" id="agree" name="agree" class="form-checkbox h-5 w-5 text-blue-600">
-                    <span class="ml-2 text-gray-700">I agree to the terms and conditions</span>
-                </label>
-            </div>
-            <div class="mb-4">
-                <label for="agree" class="inline-flex items-center">
-                    <input type="checkbox" id="agree" name="agree" class="form-checkbox h-5 w-5 text-blue-600">
-                    <span class="ml-2 text-gray-700">I agree to the data privacy conditions.</span>
+                    <span class="ml-2 text-gray-700">I agree to the terms and conditions, which can be read <a href="#" class="text-blue-600 hover:text-blue-300">here</a>.</span>
                 </label>
             </div>
 
             <!-- Submit Button -->
-            <div class="mt-4 text-center">
-                <button type="submit" onclick="validateForm()" class="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:border-gray-700">Submit Application</button>
+            <div class="mt-4 text-center" id="submit-section" style="display: none;">
+                <button type="submit" onclick="validateForm()" class="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit Application</button>
             </div>
             
         </div>
     </section>
-
-    
-    
-
 </section>
 
 <!-- Footer -->
@@ -235,113 +489,17 @@
       document.getElementById('mobile-menu').classList.toggle('hidden');
     });
 
-    function validateForm() {
-        const lastName = document.getElementById("last_name").value;
-        const firstName = document.getElementById("first_name").value;
-        const middleName = document.getElementById("middle_name").value;
-        const dob = document.getElementById("dob").value;
-        const height = document.getElementById("height").value;
-        const weight = document.getElementById("weight").value;
-        const age = document.getElementById("age").value;
-        const civilStatus = document.getElementById("civil_status").value;
-        const citizenship = document.getElementById("citizenship").value;
+    // Show submit button when agreement checkbox is checked
+    document.getElementById("agree").addEventListener("change", function() {
+        const submitSection = document.getElementById("submit-section");
+        if (this.checked) {
+            submitSection.style.display = "block";
+        } else {
+            submitSection.style.display = "none";
+        }
+    });
+    
 
-        const email = document.getElementById("email").value;
-        const phone = document.getElementById("phone").value;
-        const degree = document.getElementById("degree").value;
-        const university = document.getElementById("university").value;
-        const jobPosition = document.getElementById("job_position").value;
-        const jobPosition2 = document.getElementById("job_position2").value;
-
-        if (lastName === "") {
-            document.getElementById("last_name_error").classList.remove("hidden");
-        } else {
-            document.getElementById("last_name_error").classList.add("hidden");
-        }
-
-        if (firstName === "") {
-            document.getElementById("first_name_error").classList.remove("hidden");
-        } else {
-            document.getElementById("first_name_error").classList.add("hidden");
-        }
-
-        if (middleName=== "") {
-            document.getElementById("middle_name_error").classList.remove("hidden");
-        } else {
-            document.getElementById("middle_name_error").classList.add("hidden");
-        }
-
-        if (dob === "") {
-            document.getElementById("dob_error").classList.remove("hidden");
-        } else {
-            document.getElementById("dob_error").classList.add("hidden");
-        }
-
-        if (height === "") {
-            document.getElementById("height_error").classList.remove("hidden");
-        } else {
-            document.getElementById("height_error").classList.add("hidden");
-        }
-        
-        if (weight === "") {
-            document.getElementById("weight_error").classList.remove("hidden");
-        } else {
-            document.getElementById("weight_error").classList.add("hidden");
-        }
-        
-        if (age === "") {
-            document.getElementById("age_error").classList.remove("hidden");
-        } else {
-            document.getElementById("age_error").classList.add("hidden");
-        }
-        
-        if (civilStatus === "") {
-            document.getElementById("civil_status_error").classList.remove("hidden");
-        } else {
-            document.getElementById("civil_status_error").classList.add("hidden");
-        }
-        
-        if (citizenship === "") {
-            document.getElementById("citizenship_error").classList.remove("hidden");
-        } else {
-            document.getElementById("citizenship_error").classList.add("hidden");
-        }
-
-        if (email === "") {
-            document.getElementById("email_error").classList.remove("hidden");
-        } else {
-            document.getElementById("email_error").classList.add("hidden");
-        }
-
-        if (phone === "") {
-            document.getElementById("phone_error").classList.remove("hidden");
-        } else {
-            document.getElementById("phone_error").classList.add("hidden");
-        }
-
-        if (degree === "") {
-            document.getElementById("degree_error").classList.remove("hidden");
-        } else {
-            document.getElementById("degree_error").classList.add("hidden");
-        }
-
-        if (university === "") {
-            document.getElementById("university_error").classList.remove("hidden");
-        } else {
-            document.getElementById("university_error").classList.add("hidden");
-        }
-
-        if (jobPosition === "") {
-            document.getElementById("job_position_error").classList.remove("hidden");
-        } else {
-            document.getElementById("job_position_error").classList.add("hidden");
-        }
-        if (jobPosition2 === "") {
-            document.getElementById("job_position2_error").classList.remove("hidden");
-        } else {
-            document.getElementById("job_position2_error").classList.add("hidden");
-        }
-    }
 </script>
 
 </body>

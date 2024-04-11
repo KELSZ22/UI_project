@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link class="h-2 w-2" rel="icon" type="x-icon" href="images/logo.png">
+  <link class="h-20 w-20" rel="icon" type="x-icon" href="images/logo.png">
   <title>Login</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
@@ -87,7 +87,7 @@
                     Forgot your password?
                 </a>
             
-            <button type="button" class="inline-flex items-center px-4 py-2 ring-red-300 bg-red-600 dark:bg-red-800 border border-transparent rounded-md font-semibold text-xs text-red-200 dark:text-red-200 uppercase tracking-widest hover:bg-red-700 dark:hover:bg-red-500  ml-3">
+            <button type="button" class="inline-flex items-center px-4 py-2 ring-red-300 bg-red-600 dark:bg-red-800 border border-transparent rounded-md font-semibold text-xs text-red-200 dark:text-red-200 uppercase tracking-widest hover:bg-red-700 dark:hover:bg-red-500  ml-3" href="/Data_Management">
     Log in
 </button>        </div>
 </body>
