@@ -28,7 +28,7 @@
 
 <body class="bg-gray-100 flex flex-col">
     <!-- Background Image -->
-    <img src="{{url('images/Aboutusbg.jpg')}}" alt="Background Image" class="bg-image">
+   <!-- <img src="{{url('images/Aboutusbg.jpg')}}" alt="Background Image" class="bg-image">-->
 
     <!-- Navigation Bar -->
     <nav class="bg-gray-300 p-4">
@@ -185,9 +185,9 @@
                     </p>
                 </div>
 
-                <!-- Achievements Section -->
+                <!-- Process Section -->
                 <div class="bg-gray-200 rounded-lg p-4 mt-8">
-                    <h2 class="text-2xl font-bold mb-2">Our Process</h2>
+                    <h2 class="text-2xl font-bold mb-2 text-center">Our Process</h2>
                     <img src="{{url('images/process.png')}}" class="w-full h-62">
                 </div>
 
