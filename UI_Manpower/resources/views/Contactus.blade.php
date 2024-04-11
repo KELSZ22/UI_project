@@ -10,7 +10,7 @@
 <nav class="bg-gray-300 p-4">
     <div class="container mx-auto flex justify-between items-center">
       <div >
-        <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
+        <a href="/homepage" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
@@ -18,8 +18,8 @@
           <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
           <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
-          <a href="#"><img class="h-8"
-                    src="images/contact-us.png"></a>
+          <a href="/Contactus"><img class="h-6"
+                    src="images/contact-us.png">
           <li><a href="#" class="text-black hover:text-red-300">Apply Now</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
           <a href="#"><img class="h-8"
