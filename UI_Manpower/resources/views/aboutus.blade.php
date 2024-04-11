@@ -69,62 +69,146 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="flex-grow">
-        <div class="container mx-auto py-8 flex flex-wrap items-center">
-            <!-- Left Side Image -->
-            <div class="w-full md:w-1/4 p-4">
-                <img src="left-image.jpg" alt="Left Image" class="w-full rounded-lg shadow-lg">
+  <!-- Main Content -->
+    <div class="flex-grow ">
+        <div class="container mx-auto py-8 flex flex-wrap items-center justify-center">
+
+            <!-- Left Side (Mission) 
+            <div class="bg-gray-200 rounded-lg w-full md:w-1/4 p-4">
+                <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
+                <p class="text-gray-800 leading-relaxed">
+                   Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                </p>
             </div>
+            -->
 
             <!-- Center Content -->
-            <div class="w-full md:w-1/2 p-4">
+            <div class="w-full md:w-1/2 p-4 border-2 ">
                 <h1 class="text-4xl font-bold text-center mb-4 text-gray-900">Welcome to Crewnnect!</h1>
                 <div class="max-w-lg mx-auto">
                     <p class="text-lg text-gray-800 leading-relaxed mb-4">
-                            We, "Crewnnect" is a revolutionary platform designed to revolutionize the job search process. Our mission is to seamlessly connect job seekers with employers, creating opportunities for meaningful employment and fostering professional growth. With our user-friendly interface and innovative features, we empower individuals to take control of their careers and find the perfect job match.
+                        We, "Crewnnect" is a revolutionary platform designed to revolutionize the job search process. Our mission is to seamlessly connect job seekers with employers, creating opportunities for meaningful employment and fostering professional growth. With our user-friendly interface and innovative features, we empower individuals to take control of their careers and find the perfect job match.
                     </p>
-                
                 </div>
 
-                <!-- What We Do Section -->
-                <div class="bg-gray-200 rounded-lg p-4 mt-8">
-                    <h2 class="text-2xl font-bold mb-2">What We Do</h2>
-                    <p>Still editing picture for chart</p>
-                    <!--<p class="text-gray-800 leading-relaxed">
-                        At Crewnnect, we provide a comprehensive platform for both job seekers and employers. Our services include:
-                    </p>
-                    <ul class="list-disc ml-4 mt-2">
-                        <li>Job Search and Matching</li>
-                        <li>Resume Building and Optimization</li>
-                        <li>Employer Recruitment Services</li>
-                        <li>Career Counseling and Guidance</li>
-                    </ul>
-                </div> -->
+                <style> 
+                    .carousel-container {
+                            position: absolute;
+                            z-index: 10;
+                        }
+                    .carousel {
+                        overflow: hidden;
+                        max-width: 300px; /* Set your desired width */
+                        margin: 0 auto;
+                        flex:1;
+                    }
+                    .carousel-inner {
+                        display: flex;
+                        transition: transform 0.5s ease;
+                    }
+                    .carousel-item {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        width: 100%;
+                        height: 180px;
+                    }
+                </style>
 
-                <!-- Process Section -->
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const carousel = document.querySelector('.carousel');
+                        const inner = document.querySelector('.carousel-inner');
+                        const items = document.querySelectorAll('.carousel-item');
+            
+                        let currentIndex = 0;
+                        const totalItems = items.length;
+                        const itemWidth = items[0].clientWidth;
+            
+                        function moveToIndex(index) {
+                            if (index < 0 || index >= totalItems) {
+                                currentIndex = index < 0 ? totalItems - 1 : 0;
+                            } else {
+                                currentIndex = index;
+                            }
+            
+                            const offset = -currentIndex * itemWidth;
+                            inner.style.transform = `translateX(${offset}px)`;
+                        }
+            
+                        function next() {
+                            moveToIndex(currentIndex + 1);
+                        }
+            
+                        function prev() {
+                            moveToIndex(currentIndex - 1);
+                        }
+            
+                        setInterval(next, 3000); // Auto play, change slide every 3 seconds
+                    });
+                </script>
+
+                <div class="carousel relative w-full shadow-md bg-white border-2 " style="background-image: url('{{url('images/carouselbg.jpg')}}'); background-size: cover;">
+                    <div class="carousel-inner flex " >
+
+                        <div class="carousel-item text-center " >
+                            <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
+                            <p class="text-gray-800 leading-relaxed">
+                                 Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                            </p>
+                        </div>
+
+                        <div class="carousel-item text-center">
+                            <h2 class="text-2xl font-bold mb-2">Our Vision</h2>
+                            <p class="text-gray-800 leading-relaxed">
+                                Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+   
+
+                <!-- Left Side (Mission) -->
+                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
+                    <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                    </p>
+                </div> 
+                
+                <!-- Right Side (Vision) -->
+                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
+                    <h2 class="text-2xl font-bold mb-2">Our Vision</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                    </p>
+                </div>
+
+                <!-- Achievements Section -->
                 <div class="bg-gray-200 rounded-lg p-4 mt-8">
                     <h2 class="text-2xl font-bold mb-2">Our Process</h2>
-                    <p>Still editing picture for chart</p>
-                    <!--<p class="text-gray-800 leading-relaxed">
-                        Our process is simple and effective:
+                    <img src="{{url('images/process.png')}}" class="w-full h-62">
+                </div>
+
+                <!-- Call-to-Action Section -->
+                <div class="bg-gray-200 rounded-lg p-4 mt-8">
+                    <h2 class="text-2xl font-bold mb-2">Explore Job Listings</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                        Ready to take the next step in your career? Browse through our latest job listings and find your perfect match today!
                     </p>
-                    <ol class="list-decimal ml-4 mt-2">
-                        <li>Sign up for an account</li>
-                        <li>Create or upload your resume</li>
-                        <li>Search for jobs or post job listings</li>
-                        <li>Connect with employers or job seekers</li>
-                        <li>Apply for jobs or review applicants</li>
-                    </ol>-->
+                    <div class="mt-4">
+                        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Browse Job Listings</a>
+                    </div>
                 </div>
             </div>
 
-            <!-- Right Side Image -->
-            <div class="w-full md:w-1/4 p-4">
-                <img src="right-image.jpg" alt="Right Image" class="w-full rounded-lg shadow-lg">
-            </div>
+            
         </div>
     </div>
+
+
+
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-4 mt-auto">
