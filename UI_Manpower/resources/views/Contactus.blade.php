@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <title>CONTACT US PAGE|CREWNNECT</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="bg-gray-300 p-4">
+<nav class="bg-gray-300 p-4">
     <div class="container mx-auto flex justify-between items-center">
-      <div>
-        <a href="#" class="text-black font-bold text-xl">CREWNNECT</a>
+      <div >
+        <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
@@ -33,7 +33,7 @@
     </div>
     <div id="mobile-menu" class="hidden md:hidden">
       <ul class="flex flex-col space-y-4">
-          <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
+          <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
           <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
           <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
