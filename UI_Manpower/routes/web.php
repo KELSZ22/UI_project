@@ -18,6 +18,6 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/applyUs', function () {
-    return view('applyUs');
+Route::get('/applyNow', function () {
+    return view('applyNow');
 });
