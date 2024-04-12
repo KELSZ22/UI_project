@@ -37,13 +37,17 @@
                 <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
             </div>
             <div class="hidden md:block">
-                <ul class="flex space-x-4">
-                    <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Apply Now</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
+            <ul class="flex space-x-4">
+            <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
+            <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
+            <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
+            <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
+            <a href="/Contactus"><img class="h-6"
+                    src="images/contact-us.png">
+            <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
+            <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
+             <a href="/login"><img class="h-8"
+                    src="images/icon.png"></a>
 
                 </ul>
             </div>
@@ -83,12 +87,13 @@
             -->
 
             <!-- Center Content -->
-            <div class="w-full md:w-1/2 p-4 border-2 ">
-                <h1 class="text-4xl font-bold text-center mb-4 text-gray-900">Welcome to Crewnnect!</h1>
-                <div class="max-w-lg mx-auto">
-                    <p class="text-lg text-gray-800 leading-relaxed mb-4">
+            <div class="w-full p-4 border-2 ">
+                <!--<h1 class="text-4xl font-bold text-center mb-4 text-gray-900">Welcome to Crewnnect!</h1>-->
+                <div class="w-auto mx-auto">
+                    <!--<p class="text-lg text-gray-800 leading-relaxed mb-4">
                         We, "Crewnnect" is a revolutionary platform designed to revolutionize the job search process. Our mission is to seamlessly connect job seekers with employers, creating opportunities for meaningful employment and fostering professional growth. With our user-friendly interface and innovative features, we empower individuals to take control of their careers and find the perfect job match.
-                    </p>
+                    </p>-->
+                    <img src="{{url('images/aboutuswelcome.jpg')}}">
                 </div>
 
                 <style> 
@@ -147,22 +152,19 @@
                     });
                 </script>
 
-                <div class="carousel relative w-full shadow-md bg-white border-2 " style="background-image: url('{{url('images/carouselbg.jpg')}}'); background-size: cover;">
-                    <div class="carousel-inner flex " >
-
-                        <div class="carousel-item text-center " >
+                <div class="carousel relative w-full shadow-md bg-white border-2 bg-cover md:bg-contain" style="background-image: url('{{url('images/carouselbg.jpg')}}'); background-size: cover;">
+                    <div class="carousel-inner flex flex-col md:flex-row">
+                        <div class="carousel-item md:w-1/2 text-center">
                             <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
                             <p class="text-gray-800 leading-relaxed">
-                                 Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                                Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                             </p>
                         </div>
-
-                        <div class="carousel-item text-center">
+                        <div class="carousel-item md:w-1/2 text-center">
                             <h2 class="text-2xl font-bold mb-2">Our Vision</h2>
                             <p class="text-gray-800 leading-relaxed">
                                 Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                             </p>
-                            
                         </div>
                     </div>
                 </div>
