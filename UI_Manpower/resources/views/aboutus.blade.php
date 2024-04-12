@@ -179,19 +179,20 @@
                     </p>
                 </div> 
                 
-                
-                <!-- Right Side (Vision) 
-                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
-                    <h2 class="text-5xl text-center font-bold mb-2">Our Vision</h2>
-                    <p class="text-gray-800 leading-relaxed">
-                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
-                    </p>
-                </div>-->
 
                 <!-- Process Section -->
                 <div class="bg-gray-200 rounded-lg p-4 mt-8 ">
                     <h2 class="text-5xl font-bold mb-2 text-center">Our Process</h2>
-                    <img src="{{url('images/process.jpg')}}" class="w-3/4 h-1/2 mx-auto">
+                    <img src="{{url('images/process1.jpg')}}" class="w-3/4 h-1/2 mx-auto">
+                </div>
+
+
+                <!-- What can offer (Vision) -->
+                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
+                    <h2 class="text-5xl text-center font-bold mb-2">What can we offer?</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                    </p>
                 </div>
 
                 <!-- Call-to-Action Section -->
