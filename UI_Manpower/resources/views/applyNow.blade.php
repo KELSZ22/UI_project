@@ -17,11 +17,11 @@
       <div class="hidden md:block">
         <ul class="flex space-x-4">
           <li><a href="homepage" class="text-black hover:text-red-300">Home</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
+          <li><a href="aboutus" class="text-black hover:text-red-300">About Us</a></li>
+          <li><a href="jobs" class="text-black hover:text-red-300">Jobs</a></li>
           <li><a href="Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
           <li><a href="applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
+          <li><a href="login" class="text-black hover:text-red-300">Login</a></li>
 
         </ul>
       </div>
@@ -64,8 +64,14 @@
     <!-- Application Form -->
     <section class="container mx-auto mt-8 px-4 ">
         
+        
 
         <div class="bg-white p-4 rounded-lg shadow-md">
+           
+            <div id="notification" class="p-4 rounded-lg shadow-md bg-green-500 text-white text-center py-2 hidden">
+                Your registration has been successfully submitted!
+            </div>
+
             <h2 class="text-2xl font-semibold text-center mb-4">Application Form</h2>
             
             <!-- Job Position Picker -->
@@ -542,8 +548,15 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
             window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+            // If no errors, show the notification and hide the form
+            document.getElementById("notification").classList.remove("hidden");
+            
 
+            // Optionally, hide the notification after a certain time
+            setTimeout(function() {
+                document.getElementById("notification").classList.add("hidden");
+            }, 5000); // 5000 milliseconds = 5 seconds (adjust as needed)
+        }
     }
 
     function checkAgreement() {
