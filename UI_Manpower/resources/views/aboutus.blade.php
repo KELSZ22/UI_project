@@ -171,11 +171,21 @@
                 
    
 
-                <!-- Left Side (Mission) -->
-                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
-                    <h2 class="text-5xl text-center font-bold mb-2">Core Values</h2>
-                    <p class="text-gray-800  leading-relaxed">
-                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                <!-- Core Values -->
+                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8 mx-auto">
+                    <h2 class="text-5xl text-center font-bold mb-2 shadow-2xl">Core Values</h2>
+                    <p class="text-gray-800 font-bold leading-relaxed text-center">
+                    Sample Text
+                    </p>
+                    <p class="text-gray-800 leading-relaxed text-center w-1/2 mx-auto">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                    </p>
+
+                    <p class="text-gray-800 font-bold leading-relaxed text-center">
+                    Sample Text
+                    </p>
+                    <p class="text-gray-800 leading-relaxed text-center w-1/2 mx-auto">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                     </p>
                 </div> 
                 
@@ -187,7 +197,7 @@
                 </div>
 
 
-                <!-- What can offer (Vision) -->
+                <!-- What can offer-->
                 <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
                     <h2 class="text-5xl text-center font-bold mb-2">What can we offer?</h2>
                     <p class="text-gray-800 leading-relaxed">
@@ -205,6 +215,14 @@
                         <a href="/jobs" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Browse Job Listings</a>
                     </div>
                 </div>
+
+                <!-- Contacts -->
+                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
+                    <h2 class="text-5xl text-center font-bold mb-2">Contacts</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                    </p>
+                </div>
             </div>
 
             
@@ -218,9 +236,7 @@
     <footer class="bg-gray-800 text-white py-4 mt-auto">
         <div class="container mx-auto text-center">
             <div class="flex justify-center items-center">
-                <img src="logo1.png" alt="Logo 1" class="w-8 h-8 mr-4">
-                <img src="logo2.png" alt="Logo 2" class="w-8 h-8 mr-4">
-                <img src="logo3.png" alt="Logo 3" class="w-8 h-8 mr-4">
+                <img src="{{url('images/crewnnect1.png')}}" alt="Logo 1" class="w-44 h-10 mr-4">
             </div>
             <p>&copy; 2024 Crewnnect. All rights reserved.</p>
         </div>
