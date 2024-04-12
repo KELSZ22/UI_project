@@ -38,3 +38,8 @@ Route::get('/WorkersData', function () {
 Route::get('/ApplicationData', function () {
     return view('cms/ApplicationData');
 });
+
+Route::get('/DataManagement', function () {
+    return view('cms/Data_Management');
+});
+
