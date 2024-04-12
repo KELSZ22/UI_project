@@ -47,7 +47,6 @@ Route::get('/ApplicationData', function () {
     return view('cms/ApplicationData');
 });
 
-Route::get('/DataManagement', function () {
+Route::get('/Data_Management', function () {
     return view('cms/Data_Management');
 });
-
