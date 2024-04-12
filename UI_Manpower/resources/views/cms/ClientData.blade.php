@@ -17,7 +17,7 @@
             <div class="flex items-center flex-shrink-0 px-4">
                 <a href="/ClientData" class="h-10 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt="">
             </div>
-
+                
             <div class="px-4 mt-8">
                 <label for="" class="sr-only"> Search </label>
                 <div class="relative">
@@ -111,15 +111,24 @@
             </div>
         </div>
     </div>
-    <div class="container mx-full px-4 sm:px-6 lg:px-8 py-20">
-    <h2 class="text-2xl font-bold mb-4">Client's profile</h2>
-    <table id="example" class="table-auto w-full">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <h2 class="text-2xl font-bold mb-4">Client's Profile</h2>
+    <table id="Client" class="table-auto w-max">
         <thead>
             <tr>
                 <th class="px-4 py-2">Name</th>
                 <th class="px-4 py-2">Position</th>
                 <th class="px-4 py-2">Office</th>
                 <th class="px-4 py-2">Age</th>
+
+            </tr>
+            <tbody>
+            <tr>
+                <td class="border px-4 py-2">Maricar Tolentino</td>
+                <td class="border px-4 py-2">System Architect</td>
+                <td class="border px-4 py-2">Kings Court</td>
+                <td class="border px-4 py-2">18</td>
+
             </tr>
         </thead>
         <tbody>
@@ -130,12 +139,13 @@
 
 <script>
     $(document).ready(function() {
-        $('#example').DataTable({
+        $('#Client').DataTable({
             // Add any customization options here
         });
     });
 </script>
 </div>
+
 </body>
 
 
