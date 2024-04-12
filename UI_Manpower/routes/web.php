@@ -26,6 +26,10 @@ Route::get('/applyNow', function () {
     return view('applyNow');
 });
 
+Route::get('/jobs', function () {
+    return view('jobs');
+});
+
 //For Cms
 Route::get('/ClientData', function () {
     return view('cms/ClientData');
