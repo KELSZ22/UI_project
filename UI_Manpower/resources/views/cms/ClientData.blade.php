@@ -72,7 +72,7 @@
                                 </div>
                                
                                
-                        <a href="#" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg bg-indigo-500 hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu2')">
+                        <a href="#" class="flex bg-indigo-500  items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu2')">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="flex-shrink-0 w-5 h-5 mr-4 text-black">
                     <path fill-rule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z" clip-rule="evenodd"></path>
                 </svg>
@@ -83,14 +83,14 @@
                         </a>
                                                                     <div class="hidden origin-bottom relative left-0 mt-2 w-44 rounded-md shadow-lg bg-white ring-1
                                                                     ring-black ring-opacity-5 animate-fadeIn" id="dropdownMenu2">
-                                                                                        <a href="#" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg bg-indigo-500 hover:bg-indigo-600 group">
-                                                                                        <img class="flex-shrink-0 w-5 h-5 mr-4 text-black" itemprop="contentUrl" src="https://www.svgrepo.com/show/374595/client.svg" alt="Client SVG File" title="Client SVG File" width="150" height="150">          
+                                                                                        <a href="/ClientData" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                        <img class="flex-shrink-0 w-5 h-5 bg-indigo-500  mr-4 text-black" itemprop="contentUrl" src="https://www.svgrepo.com/show/374595/client.svg" alt="Client SVG File" title="Client SVG File" width="150" height="150">          
                                                                                             Clients Profile
                                                                                         </a>
                                                                             </div>
                             
                             
-                        <a href="#" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu3')">
+                        <a href="#" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900  hover:text-white rounded-lg hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu3')">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="flex-shrink-0 w-5 h-5 mr-4 text-black">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z"></path>
                 </svg>
@@ -101,13 +101,13 @@
                         </a>
                                                 <div class="hidden origin-bottom relative left-0 mt-2 w-50 rounded-md shadow-lg bg-white ring-1
                                                                                             ring-black ring-opacity-5 animate-fadeIn" id="dropdownMenu3">
-                                                                                                                <a href="ApplicationData" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                                                <a href="/ApplicationData" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="flex-shrink-0 w-5 h-5 mr-4 text-black">
                         <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd"></path>
                     </svg>
                                                                                                                     Clients Applications
                                                                                                                 </a>
-                                                                                                                <a href="/application" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                                                <a href="/application" class="flex  items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="flex-shrink-0 w-5 h-5 mr-4 text-black">
                         <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd"></path>
                     </svg>
@@ -199,10 +199,66 @@
             </div>
         </div>
     </div>
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="container mt-2 mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <!-- Dropdowns with buttons -->
+    <div class="flex float-right mx-2">
+      <!-- Dropdown to the Right -->
+      <div class="relative inline-block text-left mr-2">
+        <a class="px-4 py-2 bg-white text-black
+                       rounded-md shadow hover:bg-gray-300
+                       focus:outline-none"
+                onclick="toggleDropdown('dropdownMenuRight')">
+          Account 
+          <!-- Add down symbol here -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block align-middle mb-2 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 17a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L10 14.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 10 17z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        <div class="hidden origin-top-right absolute 
+                    right-0 mt-2 w-56 rounded-md 
+                    shadow-lg bg-white ring-1
+                    ring-black ring-opacity-5
+                    animate-fadeIn"
+             id="dropdownMenuRight">
+          <a href="#" class="block px-4 py-2 text-sm 
+                             text-gray-700 
+                             hover:bg-gray-100">
+            Profile
+          </a>
+          <a href="#" class="block px-4 py-2 text-sm
+                             text-gray-700 
+                             hover:bg-gray-100">
+            Log-out
+          </a>
+</div>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#example').DataTable({
+            // Add any customization options here
+        });
+    });
+</script>
+    </div>
+</div>
+
+<script>
+    function toggleDropdown(menuId) {
+    const dropdownMenu = document
+    .getElementById(menuId);
+    dropdownMenu.classList.toggle('hidden');
+}
+</script>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-200 h-96 mt-20" >
     <h2 class="text-2xl font-bold mb-4">Client's Profile</h2>
-    <table id="Client" class="table-auto w-max">
+    <table id="example" class="table-auto relative w-max">
         <thead>
+            <tr>
+            
             <tr>
                 <th class="px-4 py-2">Name</th>
                 <th class="px-4 py-2">Position</th>
@@ -216,26 +272,16 @@
                 <td class="border px-4 py-2">System Architect</td>
                 <td class="border px-4 py-2">Kings Court</td>
                 <td class="border px-4 py-2">18</td>
+            
+
+        
 
             </tr>
         </thead>
         <tbody>
 </div>
-
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-
-<script>
-    $(document).ready(function() {
-        $('#Client').DataTable({
-            // Add any customization options here
-        });
-    });
-</script>
-    </div>
 </div>
-
+   
 </body>
 
 
