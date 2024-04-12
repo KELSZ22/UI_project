@@ -37,13 +37,17 @@
                 <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
             </div>
             <div class="hidden md:block">
-                <ul class="flex space-x-4">
-                    <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Apply Now</a></li>
-                    <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
+            <ul class="flex space-x-4">
+            <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
+            <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
+            <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
+            <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
+            <a href="/Contactus"><img class="h-6"
+                    src="images/contact-us.png">
+            <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
+            <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
+             <a href="/login"><img class="h-8"
+                    src="images/icon.png"></a>
 
                 </ul>
             </div>
