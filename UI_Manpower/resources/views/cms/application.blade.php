@@ -39,7 +39,7 @@
             <div class="flex flex-col flex-1 px-3 mt-6">
                 <div class="space-y-4">
                 <nav class="flex-1 space-y-2">
-                        <a href="/Data_Management" title="" class="flex items-center px-4 py-2.5 text-sm font-medium hover:text-white transition-all duration-200 bg-indigo-500 hover:bg-indigo-900 rounded-lg group " >
+                        <a href="/Data_Management" title="" class="flex items-center px-4 py-2.5 text-sm font-medium hover:text-white transition-all duration-200  hover:bg-indigo-900 rounded-lg group " >
                         <img class="flex-shrink-0 w-5 h-5 mr-4 text-black hover:text-white" itemprop="contentUrl" src="https://www.svgrepo.com/show/36341/database.svg" alt="Database SVG File" title="Database SVG File" width="150" height="150">
                             Data Management
                         </a>
@@ -91,7 +91,7 @@
                                                                             </div>
                             
                             
-                        <a href="#" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu3')">
+                        <a href="#" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 bg-indigo-500 hover:text-white rounded-lg hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu3')">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="flex-shrink-0 w-5 h-5 mr-4 text-black">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z"></path>
                 </svg>
@@ -108,7 +108,7 @@
                     </svg>
                                                                                                                     Clients Applications
                                                                                                                 </a>
-                                                                                                                <a href="/application" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                                                <a href="/application" class="flex bg-indigo-500 items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="flex-shrink-0 w-5 h-5 mr-4 text-black">
                         <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd"></path>
                     </svg>
@@ -176,6 +176,7 @@
                                                                                                                 </a>
 
                                                                                                                 </a>
+                                                                                                                </a>
                                                                                                                 <a href="/Partner" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                                     <img  class="flex-shrink-0 w-5 h-5 mr-4" itemprop="contentUrl" src="https://www.svgrepo.com/show/58739/handshake.svg" alt="Handshake SVG File" title="Handshake SVG File" width="150" height="150">
                                                                                                                     Cards: Partner Lists
@@ -232,16 +233,20 @@
                              hover:bg-gray-100">
             Log-out
           </a>
-        </div>
-      </div>
-    </div>
-    <div class="grid min-h-screen w-full place-items-center rounded-lg p-4 lg:overflow">
-  <figure class="relative w-full h-100%">
-    <img class="object-cover object-center w-full h-full rounded-xl"
-      src="images/ms.jpg"
-      alt="nature image" />
-   
 </div>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#example').DataTable({
+            // Add any customization options here
+        });
+    });
+</script>
+    </div>
 </div>
 
 <script>
@@ -251,6 +256,20 @@
     dropdownMenu.classList.toggle('hidden');
 }
 </script>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-200 h-96 mt-20" >
+    <h2 class="text-2xl font-bold mb-4">Applicants</h2>
+    <button class="float-right bg-green-500 rounded hover:bg-green-700 p-2 mb-2">Add Applicant</button>
+    <table id="example" class="table-auto relative w-max">
+        <thead>
+            <tr>
+                <th class="px-4 py-2">Name</th>
+                <th class="px-4 py-2">Email</th>
+                <th class="px-4 py-2">Status</th>
+                <th class="px-4 py-2">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+</div>
 </div>
 </body>
 
