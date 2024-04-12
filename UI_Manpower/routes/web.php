@@ -22,6 +22,10 @@ Route::get('/aboutus', function () {
     return view('aboutus');
 });
 
+Route::get('/jobs', function () {
+    return view('jobs');
+});
+
 Route::get('/applyNow', function () {
     return view('applyNow');
 });

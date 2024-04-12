@@ -103,7 +103,7 @@
                         }
                     .carousel {
                         overflow: hidden;
-                        max-width: 300px; /* Set your desired width */
+                        max-width: 100%; /* Set your desired width */
                         margin: 0 auto;
                         flex:1;
                     }
@@ -152,17 +152,17 @@
                     });
                 </script>
 
-                <div class="carousel relative w-full shadow-md bg-white border-2 bg-cover md:bg-contain" style="background-image: url('{{url('images/carouselbg.jpg')}}'); background-size: cover;">
-                    <div class="carousel-inner flex flex-col md:flex-row">
+                <div class="carousel relative shadow-md w-1/2 bg-white border-2 bg-cover md:bg-contain shadow-2xl" style="background-image: url('{{url('images/carouselbg.jpg')}}'); background-size: cover;">
+                    <div class="carousel-inner h-80   flex flex-col md:flex-row">
                         <div class="carousel-item md:w-1/2 text-center">
-                            <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
-                            <p class="text-gray-800 leading-relaxed">
+                            <h2 class="text-5xl text-white shadow-lg font-bold shadow mb-2">Our Mission</h2>
+                            <p class="text-2xl text-white leading-relaxed">
                                 Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                             </p>
                         </div>
                         <div class="carousel-item md:w-1/2 text-center">
-                            <h2 class="text-2xl font-bold mb-2">Our Vision</h2>
-                            <p class="text-gray-800 leading-relaxed">
+                            <h2 class="text-5xl text-white shadow-lg font-bold shadow mb-2">Our Vision</h2>
+                            <p class="text-2xl text-white leading-relaxed">
                                 Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                             </p>
                         </div>
@@ -171,26 +171,38 @@
                 
    
 
-                <!-- Left Side (Mission) -->
-                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
-                    <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
-                    <p class="text-gray-800 leading-relaxed">
-                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                <!-- Core Values -->
+                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8 mx-auto">
+                    <h2 class="text-5xl text-center font-bold mb-2 shadow-2xl">Core Values</h2>
+                    <p class="text-gray-800 font-bold leading-relaxed text-center">
+                    Sample Text
+                    </p>
+                    <p class="text-gray-800 leading-relaxed text-center w-1/2 mx-auto">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                    </p>
+
+                    <p class="text-gray-800 font-bold leading-relaxed text-center">
+                    Sample Text
+                    </p>
+                    <p class="text-gray-800 leading-relaxed text-center w-1/2 mx-auto">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                     </p>
                 </div> 
                 
-                <!-- Right Side (Vision) -->
+
+                <!-- Process Section -->
+                <div class="bg-gray-200 rounded-lg p-4 mt-8 ">
+                    <h2 class="text-5xl font-bold mb-2 text-center">Our Process</h2>
+                    <img src="{{url('images/process1.jpg')}}" class="w-3/4 h-1/2 mx-auto">
+                </div>
+
+
+                <!-- What can offer-->
                 <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
-                    <h2 class="text-2xl font-bold mb-2">Our Vision</h2>
+                    <h2 class="text-5xl text-center font-bold mb-2">What can we offer?</h2>
                     <p class="text-gray-800 leading-relaxed">
                     Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                     </p>
-                </div>
-
-                <!-- Process Section -->
-                <div class="bg-gray-200 rounded-lg p-4 mt-8">
-                    <h2 class="text-2xl font-bold mb-2 text-center">Our Process</h2>
-                    <img src="{{url('images/process.png')}}" class="w-full h-62">
                 </div>
 
                 <!-- Call-to-Action Section -->
@@ -200,8 +212,16 @@
                         Ready to take the next step in your career? Browse through our latest job listings and find your perfect match today!
                     </p>
                     <div class="mt-4">
-                        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Browse Job Listings</a>
+                        <a href="/jobs" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Browse Job Listings</a>
                     </div>
+                </div>
+
+                <!-- Contacts -->
+                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
+                    <h2 class="text-5xl text-center font-bold mb-2">Contacts</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                    </p>
                 </div>
             </div>
 
@@ -216,9 +236,7 @@
     <footer class="bg-gray-800 text-white py-4 mt-auto">
         <div class="container mx-auto text-center">
             <div class="flex justify-center items-center">
-                <img src="logo1.png" alt="Logo 1" class="w-8 h-8 mr-4">
-                <img src="logo2.png" alt="Logo 2" class="w-8 h-8 mr-4">
-                <img src="logo3.png" alt="Logo 3" class="w-8 h-8 mr-4">
+                <img src="{{url('images/crewnnect1.png')}}" alt="Logo 1" class="w-44 h-10 mr-4">
             </div>
             <p>&copy; 2024 Crewnnect. All rights reserved.</p>
         </div>
