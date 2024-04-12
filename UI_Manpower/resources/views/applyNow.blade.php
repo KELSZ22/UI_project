@@ -60,9 +60,11 @@
             joining our team and look forward to reviewing your application.
         </p>
     </div>
-
+    
     <!-- Application Form -->
     <section class="container mx-auto mt-8 px-4 ">
+        
+
         <div class="bg-white p-4 rounded-lg shadow-md">
             <h2 class="text-2xl font-semibold text-center mb-4">Application Form</h2>
             
@@ -112,12 +114,12 @@
                     <div>
                         <label for="last_name" class="block text-gray-700 font-semibold">Last Name:</label>
                         <input type="text" id="last_name" name="last_name" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                        <span id="last_name_error" class="text-red-500 hidden">Please input</span>
+                        <span id="last_name_error" class="text-red-500 hidden">Please input Last Name</span>
                     </div>
                     <div>
                         <label for="first_name" class="block text-gray-700 font-semibold">First Name:</label>
                         <input type="text" id="first_name" name="first_name" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                        <span id="first_name_error" class="text-red-500 hidden">Please input</span>
+                        <span id="first_name_error" class="text-red-500 hidden">Please input First Name</span>
                     </div>
                     <div>
                         <label for="middle_name" class="block text-gray-700 font-semibold">Middle Name:</label>
@@ -297,31 +299,33 @@
             <!-- Previous Employment Record -->
             <div class="mb-12">
                 <h3 class="text-lg font-semibold mb-2 ">Previous Employment Record</h3>
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-                    <div>
-                        <label for="oneCompanyName" class="block text-gray-700 font-semibold">1 Company Name:</label>
-                        <input type="text" id="oneCompanyName" name="oneCompanyName" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>                     
+                <div class="mb-12">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <div>
+                            <label for="oneCompanyName" class="block text-gray-700 font-semibold">1 Company Name:</label>
+                            <input type="text" id="oneCompanyName" name="oneCompanyName" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>                     
+                        </div>
+                        <div>
+                            <label for="oneTenureStart" class="block text-gray-700 font-semibold">Tenure Start:</label>
+                            <input type="date" id="oneTenureStart" name="oneTenureStart" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                            
+                        </div>
+                        <div>
+                            <label for="oneTenureEnd" class="block text-gray-700 font-semibold">Tenure End:</label>
+                            <input type="date" id="oneTenureEnd" name="oneTenureEnd" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
                     </div>
-                    <div>
-                        <label for="oneTenureStart" class="block text-gray-700 font-semibold">Tenure Start:</label>
-                        <input type="date" id="oneTenureStart" name="oneTenureStart" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
-                        
-                    </div>
-                    <div>
-                        <label for="oneTenureEnd" class="block text-gray-700 font-semibold">Tenure End:</label>
-                        <input type="date" id="oneTenureEnd" name="oneTenureEnd" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                        <label for="onePosition" class="block text-gray-700 font-semibold">Position:</label>
-                        <input type="text" id="onePosition" name="onePosition" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                        
-                    </div>
-                    <div>
-                        <label for="oneLocCountry" class="block text-gray-700 font-semibold">Location Country:</label>
-                        <input type="text" id="oneLocCountry" name="oneLocCountry" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                        
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="onePosition" class="block text-gray-700 font-semibold">Position:</label>
+                            <input type="text" id="onePosition" name="onePosition" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            
+                        </div>
+                        <div>
+                            <label for="oneLocCountry" class="block text-gray-700 font-semibold">Location Country:</label>
+                            <input type="text" id="oneLocCountry" name="oneLocCountry" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                            
+                        </div>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -354,28 +358,30 @@
             <!-- Character Reference -->
             <div class="mb-12">
                 <h3 class="text-lg font-semibold mb-2 ">Character Reference</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                        <label for="oneChacRef" class="block text-gray-700 font-semibold">1 Complete Name:</label>
-                        <input type="text" id="oneChacRef" name="oneChacRef" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                <div class="mb-12">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="oneChacRef" class="block text-gray-700 font-semibold">1 Complete Name:</label>
+                            <input type="text" id="oneChacRef" name="oneChacRef" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="oneRelation" class="block text-gray-700 font-semibold">Relation:</label>
+                            <input type="text" id="oneRelation" name="oneRelation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
                     </div>
-                    <div>
-                        <label for="oneRelation" class="block text-gray-700 font-semibold">Relation:</label>
-                        <input type="text" id="oneRelation" name="oneRelation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div>
-                        <label for="oneChacCom" class="block text-gray-700 font-semibold">Company:</label>
-                        <input type="text" id="oneChacCom" name="oneChacCom" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                    </div>
-                    <div>
-                        <label for="onePosChac" class="block text-gray-700 font-semibold">Position:</label>
-                        <input type="text" id="onePosChac" name="onePosChac" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
-                    </div>
-                    <div>
-                        <label for="oneChacContact" class="block text-gray-700 font-semibold">Contact No:</label>
-                        <input type="tel" id="oneChacContact" name="oneChacContact" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div>
+                            <label for="oneChacCom" class="block text-gray-700 font-semibold">Company:</label>
+                            <input type="text" id="oneChacCom" name="oneChacCom" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="onePosChac" class="block text-gray-700 font-semibold">Position:</label>
+                            <input type="text" id="onePosChac" name="onePosChac" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="oneChacContact" class="block text-gray-700 font-semibold">Contact No:</label>
+                            <input type="tel" id="oneChacContact" name="oneChacContact" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
                     </div>
                 </div>
                 <div class="mb-10">
@@ -418,14 +424,14 @@
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
                     <div>
                         <label for="passportDoI" class="block text-gray-700 font-semibold">Date Of Issue:</label>
-                        <input type="passportDoI" id="passportDoI" name="passportDoI" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <input type="date" id="passportDoI" name="passportDoI" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
                         <span id="passportDoI_error" class="text-red-500 hidden">Please input</span>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
                     <div>
                         <label for="passportDoE" class="block text-gray-700 font-semibold">Date Of Expiration:</label>
-                        <input type="passportDoE" id="passportDoE" name="passportDoE" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
+                        <input type="date" id="passportDoE" name="passportDoE" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
                         <span id="passportDoE_error" class="text-red-500 hidden">Please input</span>
                     </div>
                 </div>   
@@ -462,16 +468,19 @@
         <div class="bg-white p-4 px-8 rounded-lg shadow-md">
             <!-- Agreement Checkbox -->
             <div class="mb-4">
-                <label for="agree" class="inline-flex items-center">
-                    <input type="checkbox" id="agree" name="agree" class="form-checkbox h-5 w-5 text-blue-600">
-                    <span class="ml-2 text-gray-700">I agree to the terms and conditions, which can be read <a href="#" class="text-blue-600 hover:text-blue-300">here</a>.</span>
+                <label class="flex items-center">
+                    <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" id="agree1">
+                    <span class="ml-2 text-gray-700">I agree to the terms and conditions, which can be read <a href="#" class="text-blue-600 hover:text-blue-300">here</a></span>
+                </label>
+                <label class="flex items-center mt-2">
+                    <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" id="agree2">
+                    <span class="ml-2 text-gray-700">I agree with your data privacy conditions.</span>
                 </label>
             </div>
-
-            <!-- Submit Button -->
-            <div class="mt-4 text-center" id="submit-section" style="display: none;">
-                <button type="submit" onclick="validateForm()" class="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit Application</button>
+            <div class="mt-4 text-center">
+                <button id="submitBtn" onclick="validateForm()" class="text-center bg-red-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline hidden" type="button">Submit Application</button>
             </div>
+   
             
         </div>
     </section>
@@ -488,18 +497,68 @@
     document.getElementById('menu-toggle').addEventListener('click', function() {
       document.getElementById('mobile-menu').classList.toggle('hidden');
     });
+    function validateForm(){
+        const lastName = document.getElementById("last_name").value;
+        const firstName = document.getElementById("first_name").value;
+        const dob = document.getElementById("dob").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
 
-    // Show submit button when agreement checkbox is checked
-    document.getElementById("agree").addEventListener("change", function() {
-        const submitSection = document.getElementById("submit-section");
-        if (this.checked) {
-            submitSection.style.display = "block";
+        let hasError = false;
+
+        if (lastName === "") {
+            document.getElementById("last_name_error").classList.remove("hidden");
+            hasError = true;
         } else {
-            submitSection.style.display = "none";
+            document.getElementById("last_name_error").classList.add("hidden");
+            
         }
-    });
-    
+        if (firstName === "") {
+            document.getElementById("first_name_error").classList.remove("hidden");
+            hasError = true;
+        } else {
+            document.getElementById("first_name_error").classList.add("hidden");
+        }
+        if (dob === "") {
+            document.getElementById("dob_error").classList.remove("hidden");
+            hasError = true;
+        } else {
+            document.getElementById("dob_error").classList.add("hidden");
+        }
+        if (email === "") {
+            document.getElementById("email_error").classList.remove("hidden");
+            hasError = true;
+        } else {
+            document.getElementById("email_error").classList.add("hidden");
+        }
+        if (phone === "") {
+            document.getElementById("phone_error").classList.remove("hidden");
+            hasError = true;
+        } else {
+            document.getElementById("phone_error").classList.add("hidden");
+        }
 
+        if (hasError) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    }
+
+    function checkAgreement() {
+      const agree1 = document.getElementById('agree1').checked;
+      const agree2 = document.getElementById('agree2').checked;
+      const submitBtn = document.getElementById('submitBtn');
+      if (agree1 && agree2) {
+        submitBtn.classList.remove('hidden');
+      } else {
+        submitBtn.classList.add('hidden');
+      }
+    }
+    // Add event listeners to checkboxes to trigger the checkAgreement function
+    document.getElementById('agree1').addEventListener('change', checkAgreement);
+    document.getElementById('agree2').addEventListener('change', checkAgreement);
 </script>
 
 </body>
