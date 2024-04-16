@@ -6,25 +6,25 @@
   <title>HOMEPAGE|CREWNNECT</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <nav class="bg-gray-300 p-4">
+<body  >
+  
+<nav class="bg-gray-300 p-4">
+  
     <div class="container mx-auto flex justify-between items-center">
-      <div >
-        <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
+      <div>
+        <a href="/homepage" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
-        <ul class="flex space-x-4">
-        <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
-          <li><a href="/aboutUs" class="text-black hover:text-red-300">About Us</a></li>
-          <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
-          <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
-         
-          <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
-          <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
-         
+          <li><a href="/homepage" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Home</a></li>
+          <li><a href="aboutus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
+          <li><a href="/jobs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Jobs</a></li>
+          <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us</a></li>
+          <li><a href="/applyNow" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Apply Now</a></li>
+          <li><a href="/login" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Login</a></li>
         </ul>
       </div>
+
       <div class="block md:hidden">
         <button id="menu-toggle" class="text-white focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -33,66 +33,214 @@
         </button>
       </div>
     </div>
+
     <div id="mobile-menu" class="hidden md:hidden">
       <ul class="flex flex-col space-y-4">
-          <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Apply Now</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
+          <li><a href="/homepage" class="text-black hover:text-red-800">Home</a></li>
+          <li><a href="#" class="text-black hover:text-red-800">About Us</a></li>
+          <li><a href="/jobs" class="text-black hover:text-red-800">Jobs</a></li>
+          <li><a href="/Contactus" class="text-black hover:text-red-800">Contact Us</a></li>
+          <li><a href="/applyNow" class="text-black hover:text-red-800">Apply Now</a></li>
+          <li><a href="/login" class="text-black hover:text-red-800">Login</a></li>
       </ul>
     </div>
   </nav>
-
-
-
-
-   
-    <section class="bg-cover bg-center bg-no-repeat bg-fixed py-20 text-white" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExMVFhUXGR4bFxgYGRoaIBsZHh0dGB8bIB0eIiggGxolIBgdITEiJSotLi4uGh8zODMtNygtLisBCgoKDg0OFxAQGy0lHR0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAIIBggMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAADBAACBQEG/8QARBAAAgECBAMGAggDBgUEAwAAAQIRAyEAEjFBBFFhBRMicYGRMqEUI0JSscHR8JLh8QZTYnKC0jNDk6LCFYOy4jREVP/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAGxEBAQEBAAMBAAAAAAAAAAAAAAERITFBgXH/2gAMAwEAAhEDEQA/APSmjVLKuWnBNyHO0tplgaE688PGox0CetRh/wCAHvgKsoINt73geB5JPkbYGrIBEqOgv/THo5zHfVJHhp6/3jTYE28HQ4sHaLhB5Mx+Xdi3lOAkmRlEkGdCPskb/wCbBiY1DfI7TsSfl+gih8UrsMgVPFac5GoOsryHyjE7T4JqqtBpkkyAWMfNYj8NRjpqGVAUiDmJg8mERrJnDK6Sbec4Dw/G9ksrhVanLTbOSQR8QsugkHyImL45T4FhEtTudfrI63NOw9NYwz2o6fS9VuW0M/8AKad+l/KcBFyfCx0+FGNvaY/TERPoxzooei4JvfLYAsbEC0AmZ20OK9oVn7xjNMyZ8JAibaNBsOcHTA6lcI65g4ILD4Kg1Rk36sNPzwcV6GaAwmxgq/4MJ2nAVNOqQoC02k/3oHM6lY0BvhmtwnFKozLTif70eHz8Nr+fphDiO2ArIUYwrScqiMxED4gJ5wLX1GuPS8Lx+eiGrM8O2UIFEnxAa3HWx09BgY89XSsRlREbyqrAtJsY2GumGqGZQq5VLZQIFWkYJIXRSYAJ1MDBu0+GUFhSLuuVsxCtAsRGYACZZba4pw5kA+LQwCpBOxjMBIvtgYfSD4VovUMxn71MpP3QA+aw5jDPEcQ9DKqUZvLA1KQYjT7TT1uBphbs7hWp16cXZpYroFUBhmLHS5tGbU+nolrAKZYHy+fngsgD16hSe70H30YzyBW04aRXygGmRbmv6yMKVatPMihlksIXzMdeZ9saTVwd/mMGiy94DApHa8qRG/2uWKLUqgn6om/3gSBA6HMSdtvTF+K4xVA8azIAuPXrpPvifSEMkusE8wLeeAV/9Sq5o+iVfPPSX5M4OGfpbfcyxqC6e1ib6YFU4inBPeJB/wAS7naDf0x36WhJOYATbW/W8YGiGo+uRY/zr+WMPiGyuzLRR6ugzVRIIMgST/iNgBoBN7aPEV0KkBlYxpmHlczbXCHbFWkaShaqZgMohxaQeZ1kTPngjFfhOKMM/DkzMHvFjldiTe+04jUX+HKk8hXpEzygmZ9sHbiMqP3bpmZYhWQtzABB1k7HHODohqTEsAy2glRJ8Wl+lhvIvgyRrcEy5qrQMqksquAQCDM+JmjUnLexOH6FOoiwKNTMR8RMAlQBYsoMDrvNzhPiqq91Vuv/AAmgBgRJQgWUnxaWPTBvFUqpDazDA6XzETrESdcFF+iVz/8Ar1DufLz0/HFl4WtqaVVSIgZQTM6CSBjZPZ9LvVIAKx4vENRp1Pv7b5XFiHqkqiTlyLK/CM9yBoLjz+ZqYUq0KswVN5iROm0Bjz88HWh3ZJYoTG9SmPT4ibdfbDvYlOlBP1YCyMoCjUXkLdv6+qXGdq0mclWTLtBW/sYk4Aa8WTORFaLmKqXA5cz5YuM76LAFgGdVv6wP647xvd0jTRXBYgMxLC0AiZtMg6DqdMQV0ie8ETqDoP3tgmCtwlRFJyprBIqqb2t8/wB64UShU8QzooN4LA2AMmVv9r5eeAV66mpTgz8Ukkix0sf3pg3fLFvFPISLG+kk6RaNeWAtTpGTD0yQJIEiNbTP6xe2DpQqxZaZ5y8XMW0vPvfQ4BwFRQ5JsQLyH5kkxBkmBi/E8SmvijnkqDadcsafhgOGi8yWo76VM19Y+EE6i5AF8AK1I/5ban/iBAABAmekaAnBlqwo+ICSdGvIF52FtTGnlhXiAcv2zMfZmRrbrY/jgLLwlYqAMrOVLGDTIUbz49J5j9MV4bgyEJLozkiZdrACItTgXOgt1OL8LRZUOc3YSQQbXIBN7nTXmOuAM82WC2wkDb/EQPY774DtOi7XUUyPvd4scuXPD3YPBVprGE/4bKDnBEmBAIkx4SdN+uANRKKqkGQqgwpiQNAYIiTEzfzx6Phkp0qRDeb2a5OumvL0wWGglUKPChsJbPAPpl+WA1kqG3dqP/dX/bhijXpx8QOl4kaAzv7YnE8bTW1zabCOm8fvXBcBajUymVFwL5xHPeMDTvSCzhWLHwqjJMerAa8icF4esBSpiIMARqRaNFmMWfjUXxGQFuScygQRJNrAc8ArNQ/8lv46X+/EwShxVPKsOCIEETcRiYupjvD1GkDM0eZ/oRgq8U2uby0/e+IrU5kIR5N/9cU7ukdVbX78T6gDAcFU8/ym+Dms1oJ9OWFK1ClYZGkkLeo5FyBMb8/PDbcLSFspHkx99yD64iqjimDhcxmCfkflbXpjvfmZa+ut498CqcKuRlXOpI+LO2vO9rDFOD7NRRBq1n6l219gSOVtuuA83x/atTv3VXZYMbFgDB9SfQG2K8R2xVGjkARrHz29NBywb+1HZdFKmd2rRUtAYtBiIiPFMgAW/LA6vZdEECagCiFGYCbTdQuk3sRrcnER2hx1ViPETMkEXM2v0gAi3PA6vbTZ8rSSYF1QySBa9zMxv+oOE7LosxDVa6kE+LMIaZ8UZFK/PQieTvBdk8LSfvM9ao/2SQkLsCN5H7iMBwccymQFBtcJTB1IF4mb40OI7YdgqyRBMklZINo0tocZlLg6DOCanEAmM0FSMzE3YnUDWwG/XFqvDcOrf88mIGWsB62W5vpEWGB9aPEdqlqihGKC7M7NlJibE8hNhf7I0xrdkcM7BajGVvA30ifTHnOH4ThwykjiJlZHek5biZtfawA0Fhj1VHsmiogIYsIJn8renPBqNApqcqzzi/vaMdFMclkdB+98KVqK008MjYAMVA2+zYC/I4HWotlAFVwbSwljpJuSQPbBodqK57KARBkAiASdxHL5DAKQoAZURAAzL4VWARcwBpeZnUzgNLh3VZFR6jEWLgC+u6wB5zgHZtGt3jq9WftAhKYAkkXA3tr+mCNemomYA5WGOlV5LPVRv6YVCMYHesNoyoIk+hxxeDbNPfVABFufmP0wUwtKmRdEN4nKD+zixpA8v4V/TAFpRfNUY2+3YbeWLlAfverEfsYBHtgMAmUxBM6DYaGBsSOs4QPG1y4UMTMjxHptvfT39We3eDqMF7sSbz4jprYAEknTyx3snsMJlqVIDKskgsoBMyADewN2JvPLBnOtPhqZWmgbxEKAWg32J6nT8bYTq0qgZaqX8IJGhIIgkC9+nQWJti9VuHNu8a1oWpUHTVTP9euKcJ2fT/4lPvGzQPFVqGFBIHxEyBex9NTgoHbRZVp1FL+KZEkaCQfOwEaYNQNSm2aqYWCbsJj38rYpxHBAUu7CvUKxc1DJIPPaY209MB/tDwHe0oZS8EFoa9r2zhgbwYIIOCCL/aOjnAEQSAPEgJnof6n2xXtHtKjUUCkVZucKxAHObgeIac8Y/A9lMUBPe0wFLMit3IkEqfCqZRodr2thTiOAoM0kVWIIu1QbXj4bi5/egteg7G4kh8pyQ1rKB4gGO12/lgvaaqjnKVE6rlW28fDeQZvN56Rkdi1qVNi0uDMfHmjntYdB7b40O1eCpVaqu3E1FAAEKxIN9OUT+VxgnomK0EHKsCYlF5bWtiGsZsWSSTKBFJJEWYqSv+m9rRrhXs8oaamHJZZOZ2aL3FyxBJF4iLa7SpwtImGWoSZk5io2tY5tAenrGCfTprVpCoKgUKBBlzAESS1yTuTrfC542rmjO42+Jl36ED+mA8F2ZwpzU8hFjYNHqLSN56fIgoUV0orG5IPnrP8ALpil/R/pVYz4qhUCQ2ZgCxvAvsOXPAF4pl8QLkhpzM7MZM/eJA1m3IeWLUzTJJFJNIkZxPQXuI3/AMUcxi44WiZDUl8vH+ZNj+9bgtW4urJLM/lJsOWBU61TXM4PmesXnDdKlQVj9TSyxpk1YzlvmAMwdAI6zZd+KTXuUUdA4HsH6b4Jg/A1+IYMM9UksoWWI0BPOY5zb10Ana75infkHcZr+UzbTnjR7H7UpGw4dZYWyiSZIn4ja0HXbD3adNKapUWmv1dgsHfaQ0bcjguCcBVQKoFUM0Sfrc1zrubbYY4py2VWdgGMCGI2nUdL+2O8QtN1UugYTYMSRoBptr1xj0H4d6wRKNIqssSFI8WlidhbS1+mDTWo1SoISwDETeTECb9Z1xam5A1OvPHIERlHlLfrgb00NyGjozmPSYwBX4iBLPA89f1xSpWkTM216aYEeGpnxRmBgg5mIA6aeuI1OkIADADUZzfzLSfUYIVo8YaarTDGEAUeQtswG3LEwx3VH7g/7v8AdiYYbStDhuIIzE0FFrEVLSL21t8+mLqrlmUVKXhifC+8kfa6aXw0zH7tRj/lO3VotgfD02AIyPLPmNtogG23hOvPAwB6FUso7ymIINkeSAZIkmBMRsdcGajWkkVaQuPCadQ238QIv6R0wwGKapUJJ+yk4oOLJ8PdVf8AUkD5mPngrP4n6VmIRaJXZsxn2YLfDPDJxAp52yF4JFNAZmLLI3mxwzTqGCcj7620tOv4a7Y6KVS5KwCZANrCPT08+eIYSPZ71wqVB3ZDK4JBiVOa2mYeosTjEqcG7VWRWpgz4mNOrbSSc0AKJ+9ccr49JU4asSCaIJGhMEiZsD9kaTAwj2hwZmqWpzmUEZQScyyYGt2EWjZpwGDQ4Ms7U1rIGUeKVdRp9kyQ+1gf5Gq9m1grZa1OV2hp05ozdLT+eEWUvly0ak6klWCgzIABWamkaXmT0c4SjUp0mDUat3MApcgLTUGNR8JMW16YJhHtCiaYXveIQ5yQMlNmIgj70a6b+cYd4OhZiTBGhcRmAgycheJJOp2xOL7N4qqqleGaJm+S/uWidiTy1xsVeyMqifC+4Ya2OhXU9ASfwwE7I7EdiHY0youAM9zqJJUeoGPQpmgyUEGLEm9tZGt/w54R7Hqv3SjKZEgwjQCCZ2188Hhitkb47SMtrGb7SPX3waglWlMSUKi5BBPy/PBU4YES8E7kb+9vngDo0GFcnQALHzI/P1xGaoPsMTMeGDt1Czy9NsATjODDLAcr1XWNSAdp5iDivD0fCBPi5ssbayJExiNn5GT0/wBp/DFKFGoDULSAwsN9APIYKMOGfPmz2jTaZ10n8vPF0oXNx7HHWq6+FoHQn8Lxivegc/Mg/ngJT4Y6zB/fOcLuc3wnNB1sJIsRuZBt+mGw86A/z9cSjS1OTLrAMSZvsSMBn8fxQRl8aXDEA2abDUBgIzaxBt1OMpmPdnvK4gsSBlLRIkCViTAmDfXTD3appM5hHYoozEAwN4nfW5EjbCFPs+mxzd3UHIxNvMjT12wZpbirA5GBaPCCjKCfckjyv+enwfEOaSpTel3gM5WDXggtBDH7wiJF98Jv2TLEnvI55Z/SwtF8EoUxkVkSrIbxHIc3Ig7ASF02jBI0uHaqqlqzUqd9paZ3kke0YPV4dypAqIJ3NNj8s3yEYxe0e0KlRMvdE5DN3pIcoB1BeABM+2A/TOIowO6MQZU1KJI/0lra6jBW/wAdC0SAQYULJUxymB6485R4YtP1qZRP2KgvMRci43A0tjtStWdlQuj6+EPTkEReRYxnG8aWwtRSoiMQrkDxeCkXBJmYuCdRJFhl1vGIXq/0ICfr1Mm4CPzO0mNRYHb1xV6DhvCyx1V7+v2fY4Z4Hhq9WTlgQCph7m5gh1SLC8THXeilgBIMbEggGLzeCB5gfpWcTg+FKLlDoAo1AdiTOhuOt+mmA56skRSjQE5gTvoJ/HBzUiAQZjQAsTt6DS972PMd4akWJIVonUBYiOpB/YwKUpcOEqFjUIJBBCpzGXdjNidRueeK1eGDCTXqCNsiNb2F/YYfbs6psBfYxMdL4A/COoJyho/xLH8vWMVOl6HC0xrWqtFwqqqgGLSM5B/G+uLrQBmK7qORRReehgiLyBteNcHXg3jxd2psSC9O29yGNx8otOBDgHF81KDt3iWvtvpGs67Rcog4MXJrOq+HNlpiTE2BLQJk6jY6bUyIZmtxBmxzCkfx285xDSckKpQ9TUQAeUTp1wDuqsfApOkCrTsdAD4gNL2JtrtI6a7G7sVKZ75zMhVZVsJKyCuhMcxY49JxfBB8ql/DMnwxpeJmYx5HgOzWV1JNOBGlUXgbkAnbQA6+3sihnQaxqBO86SQNLYjUJVuGZzC1CMsiAIEwutwTaIuY+WJw3ZqUh4YDRrkmJvF2v8sM0aTAyFUSZuy/OJvbadsUqZhsGsNCvqdfSIi3nigqcO8A94LjTLH6xr1xV+EfQVE6Sh/Iifliy1aoCgIkxpnG2gFr/hgPf1SxlFAA1FVTJ5DT3JwGbxXD8eWIpmiqL4QzPJYAQG0tMTHMnXHKHZtYKzV68aR3RJ8IknVBf9zhzv6pMlEVBuXST0EExHW3Kcc4uo5Qju4kQJdNxrEzF8EXfs+mpI76ta2inT0xMLVHrMS3dpcz8Y39MTAOFbYGR+/35/PFaSoVnu111yg29ZH7tjtNV+EKpmblVEC+4A54IndTbp8sX4YZM/ijNltJEQIOnMRggF5EAbhQoBjSbbfnviByYEC20Lc2uYH4RrgqrRqSPfFmI6D1/dsCRQXdQgAgEECN4I66A764PToEX/CLeVsB1nMTO3v+/wBzhavSYpnuCPGouCYm0G/iXbacPKpA0HnAwIVWvv7m0/zwVgdr8IUeQW7thIGYxzNiYHP1wlRpSyixzQCDEG+ljf8AK2uPRcbwlOojK1NGygsFYAgETtoYBtNsZHD8PwwZD9GoQDJLU6fO32YgajcwOuImPVVFmZ+Q9OWKcMsuxEzAEXtcnTTYdbY7U4Kkf+VS21RToZIFrTe/XAqaU2UhUpnayQJ5zqR5HbBoTg6TLnBaQXkSSbQLa9CPTB81iZ/ljF+g0kqAPQpFCDBCmxAkBhJB3vfGkOCpW+ppdPq09xbAEoibkj0x2nUmpAvCmdLXXXlofODywA0qYnwIbz8I+ca+uO9yLDJTgaDIpg+1j+mANX7QRTlzLm5XPyHkfbHPpqcmtuadQewZY/rhStw4FRGCLmYgNFiU0MgQDlsY22w/S4VNwDzMGfecRQOH7So1D4KyMdYDAn21HthuiIuJP9B76YEvA0hYU1gxYi0Dpy6Y43D5iZghhB25/O/7tgDmoOfzxm9rcaq0mIYGfDIbTY6cr4JW4alTKBKYEuA1pAGVrwZGoGl/nhTtsklVgRE6CNdL7W0xUt481SzFgFDQsHTa4tvYjDNSsQGUmSWBgsCZ8U84Fok7k8sNVGadEA5CnT2mPs7Tio4qqpsVAPKnSHTYT8sGOABSYsb6Wjryv5YDSyIhMqqgnNBWJmSCZ5k4LSo0mBVlzNU1gnKBEgAZiBqJIAJHnicN2RwqkMtAZlOYNLGJ6fCQNgQYwXIT+m0+7c51AIYDxC5y7DfxWsDrgg4rMoLVEkjdwCSPCSNWN5v/ADxemEAzQSVBjwUwsx0WeUCRoJ0w6/GFXAkXBOiaggbC176k4gr2YaTsUcgAjMMz8jrBgxpfTw4Fw1eiQymtRHhlvrVbbfKbne/I+h+F7UPerpEMTIW8eAmSZmSBaetsOdtcYy1GRSIN4yreRBPwnr54q8Z/Z3GKrK5dQptJYXBFz4oieesH0OzxFGjmOVlV3BgZgBmic1tOvmbYwqFZmqLTUQDd2VB4VkAknKCDB+ZOxOHqnaF5VAAuhk684KRr1+V8Q8Acb2SXdfAjjclkIgA7EwbxEg/ngdcqpKkoI/xLy2x6GocwQOqnP4XBUHUfKY+eOcfwhCoKdOIhQAFgDa2WYERtripY8t9NQfb/AB056fOcD4XiAwaKiwW0EEmLddJHqcP16jmVZpWSCpUFT0g2j9MKfTnWytlEaIMotYRlAj0xWeDBVESR6iPyn9jA+I4mnElhcSJ3HO/nbB+I4NxDOcxAzXZies38UewPpNOIdgtmYRtJ/XAwsnFU2urqeRBHyjywtSq5g4QSgPxXg2E+LQ6YY4XtN2PhquxnKArsSx5RNwY1E67Y1OG4DiC8PUqZQYPjJ2nmeeIuEuyRlqZ6gyqoLTtOg8tD7Hlj0NPj1Ok+x/HFXpBPCD4j9poY2Mm+txbDA4hvvH5+WKs4FT4kagzHIYHSspnMPETdSL2UbaQv7ti78W8/Gfc2x1qzx8Te8YCrV7b6WWCCY0F5m5nS/wCHatbIpLBgBz19hqfIR1OuKfSnFixzMYA6T7jDJqG/jnmJP64DGqcfTNgyrJ+6QTz/AHc4er8ZRWB3iCAB4iFNhyMEab3wZK7hpBI2J6dTriPxDX0vrIBn3wQp/wCo0f76n/EMdwUcSw5f9v6YmAoEpgEKHDEak57+u1hYQMCPCktPfVQBoF7sDlc5SSOmO8RTdRIyMdlVjJ9WUKPU4FQfiGn6gAAXzVF12AyzJ12jDgtQpPBLVXbxGPhW2lwBc67xpbDCUxHx1f4kFuXwRinB8LVyklkUs0wZe0DQqABp8sMfRWNgUPmXH/hgoaZQxYB5Ij4l891N8FaoYnxfxL+Pd44tA7Mn/f8A7cdrUpXLnTxW+0LkHmP0wOrBGJALNlgGQVkmZj4fhiOuDDhV1zvPkh/IYlQkHRI0+JttNUvpzwCpXbZZkwACL2/e9tfKKI/DL4pepcQbJvF9Im2PNdpcH3Bzd47AghWamtrTsyy1oBMamN8blXiqggd1y0q04/8AlitQVX8DIuUgiDUp+KxkWLSIuenPAIDjTToU1Jc1Hpgu8iZKxYljBna1wbXGNDsKmopDKXg6SQTIhDfcnLvz6RgXbHBB6aCmFLCAIZdLkgnccjOvnjNp1OKpMqkU1UbGpT0zBRoJMkxYG++hIejq0FJE5m2ILACN9AMVr8HUZl7usaajbLTI15RpFoEG+tsXbMBOVYH+LXy8P5747nqXAWnPWo1vMhDfpgqnEVAFDqXIMXGQH18JA9sH7i3xv/2H/wAIwuqMKeXOgsYs58r25csHC1dJpaTcPtH64CJQAcMXqGBAErA2vAE/1wSpUESWO2mWRO3LC6d7Jzd3EG6rUuZtY6W6+px2m0qcpBKnS820mRbTXBTQpGPjcc4CE/8AxOKrQb+8bp8Gu+3lhcCspVQtsok5w0GIjKQpOgvO5ti4zjUhjNhoNt76ZhzxAU8KbEuTBm4Gvpb5e2M7t0hcpYsTBiCFGo6E/PGpJ5aT8seZ/tFxZL5QQSVsJkySRcKpIW2pEdcEvgIqNc9Tp8A/FSSfX0xFopIJaqYvGZRPnCiP35YpRpuFAZ6TEakPUO/SlGttcdXvDJy0o0vVfeDNqR2PL9cVjoX0RCVJ74kG31o05XGmmsm2L8N2fSGeoUVmAAQ1KjOZJ1K5VpgCZgA+eIadXQIhP+dhHqUk3IEZettrvSciHWkpMiDWBIjU2ptBmY9cRrqVaVJQVmqwi7SoHp4T4b8xhB6iM4Az7j4xYSo5QdOX83qtAEKoYSZuC9jB3CAesfjhR6KFgGdTBYnL3huYgECnYX87C+CGsiKCBmBKwTmGh2ssgSoOvvAxrdpKj0FqlAcvxSfQ3Gtxr54yajQYDpOsk1AP69Pww/wbM1HKzoJDGFUsb3iSY2Ox0IvirGXSdNO7pnmPrIPnLxHTS/XGl2Rwas/hphFH3LDaw8Jk252wvwnZdZgWMLTAJk6tyiCco39cempUMqhbWAHy6nEJEcLmkgz/AJj5+lwNMWpnRRMc8zE+5xytTIBIWY6kaX64GjsRmCAA6ZpuCNbAkDzAPTFaea4taedwVqWLfDVeCZ3mbDlp88H7I4Kk7ZihKrAl3mW5bDqbTfCX9oqLLUPjQZjmiCbHaDlFzvm22tj0fZtNRSQqRBUHNGsgHclt9DgzIq3ZFN6xqszgwLAwIvqN9d8eV7VFDMUdTkDEfEJY/DBgA3mbER5Tj2lOgdZ11t688Zfa3ZFNlVmVjlfNChQSxBFyTuSNI22nEWsTsvg6SOqyUOdrhbbhRDAwBmIkEEzj0NDsRFljWrVGJJu8AW0CgGI8t8eYq8JSQs4FQ+IhUBtJMTqPF5mOQGh9XwyEomaoFsJkAs3M/KdDipF3WlSUFQSBMyWM9ZadvkMEIXZR6TPuDOB8TwoKzmbw3GmouLRi1O5sxHMELynTX54KgSmoju09p1/Priy5TcKvsf1wKqr/AGWA86f6Pf5YH3VUsIdCIOaUIM2iIYiLmx5DAGrIov3asbC4mxMQAbDXFKwSf+Gs9FWR5Wt544/CORDVN9kAta1yffFm4U6h40N0La/6xioWcDZWHWTiqZCFbK151Zh+emC1eCJ/5rgb5VUbaSxYjHChJVA3wi5K6CdbN+/wIp3g+4Pn+uJjjURJ+tT/AKf/ANsTDTHaltVcf6XPziP6YE/FgQPHdhYKSYzAkRFre2L99U++/ucWWu8XZvOTipqw7QpmwzyLEClVJnlGX8ccTi2ZoWlUiDJZCCNoA3J87YsKtSIlr9TiyVnykZmN9T0C2G8XxF1anJnwP/A36YozsCp7uoYYGALwL36SNPwxyrUOXMxMDc/ri3D8TnXMpLDSRJ8x0wEqVFGocdMj/jEfPCS+PiFA7wgAk2gCVZR4csnzkROH6lcgEyfna4ny8+oxfhagRWmIDXnSdNOpwUBQDpmP/tVf9uK5gXQANYksSjqAMjAklgBFwPXGhV4qPiOXQAafjiNXiCSRfUn+cYhhBuMoad7Tkf4kxn8dlqsjU/EUIJKAt4Q6MYiZ+GbT01nHoDVB1UMOoBxZKhMryAsLRJbb0+WC4lSvTUeKb6eB7+mXGWnHqrhaS1GENIWk2xEKPCAAM0yfunUnDXFUmpozILgho8oB+U4873lTxSz+LWSY1EXPWL88C16lqsqTlqC26t+/2eWBtULOhVXgAycpggwB66ne3njx3E0WINiSRCidzYX01Ov6Rj0XYPGHIVYyQYWDIaBpIAuOWBLrT7wGYVjbem4/EdMcSqqz4X9KdTl/lx1a8774vT4gai8b2wVKtcCLOCeakcumvTXX04aoWT4o/wArfhE3xZqvX8P1n5YBw/FASzlVJkLLKbSb9CbHyjriAy8Su4f/AKdQx/22wjxNHOCw1mwyvOXeRlmTc3HIeWpTqExv6enW2u+OCurEqGBMXEjfprgPP1Q2hpsBf7JEk3tYe2F+FDeL6p4kxARdN4Zw153G3pgvGVBRsaqqkQGJABk5RJ3PT9RC3DTWYoktFRzJFoLE2PICLnyxWTq1GUGOHqExaQkXtfKzP/2+wuFOH4eoSzVECrPhHxGALQoGbYnSNoi5LxvDmkVzEeLSJOh006jCVTjIuwyA6SYEaDUiV/H5YByBeI0gyCOfTr8vPCfZnAFixQMAWJ0kExe4UKTPU7yZwjXqg0yQVNs0khhGxEag85v1GutxdYLlUOD4QM0jbKDf70k2FsRHavZTi4XN1uPmYkxynFOE4c0jTApsCskLlEsARmOVb68p0HlhWrxCwZqJYG7OoAOsQbcsSlRppJlZudVBLETI0JPUHfFI9DX7SdpC0mF9WABAnWGIE9L/AJY1EqZQBkaYvGUwevi648v2RTUuozSVGYgMGOkD000t+XpaSgLJuQOp0OI1KtV4mbd3V/h/ngXDvlULkf8AhFr6ef6YKjrAJIvpJGKFh1PlPS074Kyf7Rh2y5KT6EE5RvpDZhGp2O2NDh1aAAuWBEeCwAiwzG1t/lgdbiAXFMTm+L4WaAJEgDfzxzhKqAReQSLhpFyYMiZv88EOUjUHxCn08ZmP4Y+fO5wvxuc5VypBYZiXINjmAAyGZiLnFvpAOmf+Bz+A+eF+KrKRlkh9UGWpMi8xEx+WCsrt/gKz1VVEESCWzmAVBMHwzcbk+UnG7wdNwBmSmjL8PjNTaM0wvUR88Do8UXSVSpfY02W83nPHLU2wya77IxF7iCNfMeXvios6nSVPMkx8oPlrgdGk+aWAAi5zDxEbxFhfp64QpdpMzVEFNiy2KmBaYm9o39QDBtgSGr3xYpVVcsAEq0kmTYExET6+41rOCT4Qrf64/wDE4HRLXuh8mO34YoapsDTbKDe6+0Zp5W64pmJsFgCwEER6RY9MAZ6T8lE8m/liPmVYySfDYMuw/wAUYVWteIaR0P5C3rivfGLq/T6t/wDbf0xU13iuJZJPdM0D7LUp9AWBO5k9NdMC4eu7BmNPJIAys6TAJOxIGvyxVaoLNZ/h/u30kf4ZjFRUP3XttkafKInBNGDNyX/qH9MTAstT+7qfwNjmBqtWlT07tYJEglybkblsHqUEt9Uluh/Cb4rS4ZBBNR5BmyKN55kx64OzyIDAD/JPqfFf0jAAzILZKYO1ox0U0iO7SNfh579T54sEvAYyYuEB+Ra3vg1VKcle9YEDZRNiFO0TPS2AWejTiTTpRI+wt99h+eHayIxytTSFsAV0GsRb9MLpQoyPrKhghvEJuLiAIUc7qTphhlTMWzkz0/lOnPEWKrw1OZ7qmIMjwgR8tevlpiwpJIGRN2sAL8/5/wBMUqqDEOYnxWi3Qj+WOBEzMDUcEQSAQbRAJtY23n8sFEThaebw0kzG0hVBg63gEb4i8NSMHuqVoIhF5eWC0iggguTtp+GmA0qNNSYaoWJlmJBPlewHkBgCNQpf3VP+Bf0xf6NTjL3dPKdQEWMAZIFqjjlZP06bHF/o4Fs9Rr6nJt5KD/XAJ9o8BQp07U0EzY3kkGJB1vFsedFCmI+ooTrPdUtuUDXrjZ7ep05RHasQCHKggAkWEkQY6f1wiBRI8JqReT3gebQfEZ1P3flglBCUKajLw9BSzL9jMT4hzOny9MEbjFJju0YwAxKqRl1CxoBcmOp9VeOqUwQVzPlJOYsNkY6Kgm/rr6XaglMsv1rRIzB8kHNMhYK9LgnqcEbnYvFhrOqGIC+FRANgojUAxjYkaW8oGPCgEimKdWqlUQTUMG5JkagBIIvEmL6CPV9lMzUwTVL+G5JKkvytED0B85tGpT9TkQDvEDER4F9YvYX9hhemk5QwmYk5oAJ1ifi9t9sGWmIGYvmN4zTE7SAP2MFVFIM2VlUqBJGUb5t/QfOdRhoUVjKEUDlAj20xUUVA+0P9R/Z9cD7oDdz/AKo/CMFXfh6ZZSyIWWSpKqSpOpBiV9MWdVj4RfoML9wog5qhuJlyNSB00+eKtTBynNVj/C0TaZNgdvO+9oC706ZYAoh1F1XXUR6j8MYtZirsoJABIA2A0i/ljYZKYg+P/qPy/wA1jBx5qqyl2+rcHMQfr64vMG2YHUmOeukYM0WpWJkkA+YW5jfnA5zji16hIBMxYeCnAF7A5TAt088LBqRcStUCQIWs+1rtOYgehnmJxd6wKlQjKTuKzMQbAEWgRtIO5uZwQQ1WzIoyiTAyosraZUAaix2FhMagzcUwGWlNNBIAVrkzqTqzHX58jjP4QogLS9V7he9rSYOxAyAAldxJg30Af7LSnUqWRIA+zUe0k3IDG5O7XMHBWt2etQJLsxJablrbRry1/Zw9JgzPuf6j8sKuyFoBYkcmqACx5ED9+yNFKzhTmpmwJzB2jlYvGvQYK0/pBDAEmW0kkbcvljtKvMmfO/rzIwvR4VUcsBdlhtY6wu0xsdt8NMiERkQjWI9dN8BcMSCJI8jjlMknUj54EzISFy2vYSNidBH7nE7imPsLMW1Me84C9V5OUk6Gw8xe37vjI4xnov3oG8MBbwkgAmxM+U+WNQUE+4s9RP8AQYFxXCU2UqUEMDYFh+B54BPspGhxDt4syktmzKQADJ8jI1HqJH2vxGVcqySQRIM5dLk6zfCn9n+DofWIaclQZnQEySo6a3k67YD2tw1BaxH0agdGByX95FpG2KzfDR/swTkqgAgq4BvcygbTbXGxLDc++MHhqtGnw4Jo0lRmuqqFGhuZIG3zxpDh6ZEFY5qHqQOkBotgsN1M14mdr28/5YC5IBME9OfvhNURagQUWyuD4y7NBAnRiYFj7jHUeg+ZQtMxIICj32mx1wF+E4qq85VhATLMxU6TAUrOwuY1tbEFY839G/np1wVKigABVgf4RgLFPuC/JTGw2sP64qLd80G5uOZwHMbyTEbk/r1OCPTpkHwCxG7WmeTA7YGaVEgjuljTVjM2529MEZ1Sq8mGETb9xiYdzjbhaRG3gH645io5R4nPOWnVsYvTZfWDBIscC4Xi2diO4rC5AkAExuBOmLLVXmvuMdpcSBVUZgDlb7Q5Tz6b4gZRXLD6thf7ZUD8ST5YAKVaWZl1sBmSYN5MsIFhvOIeKpAmalP+Nf1xz6fRP/MQ/wCoeXO/LBVqfC19cqwebAH9+Rwb6M97AAak/wAscTjqZ0qL/EJn8tsX7+mFaXUXGrAfe54HHW4VvvLa/sfI/u84p9FcsxVqZzHk9omATufOCJ8sVTjqGne0v40/XBE4umbKyHyIJ9sReL0+DqjWpTPU/M2sBy1Ok4KnDsN1OpJnAWrJPxgDFKXErJuQIEkqY1O5AF8Ad6J3ZBzMjy26WvgzFz8KKbWOf+WmFa9Wm32p8lJ/AHDPDcVTAtmMb5Hj3jXBYxe3UqtUCrTp2AljVuZ6RMCfMknzwhwvDVmpl8qBebOBPkTAI6mBcDY41u3uKQDvBM6GVcWix02+ePJVe0aa0KgzES7McwjWnTQR6roPTbBLhitSqVVyjuwDbN3ilSGWM1iTYEwIve+xb4rh3dz9bw7MfFAZyfE33QkxtM7EkbYTHH0gouoBvEbRE6YWf+0SgZUXvG1GUkjMT5aiw0vb0ifGqeza29ajmFipBEayJBN9Ofni/BUeLUuKL8MFUjOxYsJicvwzMGTP3hMYUp8ZCFq+WlIiCzSSQREFQNN8F7Bqq/esqMFzCGyNDeFVMEKAZKyAAIG2CtngqjVFpzVo2eZR7wsj7NsxgyoJA6iY12zLc1KQWNWBHuZgY8zRqAVVaCihz4mUqANyWZQBNzrj0VDi0eyMrnfJ4o84n9+WCxZq7kSjU3I6ED3LH5TqPPERa5IE0xafhYiJ5m062thkTrla/TAq1Vws5D5QxvM6KDA64Ks9ByRLIFBBsDeDPPmB6YqM+YKCrW5NAHnztpN8IntelBJaImcystxqBmAkzaL3thJf7S8JmKh5dvsrTeST/pjQC/LA1p1C5iHpZTuMxI+RDe4jrpjzvF8C9SpmNRAhBDF6ZgwdlBaRuc0WEb29NTkzAYEkmNDczuevT2wh2pRAUKWCmS9wdIIsRvvHTTBGXU4OnnUmtSCKc+VadUgtlZRYkjKJBgctsWegCf8A8imLzDJUkexmYBMg7HUDCtWoqQWDrN5ZGWNNbWPTUYS+lKKiU81JVAzHPKm+mUAEkmNBJ87Ek1qVKAJCjiF3APcNCjcwTGoHIDaIwXsjjDSotVdqjq7wsoszBkRmACjLrudJvhOkxYnKlRuvd1LgbgwLdTA1x6DsThctE5qZBL3Uo1wDYwRO86YEI0e3qCqCadQHkFWPUljz2xo9l8QrJIzqBctUWBmYkmPFGp5E6Xw3TpKNKfrkA87GDcfs4imQFyNJFx4dOon9zg05w66yCD1GpG8ZiYnYnF8jE2dQORQ/7umLiYMI3pl/X8cUYvP/AA22vK8iZ19PXAV7m4lzv8II/wDLF2pmxLWm3gH6n8sQKZuInn+umKcdWIgKjOZAhWUQDuSSABNrX5YouFn7bfwrPlOF+MpvGVKhDEEKzBYnqAJm08ra4ZRTEQbbfjiZdtfMRz5gc/3sHnOz+xGo1O+q8S7i+YQAokFbSbC50HPTG/U4Wm4g3Ebqpt05DHatKVgqpB1GaZ+WuEX7ObMDTbIQIhmLgCeX6HUbYIu3AIyKBmgSANIsVJ1zGQee4wROGZrFjA1EG9iOcH1nUWOOrTcCAE1hfETa2vh8O4321xO7YsZXMpEN4svoJi5m55D0wAqvZYMHvHBEhcoTwyRoYmLC0487xvZzUXjviIupFJZiOZfXaY8o1x6oOyjTNHNhPyn88YnbeZiCKbO5sArLAWJNyAJ1tM8hglE7K41qinM7ZlJtlBJUGA1gCZF4i04c4emWBYuy3tKi/K3pMTaR5Yz0oEEMEZabStQNmOhsxAEEWM+KIYSNsbFOh4iWynkoJA3ibWGlr4pFH4QMsF2/hAM7bx8sB+hyAO/aRqFRP5xhn6RUvKJ0+sj8v3zwg/EVmYgUQt96lJpA3MNta14OBx0cE3/9Lf8AS/8AtjmCmuRbuqh6hqInrBe2O4AdDs+iBalTF/ur+mLUuFpqTlRROsKBqMTExhtccLTGiKPJQMQ13FgzAX3OJiYoVPG1YH1j/wARxPpLkEF29zjuJgyoajEQSSJFicWq12VfCzCCAIJFsotiYmC+neA4qoSZdj/qOB8TxtUZYqOLH7R5nExME9BPxtXKPrH+L7x5jDVTin7r42+E7nExMAtx/HVRTYio4MDRjzHXGdS7SrX+tqa/fbn54mJglXr9oVgbVaguftN+uD8JxL93WbO2a95M/a3xMTEWBjj6v97U1P2m/XF+J4upHxvoPtHExMVBOyuJfvD420O56YpwFZhxlUhjJFzJvGUD2GJiYLD9XiX++3uccHEODZ29ziYmCl6Fdw5AZviJ1Op1PnfChYnjKTE3CkA7geIWO1rYmJiDeFZvvHUbnGbUrM1HxMxkCZJO+O4mBWYqj8Pmb4YyhWDqAGv4hY6TrriYmKilBjla/L/4j9T74c7PqsM1ztviYmAbo1WnU++EOI4h++PibYanS9vK2JiYK03rv95vc4T4viXkeNttz+9sTEwKYo8Q8fE3ucTiKzTT8Rs4Op1hscxMAyarcz74HTrsZlmPqcTEwFBUbmffpiwrNm+I6cziYmApUrv95t9zjvfN94+5xMTAD75s4GYx5nFK9Zr+I6Hc/dOJiYIPTrNfxN7nAErN94+5xMTFKuah5n3x1Kh5n388TEwAmrNJ8R9ziYmJgj//2Q==');">
+  <section class=" relative py-6" style="background-image: url('images/draft background.jpg');">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div class="mb-1 text-center">
+                  <h2 class="text-4xl text-center font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max lg:max-w-3xl lg:mx-auto">Crewnnect: Connecting Talent with Opportunity, Seamlessly.</h2>
+                  <p class="text-base font-normal text-black lg:max-w-2xl lg:mx-auto mb-8">Using technology to make finance simpler, smarter and more rewarding. </p>  
+                  <div class="flex flex-col justify-center md:flex-row gap-5 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">   
+                      <a href="javascript:;"  class="cursor-pointer bg-indigo-500 py-3 px-6 rounded-full flex items-center justify-center text-sm font-semibold text-white transition-all duration-500 focus:outline-none hover:bg-indigo-700">
+                          Browse Jobs
+                      </a>
+                      <a href="javascript:;"  class="cursor-pointer bg-indigo-50 py-3 px-6 rounded-full flex items-center justify-center  text-sm font-semibold text-indigo-600 transition-all duration-500 focus:outline-none hover:bg-indigo-100">
+                          Apply Now!
+                      </a>
+                  </div>
+              </div>
+              </section>
+              <section class=" relative text-white py-20" style="background-image: url('images/draft background.jpg');">
+             
     <div class="max-w-7xl mx-auto px-4">
-        
-            <h1 class="text-4xl md:text-6xl text-black font-bold mb-4">Find Your Dream Job</h1>
-            <p class="text-lg text-black md:text-xl mb-8">Explore thousands of job opportunities tailored for you</p>
-            <a href="/jobs  " class="inline-block bg-blue-400 text-white py-3 px-8 rounded-lg font-bold text-lg hover:bg-blue-600 hover:text-white transition duration-300">Browse Jobs</a>
-        </div>
-    </section>
+    <h2 class=" text-4xl text-black font-bold mb-8">Our Success</h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
+             
+                  <div class="relative w-full h-auto md:col-span-2">
+                      <div class="bg-gray-800 rounded-2xl flex  justify-between flex-row flex-wrap">
+                          <div class="p-5  xl:p-8 w-full md:w-1/2 ">
+                              <div class="block">
+                                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M15 12.5V18.75M18.75 2.5L11.25 2.5M15 28.75C8.7868 28.75 3.75 23.7132 3.75 17.5C3.75 11.2868 8.7868 6.25 15 6.25C21.2132 6.25 26.25 11.2868 26.25 17.5C26.25 23.7132 21.2132 28.75 15 28.75Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                      </svg>                                    
+                              </div>
+                              <h3 class="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
+                              Client Testimonial
+                              </h3>
+                              <p class="text-xs font-normal text-gray-300 w-full mb-8 xl:w-64">"Crewnnect has truly transformed our business. Their innovative solutions and dedicated team have helped us achieve unprecedented success in our industry." </p>
+                              <p class="text-white">- John Doe, CEO of ABC Corporation</p>
+                              <button class="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                                  View More
+                                  <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                                      </svg>
+                                      
+                              </button>
+                          </div>
+                          <div class="relative hidden h-auto md:w-1/2 md:block">
+                              <img src="https://m.samsungsem.com/resources/images/global/about_us/img_ceo.png" alt="Header tailwind Section" class="h-96 ml-auto">
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="relative w-full h-auto md:col-span-2">
+                      <div class="bg-gray-800 rounded-2xl flex  justify-between flex-row flex-wrap">
+                          <div class="p-5  xl:p-8 w-full md:w-1/2 ">
+                              <div class="block">
+                                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M15 12.5V18.75M18.75 2.5L11.25 2.5M15 28.75C8.7868 28.75 3.75 23.7132 3.75 17.5C3.75 11.2868 8.7868 6.25 15 6.25C21.2132 6.25 26.25 11.2868 26.25 17.5C26.25 23.7132 21.2132 28.75 15 28.75Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                      </svg>                                    
+                              </div>
+                              <h3 class="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
+                              Client Testimonial
+                              </h3>
+                              <p class="text-xs font-normal text-gray-300 w-full mb-8 xl:w-64">"Working with Crewnnect has been a game-changer for us. Their professionalism and expertise have elevated our projects to new heights, leading to remarkable growth and recognition." </p>
+                              <p class="text-white">- Jane Smith, Founder of XYZ Inc.</p>
+                              <button class="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                                  View More
+                                  <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                                      </svg>
+                                      
+                              </button>
+                          </div>
+                          <div class="relative hidden h-auto md:w-1/2 md:block">
+                              <img src="https://366e203a.rocketcdn.me/wp-content/uploads/2023/06/Karen-Lynch.jpg" alt="Header tailwind Section" class="h-96 ml-auto">
+                          </div>
 
-    <section class="bg-white text-white py-20">
-    <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-4xl text-black font-bold mb-8">Our Success</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-           
-            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md p-6">
-                <h3 class="text-xl text-black font-bold mb-4">Client Testimonial 1</h3>
-                <p class="text-gray-700 mb-4">"Crewnnect has truly transformed our business. Their innovative solutions and dedicated team have helped us achieve unprecedented success in our industry."</p>
-                <p class="text-gray-600">- John Doe, CEO of ABC Corporation</p>
-            </div>
-
-            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md p-6">
-                <h3 class="text-xl text-black font-bold mb-4">Client Testimonial 2</h3>
-                <p class="text-gray-700 mb-4">"Working with Crewnnect has been a game-changer for us. Their professionalism and expertise have elevated our projects to new heights, leading to remarkable growth and recognition."</p>
-                <p class="text-gray-600">- Jane Smith, Founder of XYZ Inc.</p>
-            </div>
-        </div>
-    </div>
+                  </div>
+</div>                 
 </section>
+                                            
 
-
-
-
-    
-  </div>
-
-
-  
-
-
- 
-
+<section class="py-24" style="background-image: url('images/draft background.jpg');">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div class="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:gap-y-0 lg:flex-row lg:justify-between max-md:max-w-lg max-md:mx-auto">
+                  <div class="relative w-full text-center lg:text-left lg:w-2/4">
+                      <h2 class="text-4xl font-bold text-gray-900 leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Unlocking Effiency Trough Innovative Manpower Solutions</h2>
+                  </div>
+                  <div class="relative w-full text-center  lg:text-left lg:w-2/4">
+                      <p class="text-lg font-normal text-black font-semibold mb-5">We deliver a full suite of benefits to streamline your manpower needs effortlessly</p> 
+                      <a href="/jobs" class="flex flex-row items-center justify-center gap-2 text-base font-semibold text-indigo-600 lg:justify-start hover:text-indigo-700 ">Learn more <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                          </a> 
+                  </div>
+              </div>
+              <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
+    <div class="group relative h-64 w-40 bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600">
+        <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+        <img itemprop="contentUrl" src="https://www.svgrepo.com/show/385261/engineering-helmet-cog.svg" alt="Engineering Helmet Cog SVG File" title="Engineering Helmet Cog SVG File" width="30" height="30 ">
+        </div>
+        <h4 class="text-xl font-bold text-black mb-3 capitalize transition-all duration-500 group-hover:text-white">Engineering</h4>
+        <p class="text-sm font-normal text-black transition-all duration-500 leading-5 group-hover:text-white">
+        Engineering the future, one innovation at a time. 
+        </p>
+    </div>
+                  <div class="group relative h-64 w-40 bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600" >
+                      <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+                      <img itemprop="contentUrl" src="https://www.svgrepo.com/show/455219/cruise-ship.svg" alt="Cruise Ship SVG File" title="Cruise Ship SVG File" width="30" height="30">
+                              
+                      </div>
+                      <h4 class="text-xl font-bold text-black mb-3 capitalize transition-all duration-500 group-hover:text-white">Sea man</h4>
+                      <p class="text-sm  text-black font-normal  text-black transition-all duration-500 leading-5 group-hover:text-white">
+                          We have the most up-to-date security to support the security of all our customers in carrying out all transactions.  
+                      </p>
+                  </div>
+                  <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600">
+                      <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+                          <img itemprop="contentUrl" src="https://www.svgrepo.com/show/371209/doctor.svg" alt="Doctor SVG File" title="Doctor SVG File" width="30" height="30">
+                              
+                      </div>
+                      <h4 class="text-xl font-semibold text-black mb-3 capitalize transition-all duration-500 group-hover:text-white">Doctor </h4>
+                      <p class="text-sm font-normal text-black transition-all duration-500 leading-5 group-hover:text-white">
+                          Provide Customer Service For Those Of You Who Have Problems 24 Hours A Week  
+                      </p>
+                  </div>
+                  <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600">
+                      <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+                      <img itemprop="contentUrl" src="https://www.svgrepo.com/show/504002/police-security-policeman.svg" alt="Police Security Policeman SVG File" title="Police Security Policeman SVG File" width="30" height="30">
+                              
+                      </div>
+                      <h4 class="text-xl font-semibold text-black mb-3 capitalize transition-all duration-500 group-hover:text-white">Policeman</h4>
+                      <p class="text-sm font-normal text-black transition-all duration-500 leading-5 group-hover:text-white">
+                          We provide faster transaction speeds than competitors, so money arrives and is received faster. 
+                      </p>
+                  </div>
+              </div>
+        </div>
+      </section>
+                                            
+</div>
 </div>
 
+<footer class="w-full bg-gray-300 py-2" >
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto">
+                <a href="#" class="flex justify-center "><img src="{{url('images/crewnnect1.png')}}" alt=""></a>
 
+                    <svg class="w-40 h-8" viewBox="0 0 164 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        
+                        <defs>
+                        <linearGradient id="paint0_linear_9129_4680" x1="35" y1="1.89063" x2="1.11152" y2="33.4573" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#7C3AED"></stop>
+                        <stop offset="0.993738" stop-color="#4F46E5"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_9129_4680" x1="35" y1="1.89063" x2="1.11152" y2="33.4573" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#7C3AED"></stop>
+                        <stop offset="0.993738" stop-color="#4F46E5"></stop>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+                </a>
+                    <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-4 border-b border-gray-200">
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Crewnnect</a></li>
+                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">About</a></li>
+                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">Jobs</a></li>
+                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">Apply Now</a></li>
+                        <li><a href="#" class=" text-gray-800 hover:text-gray-900">Contact</a></li>
+
+                    </ul>
+                    <div class="flex space-x-10 justify-center items-center mb-14">
+                        <a href="#" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                          <svg class="w-[1.688rem] h-[1.688rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
+                            <path d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z" fill="currentColor"/>
+                          </svg>
+                        </a>
+                        <a href="#" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                            <svg class="w-[1.688rem] h-[1.688rem] " viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.76556 14.8811C9.76556 12.3243 11.8389 10.2511 14.3972 10.2511C16.9555 10.2511 19.03 12.3243 19.03 14.8811C19.03 17.4379 16.9555 19.5111 14.3972 19.5111C11.8389 19.5111 9.76556 17.4379 9.76556 14.8811ZM7.26117 14.8811C7.26117 18.82 10.456 22.0129 14.3972 22.0129C18.3385 22.0129 21.5333 18.82 21.5333 14.8811C21.5333 10.9422 18.3385 7.7493 14.3972 7.7493C10.456 7.7493 7.26117 10.9422 7.26117 14.8811ZM20.1481 7.46652C20.148 7.79616 20.2457 8.11843 20.4288 8.39258C20.6119 8.66674 20.8723 8.88046 21.177 9.00673C21.4817 9.133 21.8169 9.16614 22.1405 9.10196C22.464 9.03778 22.7612 8.87916 22.9945 8.64617C23.2278 8.41318 23.3868 8.11627 23.4513 7.79299C23.5157 7.46972 23.4829 7.13459 23.3568 6.83C23.2307 6.5254 23.017 6.26502 22.7428 6.08178C22.4687 5.89853 22.1463 5.80065 21.8164 5.80052H21.8158C21.3737 5.80073 20.9497 5.9763 20.637 6.28867C20.3243 6.60104 20.1485 7.02467 20.1481 7.46652ZM8.78274 26.1863C7.42782 26.1246 6.69138 25.8991 6.20197 25.7085C5.55314 25.4561 5.0902 25.1554 4.60346 24.6696C4.11672 24.1839 3.81543 23.7216 3.56395 23.0732C3.37317 22.5843 3.14748 21.8481 3.08588 20.494C3.01851 19.03 3.00506 18.5902 3.00506 14.8812C3.00506 11.1722 3.01962 10.7336 3.08588 9.26841C3.14759 7.9143 3.37495 7.17952 3.56395 6.68919C3.81654 6.04074 4.11739 5.57808 4.60346 5.09163C5.08953 4.60519 5.55203 4.30408 6.20197 4.05274C6.69116 3.86208 7.42782 3.63652 8.78274 3.57497C10.2476 3.50763 10.6877 3.49419 14.3972 3.49419C18.1068 3.49419 18.5473 3.50874 20.0134 3.57497C21.3683 3.63663 22.1035 3.86385 22.5941 4.05274C23.243 4.30408 23.7059 4.60585 24.1926 5.09163C24.6794 5.57741 24.9796 6.04074 25.2322 6.68919C25.4229 7.17808 25.6486 7.9143 25.7102 9.26841C25.7776 10.7336 25.7911 11.1722 25.7911 14.8812C25.7911 18.5902 25.7776 19.0287 25.7102 20.494C25.6485 21.8481 25.4217 22.5841 25.2322 23.0732C24.9796 23.7216 24.6787 24.1843 24.1926 24.6696C23.7066 25.155 23.243 25.4561 22.5941 25.7085C22.105 25.8992 21.3683 26.1247 20.0134 26.1863C18.5485 26.2536 18.1084 26.2671 14.3972 26.2671C10.686 26.2671 10.2472 26.2536 8.78274 26.1863ZM8.66768 1.0763C7.18823 1.14363 6.17729 1.37808 5.29443 1.72141C4.3801 2.07597 3.60608 2.55163 2.83262 3.32341C2.05916 4.09519 1.58443 4.86997 1.22966 5.78374C0.88612 6.66663 0.651535 7.67641 0.584162 9.15497C0.515676 10.6359 0.5 11.1093 0.5 14.8811C0.5 18.6529 0.515676 19.1263 0.584162 20.6072C0.651535 22.0859 0.88612 23.0955 1.22966 23.9784C1.58443 24.8916 2.05927 25.6673 2.83262 26.4387C3.60597 27.2102 4.3801 27.6852 5.29443 28.0407C6.17896 28.3841 7.18823 28.6185 8.66768 28.6859C10.1502 28.7532 10.6232 28.77 14.3972 28.77C18.1713 28.77 18.645 28.7543 20.1268 28.6859C21.6063 28.6185 22.6166 28.3841 23.5 28.0407C24.4138 27.6852 25.1884 27.2105 25.9618 26.4387C26.7353 25.667 27.209 24.8916 27.5648 23.9784C27.9083 23.0955 28.144 22.0857 28.2103 20.6072C28.2777 19.1252 28.2933 18.6529 28.2933 14.8811C28.2933 11.1093 28.2777 10.6359 28.2103 9.15497C28.1429 7.6763 27.9083 6.66608 27.5648 5.78374C27.209 4.87052 26.7341 4.09641 25.9618 3.32341C25.1896 2.55041 24.4138 2.07597 23.5011 1.72141C22.6166 1.37808 21.6062 1.14252 20.1279 1.0763C18.6461 1.00897 18.1724 0.992188 14.3983 0.992188C10.6243 0.992188 10.1502 1.00785 8.66768 1.0763Z" fill="currentColor"/>
+                                </svg>
+                                
+                        </a>
+                        <a href="#" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                            <svg class="w-[0.938rem] h-[1.625rem]" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.7926 14.4697L14.5174 9.86889H10.0528V6.87836C10.0528 5.62033 10.6761 4.39105 12.6692 4.39105H14.7275V0.473179C13.5289 0.282204 12.3177 0.178886 11.1037 0.164062C7.42917 0.164062 5.0302 2.37101 5.0302 6.36077V9.86889H0.957031V14.4697H5.0302V25.5979H10.0528V14.4697H13.7926Z" fill="currentColor"/>
+                                </svg>
+                                
+                        </a>
+                        <a href="#" class="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+                            <svg class="w-[1.875rem] h-[1.375rem]" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3106 1.27838C27.5782 1.62071 28.5745 2.61957 28.9113 3.88573C29.524 6.18356 29.524 10.9809 29.524 10.9809C29.524 10.9809 29.524 15.7782 28.9113 18.076C28.5698 19.3469 27.5735 20.3457 26.3106 20.6834C24.0186 21.2977 14.8226 21.2977 14.8226 21.2977C14.8226 21.2977 5.63122 21.2977 3.33456 20.6834C2.06695 20.3411 1.07063 19.3422 0.73385 18.076C0.121094 15.7782 0.121094 10.9809 0.121094 10.9809C0.121094 10.9809 0.121094 6.18356 0.73385 3.88573C1.07531 2.61488 2.07162 1.61602 3.33456 1.27838C5.63122 0.664062 14.8226 0.664062 14.8226 0.664062C14.8226 0.664062 24.0186 0.664062 26.3106 1.27838ZM19.5234 10.9809L11.885 15.403V6.55872L19.5234 10.9809Z" fill="currentColor"/>
+                                </svg>
+                                
+                        </a>
+                    </div>
+                    <span class="text-lg text-gray-500 text-center block">©<a href="#">Crewnnect</a> 2024, All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+                                            
 
 
 

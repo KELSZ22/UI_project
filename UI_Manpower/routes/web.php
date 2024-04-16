@@ -62,8 +62,8 @@ Route::get('/home', function () {
     return view('cms/home');
 });
 
-Route::get('/aboutus', function () {
-    return view('cms/aboutus');
+Route::get('/Aboutus', function () {
+    return view('cms/Aboutus');
 });
 
 Route::get('/job', function () {
