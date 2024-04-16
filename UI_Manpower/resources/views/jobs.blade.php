@@ -17,11 +17,10 @@
           <li><a href="/homepage" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Home</a></li>
           <li><a href="#" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
           <li><a href="/jobs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Jobs</a></li>
-          <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us</a></li>
+          <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us
+            <img class="h-6 mr-3 mb-1 inline-block" src="images/contact-us.png"> </a></li>
           <li><a href="/applyNow" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Apply Now</a></li>
-          <li><a href="/login" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Login</a></li>
-          <a href="/login"><img class="h-8"
-            src="images/icon.png"></a>
+          <a href="/login"><img class="h-8 inline-block my-1 rounded-full hover:bg-red-800" src="images/icon.png"></a>
         </ul>
       </div>
 
@@ -147,17 +146,35 @@
     // Show the jobs for the clicked section
     const jobListContainer = document.getElementById("jobList");
     jobListContainer.classList.remove("hidden");
-    const jobList = document.createElement("div");
-    jobList.classList.add("grid", "grid-cols-2", "gap-4");
-    jobs.forEach(job => {
-        const jobItem = document.createElement("li");
-        jobItem.textContent = job;
-        jobItem.classList.add("text-2xl");
-        jobList.appendChild(jobItem);
-    });
+    
+    // Clear previous job list content
     jobListContainer.innerHTML = "";
-    jobListContainer.appendChild(jobList);
-}
+
+    if (jobs.length > 9) {
+        // If there are more than 5 jobs, create a grid layout
+        const jobList = document.createElement("ul");
+        jobList.classList.add("grid", "grid-cols-2", "gap-2"); 
+        // Add grid classes
+        jobs.forEach(job => {
+            const jobItem = document.createElement("li");
+            jobItem.textContent = job;
+            jobItem.classList.add("list-disc", "text-lg", "gap-4"); 
+            jobList.appendChild(jobItem);
+        });
+        jobListContainer.appendChild(jobList);
+    } else {
+        // If there are 5 or fewer jobs, create a single column list
+        const jobList = document.createElement("ul");
+        jobList.classList.add("list-disc", "gap-6"); 
+        jobs.forEach(job => {
+            const jobItem = document.createElement("li");
+            jobItem.textContent = job;
+            jobItem.classList.add("list-disc", "text-lg", "gap-6");
+            jobList.appendChild(jobItem);
+        });
+        jobListContainer.appendChild(jobList);
+    }
+  }
 </script>
 
 </body>
