@@ -20,12 +20,10 @@
           <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
           <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
           <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
-          <a href="/Contactus"><img class="h-6"
-                    src="images/contact-us.png">
+          
           <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
           <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
-          <a href="/login"><img class="h-8"
-                    src="images/icon.png">
+        
 </a>
         </ul>
       </div>
@@ -48,50 +46,50 @@
       </ul>
     </div>
   </nav>
-
-  <div class="h-screen bg-gray-200 flex flex-col sm:justify-center items-center pt-6 sm:pt-0">
-                <div class="p-4 bg-gray-100x rounded-full borderx border-gray-200x hidden md:block">
-                    <a href="/homepage">
-                    <img src="{{url('images/crewnnect1.png')}}" class="w-20alba fill-current text-black font-style:cambria font-bold text-6xl h-20 fill-current"></a>
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-2 text-center flex justify-center">
+            <a href="#" class="h-15">
+                <img src="{{url('images/crewnnect1.png')}}" alt="">
+            </a>
+        </h2>
+        <form>
+            <div class="mb-4 relative">
+                <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+                <div class="absolute mt-5 inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <img src="https://www.svgrepo.com/show/522690/user.svg" alt="User SVG File" width="20" height="20">
                 </div>
+                <input type="text" id="username" name="username"
+                    class="pl-10 pr-3 py-2 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                    placeholder="Username" required>
+            </div>
+            <div class="mb-4 relative">
+                <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                <div class="absolute mt-5 inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <img  src="https://www.svgrepo.com/show/518125/nc-passwords.svg" alt="Nc Passwords SVG File"  width="20" height="20">
+                </div>
+                <input type="password" id="password" name="password"
+                    class="pl-10 pr-3 py-2 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                    placeholder="Password" required>
+            </div>
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <input type="checkbox" id="remember" name="remember"
+                        class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                    <label for="remember" class="ml-2 block text-sm text-gray-900">Remember Me</label>
+                </div>
+                <div>
+                    <a href="#" class="text-sm text-indigo-600 hover:underline">Forgot your password?</a>
+                </div>
+            </div>
+            <button type="submit"
+                class="w-full bg-green-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                Login
+            </button>
+        </form>
+    </div>
+</div>
 
-                <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-gray-300 dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
-                  
-    
-     
-        <div>
-                        <label class="block font-medium text-sm text-gray-700 dark:text-gray-300" >
-     Email address
-</label>
-            <input class="block rounded-t-lg rounded-r-lg rounded-b-lg rounded-l-lg border border-black mt-1 py-2 pl-1 w-full"  name="email" required="required" autofocus="autofocus">
-                    </div>
-
-      
-        <div class="mt-4">
-            <label class="block font-medium text-sm text-gray-700 dark:text-gray-300">
-    Password
-</label>
-
-            <input class="block rounded-t-lg rounded-r-lg rounded-b-lg rounded-l-lg border border-black mt-1 py-2 pl-1 w-full"  type="password" required="required">
-
-                    </div>
-
-        
-        <div class="block mt-4">
-            <label for="remember_me" class="inline-flex items-center">
-                <input id="remember_me" type="checkbox" class="rounded dark:bg-gray-900 border-black dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800" name="remember">
-                <span class="ml-2 text-sm text-gray-700 dark:text-gray-400">Remember me</span>
-            </label>
-        </div>
-
-        <div class="flex items-center justify-end mt-4">
-                            <a class="underline text-sm text-red-900 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="#">
-                    Forgot your password?
-                </a>
-            
-            <button type="button" class="inline-flex items-center px-4 py-2 ring-red-300 bg-red-600 dark:bg-red-800 border border-transparent rounded-md font-semibold text-xs text-red-200 dark:text-red-200 uppercase tracking-widest hover:bg-red-700 dark:hover:bg-red-500  ml-3" href="/Data_Management">
-    Log in
-</button>        </div>
 </body>
 </html>
     

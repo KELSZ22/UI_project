@@ -26,31 +26,36 @@
     </style>
 </head>
 
+
+
+
 <body class="bg-gray-100 flex flex-col">
     <!-- Background Image -->
-   <!-- <img src="{{url('images/Aboutusbg.jpg')}}" alt="Background Image" class="bg-image">-->
+   <img src="{{url('images/draft background.jpg')}}" alt="Background Image" class="bg-image">
 
     <!-- Navigation Bar -->
     <nav class="bg-gray-300 p-4">
         <div class="container mx-auto flex justify-between items-center">
+
             <div>
                 <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
             </div>
-            <div class="hidden md:block">
-            <ul class="flex space-x-4">
-            <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
-            <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
-            <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
-            <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
-            <a href="/Contactus"><img class="h-6"
-                    src="images/contact-us.png">
-            <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
-            <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
-             <a href="/login"><img class="h-8"
-                    src="images/icon.png"></a>
 
+            <div class="hidden md:block">
+                <ul class="flex space-x-4">
+                    <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
+                    <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
+                    <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
+                    <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
+                    <a href="/Contactus"><img class="h-6"
+                            src="images/contact-us.png">
+                    <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
+                    <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
+                    <a href="/login"><img class="h-8"
+                            src="images/icon.png"></a>
                 </ul>
             </div>
+
             <div class="block md:hidden">
                 <button id="menu-toggle" class="text-white focus:outline-none">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -61,6 +66,8 @@
                 </button>
             </div>
         </div>
+
+
         <div id="mobile-menu" class="hidden md:hidden">
             <ul class="flex flex-col space-y-4">
                 <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
@@ -160,6 +167,7 @@
                                 Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
                             </p>
                         </div>
+
                         <div class="carousel-item md:w-1/2 text-center">
                             <h2 class="text-5xl text-white shadow-lg font-bold shadow mb-2">Our Vision</h2>
                             <p class="text-2xl text-white leading-relaxed">
@@ -172,7 +180,7 @@
    
 
                 <!-- Core Values -->
-                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8 mx-auto">
+                <div class="bg-gray-300 rounded-lg w-full p-4 mt-8 mx-auto">
                     <h2 class="text-5xl text-center font-bold mb-2 shadow-2xl">Core Values</h2>
                     <p class="text-gray-800 font-bold leading-relaxed text-center">
                     Sample Text
@@ -191,22 +199,32 @@
                 
 
                 <!-- Process Section -->
-                <div class="bg-gray-200 rounded-lg p-4 mt-8 ">
+                <div class="bg-gray-300 rounded-lg p-4 mt-8 ">
                     <h2 class="text-5xl font-bold mb-2 text-center">Our Process</h2>
                     <img src="{{url('images/process1.jpg')}}" class="w-3/4 h-1/2 mx-auto">
                 </div>
 
+                <div class="flex mx-auto">
+                        <!-- What can offer-->
+                        <div class="bg-gray-300 rounded-lg w-2/4 p-4 mt-8">
+                            <h2 class="text-5xl text-center font-bold mb-2 shadow-2xl">What can we offer?</h2>
+                            <p class="text-gray-800 leading-relaxed">
+                            Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                            </p>
+                        </div>
 
-                <!-- What can offer-->
-                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
-                    <h2 class="text-5xl text-center font-bold mb-2">What can we offer?</h2>
-                    <p class="text-gray-800 leading-relaxed">
-                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
-                    </p>
+                        <!-- Contacts -->
+                        <div class="bg-gray-300 rounded-lg w-2/4 p-4 mt-8 ml-2 ">
+                            <h2 class="text-5xl text-center font-bold mb-2 shadow-2xl">Contacts</h2>
+                            <p class="text-gray-800 leading-relaxed">
+                            Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
+                            </p>
+                        </div>
                 </div>
 
-                <!-- Call-to-Action Section -->
-                <div class="bg-gray-200 rounded-lg p-4 mt-8">
+
+                <!-- Job Section -->
+                <div class="bg-gray-300 rounded-lg p-4 mt-8">
                     <h2 class="text-2xl font-bold mb-2">Explore Job Listings</h2>
                     <p class="text-gray-800 leading-relaxed">
                         Ready to take the next step in your career? Browse through our latest job listings and find your perfect match today!
@@ -216,13 +234,7 @@
                     </div>
                 </div>
 
-                <!-- Contacts -->
-                <div class="bg-gray-200 rounded-lg w-full p-4 mt-8">
-                    <h2 class="text-5xl text-center font-bold mb-2">Contacts</h2>
-                    <p class="text-gray-800 leading-relaxed">
-                    Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
-                    </p>
-                </div>
+                
             </div>
 
             

@@ -19,13 +19,10 @@
           <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
           <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
           <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
-          <a href="/Contactus"><img class="h-6"
-                    src="images/contact-us.png">
+         
           <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
           <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
-          <a href="/login"><img class="h-8"
-                    src="images/icon.png">
-</a>
+         
         </ul>
       </div>
       <div class="block md:hidden">
@@ -50,87 +47,36 @@
 
 
 
-<div class="mx-auto max-w-screen-xl">
-  <div class="relative">
-    <img class="w-full h-auto object-cover object-center shadow-lg" src="{{url('images/homepage.png')}}" alt="Cover image">
-    <div class="absolute inset-0 flex items-center">
-      <div class="ml-8 text-left text-white sm:ml-0 sm:text-center"> 
-        <h1 class="text-4xl pl-28 sm:text-7xl text-black font-bold mb-2 sm:mb-4 ">CREWNNECT</h1> 
-        <h1 class="text-4xl pl-28 sm:text-7xl text-black font-bold mb-2 sm:mb-4 ">MANPOWER</h1> 
-        <div class="space-x-10 pl-24">
-        <button class="bg-red-800 font-bold rounded-3xl hover:bg-blue-800 px-4 py-2">HIRE TALENTS</button>
-        <button class="bg-blue-800 font-bold rounded-3xl hover:bg-red-800 px-8 py-2">FIND JOBS</button>
 
+   
+    <section class="bg-cover bg-center bg-no-repeat bg-fixed py-20 text-white" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExMVFhUXGR4bFxgYGRoaIBsZHh0dGB8bIB0eIiggGxolIBgdITEiJSotLi4uGh8zODMtNygtLisBCgoKDg0OFxAQGy0lHR0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAIIBggMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAADBAACBQEG/8QARBAAAgECBAMGAggDBgUEAwAAAQIRAyEAEjFBBFFhBRMicYGRMqEUI0JSscHR8JLh8QZTYnKC0jNDk6LCFYOy4jREVP/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAGxEBAQEBAAMBAAAAAAAAAAAAAAERITFBgXH/2gAMAwEAAhEDEQA/APSmjVLKuWnBNyHO0tplgaE688PGox0CetRh/wCAHvgKsoINt73geB5JPkbYGrIBEqOgv/THo5zHfVJHhp6/3jTYE28HQ4sHaLhB5Mx+Xdi3lOAkmRlEkGdCPskb/wCbBiY1DfI7TsSfl+gih8UrsMgVPFac5GoOsryHyjE7T4JqqtBpkkyAWMfNYj8NRjpqGVAUiDmJg8mERrJnDK6Sbec4Dw/G9ksrhVanLTbOSQR8QsugkHyImL45T4FhEtTudfrI63NOw9NYwz2o6fS9VuW0M/8AKad+l/KcBFyfCx0+FGNvaY/TERPoxzooei4JvfLYAsbEC0AmZ20OK9oVn7xjNMyZ8JAibaNBsOcHTA6lcI65g4ILD4Kg1Rk36sNPzwcV6GaAwmxgq/4MJ2nAVNOqQoC02k/3oHM6lY0BvhmtwnFKozLTif70eHz8Nr+fphDiO2ArIUYwrScqiMxED4gJ5wLX1GuPS8Lx+eiGrM8O2UIFEnxAa3HWx09BgY89XSsRlREbyqrAtJsY2GumGqGZQq5VLZQIFWkYJIXRSYAJ1MDBu0+GUFhSLuuVsxCtAsRGYACZZba4pw5kA+LQwCpBOxjMBIvtgYfSD4VovUMxn71MpP3QA+aw5jDPEcQ9DKqUZvLA1KQYjT7TT1uBphbs7hWp16cXZpYroFUBhmLHS5tGbU+nolrAKZYHy+fngsgD16hSe70H30YzyBW04aRXygGmRbmv6yMKVatPMihlksIXzMdeZ9saTVwd/mMGiy94DApHa8qRG/2uWKLUqgn6om/3gSBA6HMSdtvTF+K4xVA8azIAuPXrpPvifSEMkusE8wLeeAV/9Sq5o+iVfPPSX5M4OGfpbfcyxqC6e1ib6YFU4inBPeJB/wAS7naDf0x36WhJOYATbW/W8YGiGo+uRY/zr+WMPiGyuzLRR6ugzVRIIMgST/iNgBoBN7aPEV0KkBlYxpmHlczbXCHbFWkaShaqZgMohxaQeZ1kTPngjFfhOKMM/DkzMHvFjldiTe+04jUX+HKk8hXpEzygmZ9sHbiMqP3bpmZYhWQtzABB1k7HHODohqTEsAy2glRJ8Wl+lhvIvgyRrcEy5qrQMqksquAQCDM+JmjUnLexOH6FOoiwKNTMR8RMAlQBYsoMDrvNzhPiqq91Vuv/AAmgBgRJQgWUnxaWPTBvFUqpDazDA6XzETrESdcFF+iVz/8Ar1DufLz0/HFl4WtqaVVSIgZQTM6CSBjZPZ9LvVIAKx4vENRp1Pv7b5XFiHqkqiTlyLK/CM9yBoLjz+ZqYUq0KswVN5iROm0Bjz88HWh3ZJYoTG9SmPT4ibdfbDvYlOlBP1YCyMoCjUXkLdv6+qXGdq0mclWTLtBW/sYk4Aa8WTORFaLmKqXA5cz5YuM76LAFgGdVv6wP647xvd0jTRXBYgMxLC0AiZtMg6DqdMQV0ie8ETqDoP3tgmCtwlRFJyprBIqqb2t8/wB64UShU8QzooN4LA2AMmVv9r5eeAV66mpTgz8Ukkix0sf3pg3fLFvFPISLG+kk6RaNeWAtTpGTD0yQJIEiNbTP6xe2DpQqxZaZ5y8XMW0vPvfQ4BwFRQ5JsQLyH5kkxBkmBi/E8SmvijnkqDadcsafhgOGi8yWo76VM19Y+EE6i5AF8AK1I/5ban/iBAABAmekaAnBlqwo+ICSdGvIF52FtTGnlhXiAcv2zMfZmRrbrY/jgLLwlYqAMrOVLGDTIUbz49J5j9MV4bgyEJLozkiZdrACItTgXOgt1OL8LRZUOc3YSQQbXIBN7nTXmOuAM82WC2wkDb/EQPY774DtOi7XUUyPvd4scuXPD3YPBVprGE/4bKDnBEmBAIkx4SdN+uANRKKqkGQqgwpiQNAYIiTEzfzx6Phkp0qRDeb2a5OumvL0wWGglUKPChsJbPAPpl+WA1kqG3dqP/dX/bhijXpx8QOl4kaAzv7YnE8bTW1zabCOm8fvXBcBajUymVFwL5xHPeMDTvSCzhWLHwqjJMerAa8icF4esBSpiIMARqRaNFmMWfjUXxGQFuScygQRJNrAc8ArNQ/8lv46X+/EwShxVPKsOCIEETcRiYupjvD1GkDM0eZ/oRgq8U2uby0/e+IrU5kIR5N/9cU7ukdVbX78T6gDAcFU8/ym+Dms1oJ9OWFK1ClYZGkkLeo5FyBMb8/PDbcLSFspHkx99yD64iqjimDhcxmCfkflbXpjvfmZa+ut498CqcKuRlXOpI+LO2vO9rDFOD7NRRBq1n6l219gSOVtuuA83x/atTv3VXZYMbFgDB9SfQG2K8R2xVGjkARrHz29NBywb+1HZdFKmd2rRUtAYtBiIiPFMgAW/LA6vZdEECagCiFGYCbTdQuk3sRrcnER2hx1ViPETMkEXM2v0gAi3PA6vbTZ8rSSYF1QySBa9zMxv+oOE7LosxDVa6kE+LMIaZ8UZFK/PQieTvBdk8LSfvM9ao/2SQkLsCN5H7iMBwccymQFBtcJTB1IF4mb40OI7YdgqyRBMklZINo0tocZlLg6DOCanEAmM0FSMzE3YnUDWwG/XFqvDcOrf88mIGWsB62W5vpEWGB9aPEdqlqihGKC7M7NlJibE8hNhf7I0xrdkcM7BajGVvA30ifTHnOH4ThwykjiJlZHek5biZtfawA0Fhj1VHsmiogIYsIJn8renPBqNApqcqzzi/vaMdFMclkdB+98KVqK008MjYAMVA2+zYC/I4HWotlAFVwbSwljpJuSQPbBodqK57KARBkAiASdxHL5DAKQoAZURAAzL4VWARcwBpeZnUzgNLh3VZFR6jEWLgC+u6wB5zgHZtGt3jq9WftAhKYAkkXA3tr+mCNemomYA5WGOlV5LPVRv6YVCMYHesNoyoIk+hxxeDbNPfVABFufmP0wUwtKmRdEN4nKD+zixpA8v4V/TAFpRfNUY2+3YbeWLlAfverEfsYBHtgMAmUxBM6DYaGBsSOs4QPG1y4UMTMjxHptvfT39We3eDqMF7sSbz4jprYAEknTyx3snsMJlqVIDKskgsoBMyADewN2JvPLBnOtPhqZWmgbxEKAWg32J6nT8bYTq0qgZaqX8IJGhIIgkC9+nQWJti9VuHNu8a1oWpUHTVTP9euKcJ2fT/4lPvGzQPFVqGFBIHxEyBex9NTgoHbRZVp1FL+KZEkaCQfOwEaYNQNSm2aqYWCbsJj38rYpxHBAUu7CvUKxc1DJIPPaY209MB/tDwHe0oZS8EFoa9r2zhgbwYIIOCCL/aOjnAEQSAPEgJnof6n2xXtHtKjUUCkVZucKxAHObgeIac8Y/A9lMUBPe0wFLMit3IkEqfCqZRodr2thTiOAoM0kVWIIu1QbXj4bi5/egteg7G4kh8pyQ1rKB4gGO12/lgvaaqjnKVE6rlW28fDeQZvN56Rkdi1qVNi0uDMfHmjntYdB7b40O1eCpVaqu3E1FAAEKxIN9OUT+VxgnomK0EHKsCYlF5bWtiGsZsWSSTKBFJJEWYqSv+m9rRrhXs8oaamHJZZOZ2aL3FyxBJF4iLa7SpwtImGWoSZk5io2tY5tAenrGCfTprVpCoKgUKBBlzAESS1yTuTrfC542rmjO42+Jl36ED+mA8F2ZwpzU8hFjYNHqLSN56fIgoUV0orG5IPnrP8ALpil/R/pVYz4qhUCQ2ZgCxvAvsOXPAF4pl8QLkhpzM7MZM/eJA1m3IeWLUzTJJFJNIkZxPQXuI3/AMUcxi44WiZDUl8vH+ZNj+9bgtW4urJLM/lJsOWBU61TXM4PmesXnDdKlQVj9TSyxpk1YzlvmAMwdAI6zZd+KTXuUUdA4HsH6b4Jg/A1+IYMM9UksoWWI0BPOY5zb10Ana75infkHcZr+UzbTnjR7H7UpGw4dZYWyiSZIn4ja0HXbD3adNKapUWmv1dgsHfaQ0bcjguCcBVQKoFUM0Sfrc1zrubbYY4py2VWdgGMCGI2nUdL+2O8QtN1UugYTYMSRoBptr1xj0H4d6wRKNIqssSFI8WlidhbS1+mDTWo1SoISwDETeTECb9Z1xam5A1OvPHIERlHlLfrgb00NyGjozmPSYwBX4iBLPA89f1xSpWkTM216aYEeGpnxRmBgg5mIA6aeuI1OkIADADUZzfzLSfUYIVo8YaarTDGEAUeQtswG3LEwx3VH7g/7v8AdiYYbStDhuIIzE0FFrEVLSL21t8+mLqrlmUVKXhifC+8kfa6aXw0zH7tRj/lO3VotgfD02AIyPLPmNtogG23hOvPAwB6FUso7ymIINkeSAZIkmBMRsdcGajWkkVaQuPCadQ238QIv6R0wwGKapUJJ+yk4oOLJ8PdVf8AUkD5mPngrP4n6VmIRaJXZsxn2YLfDPDJxAp52yF4JFNAZmLLI3mxwzTqGCcj7620tOv4a7Y6KVS5KwCZANrCPT08+eIYSPZ71wqVB3ZDK4JBiVOa2mYeosTjEqcG7VWRWpgz4mNOrbSSc0AKJ+9ccr49JU4asSCaIJGhMEiZsD9kaTAwj2hwZmqWpzmUEZQScyyYGt2EWjZpwGDQ4Ms7U1rIGUeKVdRp9kyQ+1gf5Gq9m1grZa1OV2hp05ozdLT+eEWUvly0ak6klWCgzIABWamkaXmT0c4SjUp0mDUat3MApcgLTUGNR8JMW16YJhHtCiaYXveIQ5yQMlNmIgj70a6b+cYd4OhZiTBGhcRmAgycheJJOp2xOL7N4qqqleGaJm+S/uWidiTy1xsVeyMqifC+4Ya2OhXU9ASfwwE7I7EdiHY0youAM9zqJJUeoGPQpmgyUEGLEm9tZGt/w54R7Hqv3SjKZEgwjQCCZ2188Hhitkb47SMtrGb7SPX3waglWlMSUKi5BBPy/PBU4YES8E7kb+9vngDo0GFcnQALHzI/P1xGaoPsMTMeGDt1Czy9NsATjODDLAcr1XWNSAdp5iDivD0fCBPi5ssbayJExiNn5GT0/wBp/DFKFGoDULSAwsN9APIYKMOGfPmz2jTaZ10n8vPF0oXNx7HHWq6+FoHQn8Lxivegc/Mg/ngJT4Y6zB/fOcLuc3wnNB1sJIsRuZBt+mGw86A/z9cSjS1OTLrAMSZvsSMBn8fxQRl8aXDEA2abDUBgIzaxBt1OMpmPdnvK4gsSBlLRIkCViTAmDfXTD3appM5hHYoozEAwN4nfW5EjbCFPs+mxzd3UHIxNvMjT12wZpbirA5GBaPCCjKCfckjyv+enwfEOaSpTel3gM5WDXggtBDH7wiJF98Jv2TLEnvI55Z/SwtF8EoUxkVkSrIbxHIc3Ig7ASF02jBI0uHaqqlqzUqd9paZ3kke0YPV4dypAqIJ3NNj8s3yEYxe0e0KlRMvdE5DN3pIcoB1BeABM+2A/TOIowO6MQZU1KJI/0lra6jBW/wAdC0SAQYULJUxymB6485R4YtP1qZRP2KgvMRci43A0tjtStWdlQuj6+EPTkEReRYxnG8aWwtRSoiMQrkDxeCkXBJmYuCdRJFhl1vGIXq/0ICfr1Mm4CPzO0mNRYHb1xV6DhvCyx1V7+v2fY4Z4Hhq9WTlgQCph7m5gh1SLC8THXeilgBIMbEggGLzeCB5gfpWcTg+FKLlDoAo1AdiTOhuOt+mmA56skRSjQE5gTvoJ/HBzUiAQZjQAsTt6DS972PMd4akWJIVonUBYiOpB/YwKUpcOEqFjUIJBBCpzGXdjNidRueeK1eGDCTXqCNsiNb2F/YYfbs6psBfYxMdL4A/COoJyho/xLH8vWMVOl6HC0xrWqtFwqqqgGLSM5B/G+uLrQBmK7qORRReehgiLyBteNcHXg3jxd2psSC9O29yGNx8otOBDgHF81KDt3iWvtvpGs67Rcog4MXJrOq+HNlpiTE2BLQJk6jY6bUyIZmtxBmxzCkfx285xDSckKpQ9TUQAeUTp1wDuqsfApOkCrTsdAD4gNL2JtrtI6a7G7sVKZ75zMhVZVsJKyCuhMcxY49JxfBB8ql/DMnwxpeJmYx5HgOzWV1JNOBGlUXgbkAnbQA6+3sihnQaxqBO86SQNLYjUJVuGZzC1CMsiAIEwutwTaIuY+WJw3ZqUh4YDRrkmJvF2v8sM0aTAyFUSZuy/OJvbadsUqZhsGsNCvqdfSIi3nigqcO8A94LjTLH6xr1xV+EfQVE6Sh/Iifliy1aoCgIkxpnG2gFr/hgPf1SxlFAA1FVTJ5DT3JwGbxXD8eWIpmiqL4QzPJYAQG0tMTHMnXHKHZtYKzV68aR3RJ8IknVBf9zhzv6pMlEVBuXST0EExHW3Kcc4uo5Qju4kQJdNxrEzF8EXfs+mpI76ta2inT0xMLVHrMS3dpcz8Y39MTAOFbYGR+/35/PFaSoVnu111yg29ZH7tjtNV+EKpmblVEC+4A54IndTbp8sX4YZM/ijNltJEQIOnMRggF5EAbhQoBjSbbfnviByYEC20Lc2uYH4RrgqrRqSPfFmI6D1/dsCRQXdQgAgEECN4I66A764PToEX/CLeVsB1nMTO3v+/wBzhavSYpnuCPGouCYm0G/iXbacPKpA0HnAwIVWvv7m0/zwVgdr8IUeQW7thIGYxzNiYHP1wlRpSyixzQCDEG+ljf8AK2uPRcbwlOojK1NGygsFYAgETtoYBtNsZHD8PwwZD9GoQDJLU6fO32YgajcwOuImPVVFmZ+Q9OWKcMsuxEzAEXtcnTTYdbY7U4Kkf+VS21RToZIFrTe/XAqaU2UhUpnayQJ5zqR5HbBoTg6TLnBaQXkSSbQLa9CPTB81iZ/ljF+g0kqAPQpFCDBCmxAkBhJB3vfGkOCpW+ppdPq09xbAEoibkj0x2nUmpAvCmdLXXXlofODywA0qYnwIbz8I+ca+uO9yLDJTgaDIpg+1j+mANX7QRTlzLm5XPyHkfbHPpqcmtuadQewZY/rhStw4FRGCLmYgNFiU0MgQDlsY22w/S4VNwDzMGfecRQOH7So1D4KyMdYDAn21HthuiIuJP9B76YEvA0hYU1gxYi0Dpy6Y43D5iZghhB25/O/7tgDmoOfzxm9rcaq0mIYGfDIbTY6cr4JW4alTKBKYEuA1pAGVrwZGoGl/nhTtsklVgRE6CNdL7W0xUt481SzFgFDQsHTa4tvYjDNSsQGUmSWBgsCZ8U84Fok7k8sNVGadEA5CnT2mPs7Tio4qqpsVAPKnSHTYT8sGOABSYsb6Wjryv5YDSyIhMqqgnNBWJmSCZ5k4LSo0mBVlzNU1gnKBEgAZiBqJIAJHnicN2RwqkMtAZlOYNLGJ6fCQNgQYwXIT+m0+7c51AIYDxC5y7DfxWsDrgg4rMoLVEkjdwCSPCSNWN5v/ADxemEAzQSVBjwUwsx0WeUCRoJ0w6/GFXAkXBOiaggbC176k4gr2YaTsUcgAjMMz8jrBgxpfTw4Fw1eiQymtRHhlvrVbbfKbne/I+h+F7UPerpEMTIW8eAmSZmSBaetsOdtcYy1GRSIN4yreRBPwnr54q8Z/Z3GKrK5dQptJYXBFz4oieesH0OzxFGjmOVlV3BgZgBmic1tOvmbYwqFZmqLTUQDd2VB4VkAknKCDB+ZOxOHqnaF5VAAuhk684KRr1+V8Q8Acb2SXdfAjjclkIgA7EwbxEg/ngdcqpKkoI/xLy2x6GocwQOqnP4XBUHUfKY+eOcfwhCoKdOIhQAFgDa2WYERtripY8t9NQfb/AB056fOcD4XiAwaKiwW0EEmLddJHqcP16jmVZpWSCpUFT0g2j9MKfTnWytlEaIMotYRlAj0xWeDBVESR6iPyn9jA+I4mnElhcSJ3HO/nbB+I4NxDOcxAzXZies38UewPpNOIdgtmYRtJ/XAwsnFU2urqeRBHyjywtSq5g4QSgPxXg2E+LQ6YY4XtN2PhquxnKArsSx5RNwY1E67Y1OG4DiC8PUqZQYPjJ2nmeeIuEuyRlqZ6gyqoLTtOg8tD7Hlj0NPj1Ok+x/HFXpBPCD4j9poY2Mm+txbDA4hvvH5+WKs4FT4kagzHIYHSspnMPETdSL2UbaQv7ti78W8/Gfc2x1qzx8Te8YCrV7b6WWCCY0F5m5nS/wCHatbIpLBgBz19hqfIR1OuKfSnFixzMYA6T7jDJqG/jnmJP64DGqcfTNgyrJ+6QTz/AHc4er8ZRWB3iCAB4iFNhyMEab3wZK7hpBI2J6dTriPxDX0vrIBn3wQp/wCo0f76n/EMdwUcSw5f9v6YmAoEpgEKHDEak57+u1hYQMCPCktPfVQBoF7sDlc5SSOmO8RTdRIyMdlVjJ9WUKPU4FQfiGn6gAAXzVF12AyzJ12jDgtQpPBLVXbxGPhW2lwBc67xpbDCUxHx1f4kFuXwRinB8LVyklkUs0wZe0DQqABp8sMfRWNgUPmXH/hgoaZQxYB5Ij4l891N8FaoYnxfxL+Pd44tA7Mn/f8A7cdrUpXLnTxW+0LkHmP0wOrBGJALNlgGQVkmZj4fhiOuDDhV1zvPkh/IYlQkHRI0+JttNUvpzwCpXbZZkwACL2/e9tfKKI/DL4pepcQbJvF9Im2PNdpcH3Bzd47AghWamtrTsyy1oBMamN8blXiqggd1y0q04/8AlitQVX8DIuUgiDUp+KxkWLSIuenPAIDjTToU1Jc1Hpgu8iZKxYljBna1wbXGNDsKmopDKXg6SQTIhDfcnLvz6RgXbHBB6aCmFLCAIZdLkgnccjOvnjNp1OKpMqkU1UbGpT0zBRoJMkxYG++hIejq0FJE5m2ILACN9AMVr8HUZl7usaajbLTI15RpFoEG+tsXbMBOVYH+LXy8P5747nqXAWnPWo1vMhDfpgqnEVAFDqXIMXGQH18JA9sH7i3xv/2H/wAIwuqMKeXOgsYs58r25csHC1dJpaTcPtH64CJQAcMXqGBAErA2vAE/1wSpUESWO2mWRO3LC6d7Jzd3EG6rUuZtY6W6+px2m0qcpBKnS820mRbTXBTQpGPjcc4CE/8AxOKrQb+8bp8Gu+3lhcCspVQtsok5w0GIjKQpOgvO5ti4zjUhjNhoNt76ZhzxAU8KbEuTBm4Gvpb5e2M7t0hcpYsTBiCFGo6E/PGpJ5aT8seZ/tFxZL5QQSVsJkySRcKpIW2pEdcEvgIqNc9Tp8A/FSSfX0xFopIJaqYvGZRPnCiP35YpRpuFAZ6TEakPUO/SlGttcdXvDJy0o0vVfeDNqR2PL9cVjoX0RCVJ74kG31o05XGmmsm2L8N2fSGeoUVmAAQ1KjOZJ1K5VpgCZgA+eIadXQIhP+dhHqUk3IEZettrvSciHWkpMiDWBIjU2ptBmY9cRrqVaVJQVmqwi7SoHp4T4b8xhB6iM4Az7j4xYSo5QdOX83qtAEKoYSZuC9jB3CAesfjhR6KFgGdTBYnL3huYgECnYX87C+CGsiKCBmBKwTmGh2ssgSoOvvAxrdpKj0FqlAcvxSfQ3Gtxr54yajQYDpOsk1AP69Pww/wbM1HKzoJDGFUsb3iSY2Ox0IvirGXSdNO7pnmPrIPnLxHTS/XGl2Rwas/hphFH3LDaw8Jk252wvwnZdZgWMLTAJk6tyiCco39cempUMqhbWAHy6nEJEcLmkgz/AJj5+lwNMWpnRRMc8zE+5xytTIBIWY6kaX64GjsRmCAA6ZpuCNbAkDzAPTFaea4taedwVqWLfDVeCZ3mbDlp88H7I4Kk7ZihKrAl3mW5bDqbTfCX9oqLLUPjQZjmiCbHaDlFzvm22tj0fZtNRSQqRBUHNGsgHclt9DgzIq3ZFN6xqszgwLAwIvqN9d8eV7VFDMUdTkDEfEJY/DBgA3mbER5Tj2lOgdZ11t688Zfa3ZFNlVmVjlfNChQSxBFyTuSNI22nEWsTsvg6SOqyUOdrhbbhRDAwBmIkEEzj0NDsRFljWrVGJJu8AW0CgGI8t8eYq8JSQs4FQ+IhUBtJMTqPF5mOQGh9XwyEomaoFsJkAs3M/KdDipF3WlSUFQSBMyWM9ZadvkMEIXZR6TPuDOB8TwoKzmbw3GmouLRi1O5sxHMELynTX54KgSmoju09p1/Priy5TcKvsf1wKqr/AGWA86f6Pf5YH3VUsIdCIOaUIM2iIYiLmx5DAGrIov3asbC4mxMQAbDXFKwSf+Gs9FWR5Wt544/CORDVN9kAta1yffFm4U6h40N0La/6xioWcDZWHWTiqZCFbK151Zh+emC1eCJ/5rgb5VUbaSxYjHChJVA3wi5K6CdbN+/wIp3g+4Pn+uJjjURJ+tT/AKf/ANsTDTHaltVcf6XPziP6YE/FgQPHdhYKSYzAkRFre2L99U++/ucWWu8XZvOTipqw7QpmwzyLEClVJnlGX8ccTi2ZoWlUiDJZCCNoA3J87YsKtSIlr9TiyVnykZmN9T0C2G8XxF1anJnwP/A36YozsCp7uoYYGALwL36SNPwxyrUOXMxMDc/ri3D8TnXMpLDSRJ8x0wEqVFGocdMj/jEfPCS+PiFA7wgAk2gCVZR4csnzkROH6lcgEyfna4ny8+oxfhagRWmIDXnSdNOpwUBQDpmP/tVf9uK5gXQANYksSjqAMjAklgBFwPXGhV4qPiOXQAafjiNXiCSRfUn+cYhhBuMoad7Tkf4kxn8dlqsjU/EUIJKAt4Q6MYiZ+GbT01nHoDVB1UMOoBxZKhMryAsLRJbb0+WC4lSvTUeKb6eB7+mXGWnHqrhaS1GENIWk2xEKPCAAM0yfunUnDXFUmpozILgho8oB+U4873lTxSz+LWSY1EXPWL88C16lqsqTlqC26t+/2eWBtULOhVXgAycpggwB66ne3njx3E0WINiSRCidzYX01Ov6Rj0XYPGHIVYyQYWDIaBpIAuOWBLrT7wGYVjbem4/EdMcSqqz4X9KdTl/lx1a8774vT4gai8b2wVKtcCLOCeakcumvTXX04aoWT4o/wArfhE3xZqvX8P1n5YBw/FASzlVJkLLKbSb9CbHyjriAy8Su4f/AKdQx/22wjxNHOCw1mwyvOXeRlmTc3HIeWpTqExv6enW2u+OCurEqGBMXEjfprgPP1Q2hpsBf7JEk3tYe2F+FDeL6p4kxARdN4Zw153G3pgvGVBRsaqqkQGJABk5RJ3PT9RC3DTWYoktFRzJFoLE2PICLnyxWTq1GUGOHqExaQkXtfKzP/2+wuFOH4eoSzVECrPhHxGALQoGbYnSNoi5LxvDmkVzEeLSJOh006jCVTjIuwyA6SYEaDUiV/H5YByBeI0gyCOfTr8vPCfZnAFixQMAWJ0kExe4UKTPU7yZwjXqg0yQVNs0khhGxEag85v1GutxdYLlUOD4QM0jbKDf70k2FsRHavZTi4XN1uPmYkxynFOE4c0jTApsCskLlEsARmOVb68p0HlhWrxCwZqJYG7OoAOsQbcsSlRppJlZudVBLETI0JPUHfFI9DX7SdpC0mF9WABAnWGIE9L/AJY1EqZQBkaYvGUwevi648v2RTUuozSVGYgMGOkD000t+XpaSgLJuQOp0OI1KtV4mbd3V/h/ngXDvlULkf8AhFr6ef6YKjrAJIvpJGKFh1PlPS074Kyf7Rh2y5KT6EE5RvpDZhGp2O2NDh1aAAuWBEeCwAiwzG1t/lgdbiAXFMTm+L4WaAJEgDfzxzhKqAReQSLhpFyYMiZv88EOUjUHxCn08ZmP4Y+fO5wvxuc5VypBYZiXINjmAAyGZiLnFvpAOmf+Bz+A+eF+KrKRlkh9UGWpMi8xEx+WCsrt/gKz1VVEESCWzmAVBMHwzcbk+UnG7wdNwBmSmjL8PjNTaM0wvUR88Do8UXSVSpfY02W83nPHLU2wya77IxF7iCNfMeXvios6nSVPMkx8oPlrgdGk+aWAAi5zDxEbxFhfp64QpdpMzVEFNiy2KmBaYm9o39QDBtgSGr3xYpVVcsAEq0kmTYExET6+41rOCT4Qrf64/wDE4HRLXuh8mO34YoapsDTbKDe6+0Zp5W64pmJsFgCwEER6RY9MAZ6T8lE8m/liPmVYySfDYMuw/wAUYVWteIaR0P5C3rivfGLq/T6t/wDbf0xU13iuJZJPdM0D7LUp9AWBO5k9NdMC4eu7BmNPJIAys6TAJOxIGvyxVaoLNZ/h/u30kf4ZjFRUP3XttkafKInBNGDNyX/qH9MTAstT+7qfwNjmBqtWlT07tYJEglybkblsHqUEt9Uluh/Cb4rS4ZBBNR5BmyKN55kx64OzyIDAD/JPqfFf0jAAzILZKYO1ox0U0iO7SNfh579T54sEvAYyYuEB+Ra3vg1VKcle9YEDZRNiFO0TPS2AWejTiTTpRI+wt99h+eHayIxytTSFsAV0GsRb9MLpQoyPrKhghvEJuLiAIUc7qTphhlTMWzkz0/lOnPEWKrw1OZ7qmIMjwgR8tevlpiwpJIGRN2sAL8/5/wBMUqqDEOYnxWi3Qj+WOBEzMDUcEQSAQbRAJtY23n8sFEThaebw0kzG0hVBg63gEb4i8NSMHuqVoIhF5eWC0iggguTtp+GmA0qNNSYaoWJlmJBPlewHkBgCNQpf3VP+Bf0xf6NTjL3dPKdQEWMAZIFqjjlZP06bHF/o4Fs9Rr6nJt5KD/XAJ9o8BQp07U0EzY3kkGJB1vFsedFCmI+ooTrPdUtuUDXrjZ7ep05RHasQCHKggAkWEkQY6f1wiBRI8JqReT3gebQfEZ1P3flglBCUKajLw9BSzL9jMT4hzOny9MEbjFJju0YwAxKqRl1CxoBcmOp9VeOqUwQVzPlJOYsNkY6Kgm/rr6XaglMsv1rRIzB8kHNMhYK9LgnqcEbnYvFhrOqGIC+FRANgojUAxjYkaW8oGPCgEimKdWqlUQTUMG5JkagBIIvEmL6CPV9lMzUwTVL+G5JKkvytED0B85tGpT9TkQDvEDER4F9YvYX9hhemk5QwmYk5oAJ1ifi9t9sGWmIGYvmN4zTE7SAP2MFVFIM2VlUqBJGUb5t/QfOdRhoUVjKEUDlAj20xUUVA+0P9R/Z9cD7oDdz/AKo/CMFXfh6ZZSyIWWSpKqSpOpBiV9MWdVj4RfoML9wog5qhuJlyNSB00+eKtTBynNVj/C0TaZNgdvO+9oC706ZYAoh1F1XXUR6j8MYtZirsoJABIA2A0i/ljYZKYg+P/qPy/wA1jBx5qqyl2+rcHMQfr64vMG2YHUmOeukYM0WpWJkkA+YW5jfnA5zji16hIBMxYeCnAF7A5TAt088LBqRcStUCQIWs+1rtOYgehnmJxd6wKlQjKTuKzMQbAEWgRtIO5uZwQQ1WzIoyiTAyosraZUAaix2FhMagzcUwGWlNNBIAVrkzqTqzHX58jjP4QogLS9V7he9rSYOxAyAAldxJg30Af7LSnUqWRIA+zUe0k3IDG5O7XMHBWt2etQJLsxJablrbRry1/Zw9JgzPuf6j8sKuyFoBYkcmqACx5ED9+yNFKzhTmpmwJzB2jlYvGvQYK0/pBDAEmW0kkbcvljtKvMmfO/rzIwvR4VUcsBdlhtY6wu0xsdt8NMiERkQjWI9dN8BcMSCJI8jjlMknUj54EzISFy2vYSNidBH7nE7imPsLMW1Me84C9V5OUk6Gw8xe37vjI4xnov3oG8MBbwkgAmxM+U+WNQUE+4s9RP8AQYFxXCU2UqUEMDYFh+B54BPspGhxDt4syktmzKQADJ8jI1HqJH2vxGVcqySQRIM5dLk6zfCn9n+DofWIaclQZnQEySo6a3k67YD2tw1BaxH0agdGByX95FpG2KzfDR/swTkqgAgq4BvcygbTbXGxLDc++MHhqtGnw4Jo0lRmuqqFGhuZIG3zxpDh6ZEFY5qHqQOkBotgsN1M14mdr28/5YC5IBME9OfvhNURagQUWyuD4y7NBAnRiYFj7jHUeg+ZQtMxIICj32mx1wF+E4qq85VhATLMxU6TAUrOwuY1tbEFY839G/np1wVKigABVgf4RgLFPuC/JTGw2sP64qLd80G5uOZwHMbyTEbk/r1OCPTpkHwCxG7WmeTA7YGaVEgjuljTVjM2529MEZ1Sq8mGETb9xiYdzjbhaRG3gH645io5R4nPOWnVsYvTZfWDBIscC4Xi2diO4rC5AkAExuBOmLLVXmvuMdpcSBVUZgDlb7Q5Tz6b4gZRXLD6thf7ZUD8ST5YAKVaWZl1sBmSYN5MsIFhvOIeKpAmalP+Nf1xz6fRP/MQ/wCoeXO/LBVqfC19cqwebAH9+Rwb6M97AAak/wAscTjqZ0qL/EJn8tsX7+mFaXUXGrAfe54HHW4VvvLa/sfI/u84p9FcsxVqZzHk9omATufOCJ8sVTjqGne0v40/XBE4umbKyHyIJ9sReL0+DqjWpTPU/M2sBy1Ok4KnDsN1OpJnAWrJPxgDFKXErJuQIEkqY1O5AF8Ad6J3ZBzMjy26WvgzFz8KKbWOf+WmFa9Wm32p8lJ/AHDPDcVTAtmMb5Hj3jXBYxe3UqtUCrTp2AljVuZ6RMCfMknzwhwvDVmpl8qBebOBPkTAI6mBcDY41u3uKQDvBM6GVcWix02+ePJVe0aa0KgzES7McwjWnTQR6roPTbBLhitSqVVyjuwDbN3ilSGWM1iTYEwIve+xb4rh3dz9bw7MfFAZyfE33QkxtM7EkbYTHH0gouoBvEbRE6YWf+0SgZUXvG1GUkjMT5aiw0vb0ifGqeza29ajmFipBEayJBN9Ofni/BUeLUuKL8MFUjOxYsJicvwzMGTP3hMYUp8ZCFq+WlIiCzSSQREFQNN8F7Bqq/esqMFzCGyNDeFVMEKAZKyAAIG2CtngqjVFpzVo2eZR7wsj7NsxgyoJA6iY12zLc1KQWNWBHuZgY8zRqAVVaCihz4mUqANyWZQBNzrj0VDi0eyMrnfJ4o84n9+WCxZq7kSjU3I6ED3LH5TqPPERa5IE0xafhYiJ5m062thkTrla/TAq1Vws5D5QxvM6KDA64Ks9ByRLIFBBsDeDPPmB6YqM+YKCrW5NAHnztpN8IntelBJaImcystxqBmAkzaL3thJf7S8JmKh5dvsrTeST/pjQC/LA1p1C5iHpZTuMxI+RDe4jrpjzvF8C9SpmNRAhBDF6ZgwdlBaRuc0WEb29NTkzAYEkmNDczuevT2wh2pRAUKWCmS9wdIIsRvvHTTBGXU4OnnUmtSCKc+VadUgtlZRYkjKJBgctsWegCf8A8imLzDJUkexmYBMg7HUDCtWoqQWDrN5ZGWNNbWPTUYS+lKKiU81JVAzHPKm+mUAEkmNBJ87Ek1qVKAJCjiF3APcNCjcwTGoHIDaIwXsjjDSotVdqjq7wsoszBkRmACjLrudJvhOkxYnKlRuvd1LgbgwLdTA1x6DsThctE5qZBL3Uo1wDYwRO86YEI0e3qCqCadQHkFWPUljz2xo9l8QrJIzqBctUWBmYkmPFGp5E6Xw3TpKNKfrkA87GDcfs4imQFyNJFx4dOon9zg05w66yCD1GpG8ZiYnYnF8jE2dQORQ/7umLiYMI3pl/X8cUYvP/AA22vK8iZ19PXAV7m4lzv8II/wDLF2pmxLWm3gH6n8sQKZuInn+umKcdWIgKjOZAhWUQDuSSABNrX5YouFn7bfwrPlOF+MpvGVKhDEEKzBYnqAJm08ra4ZRTEQbbfjiZdtfMRz5gc/3sHnOz+xGo1O+q8S7i+YQAokFbSbC50HPTG/U4Wm4g3Ebqpt05DHatKVgqpB1GaZ+WuEX7ObMDTbIQIhmLgCeX6HUbYIu3AIyKBmgSANIsVJ1zGQee4wROGZrFjA1EG9iOcH1nUWOOrTcCAE1hfETa2vh8O4321xO7YsZXMpEN4svoJi5m55D0wAqvZYMHvHBEhcoTwyRoYmLC0487xvZzUXjviIupFJZiOZfXaY8o1x6oOyjTNHNhPyn88YnbeZiCKbO5sArLAWJNyAJ1tM8hglE7K41qinM7ZlJtlBJUGA1gCZF4i04c4emWBYuy3tKi/K3pMTaR5Yz0oEEMEZabStQNmOhsxAEEWM+KIYSNsbFOh4iWynkoJA3ibWGlr4pFH4QMsF2/hAM7bx8sB+hyAO/aRqFRP5xhn6RUvKJ0+sj8v3zwg/EVmYgUQt96lJpA3MNta14OBx0cE3/9Lf8AS/8AtjmCmuRbuqh6hqInrBe2O4AdDs+iBalTF/ur+mLUuFpqTlRROsKBqMTExhtccLTGiKPJQMQ13FgzAX3OJiYoVPG1YH1j/wARxPpLkEF29zjuJgyoajEQSSJFicWq12VfCzCCAIJFsotiYmC+neA4qoSZdj/qOB8TxtUZYqOLH7R5nExME9BPxtXKPrH+L7x5jDVTin7r42+E7nExMAtx/HVRTYio4MDRjzHXGdS7SrX+tqa/fbn54mJglXr9oVgbVaguftN+uD8JxL93WbO2a95M/a3xMTEWBjj6v97U1P2m/XF+J4upHxvoPtHExMVBOyuJfvD420O56YpwFZhxlUhjJFzJvGUD2GJiYLD9XiX++3uccHEODZ29ziYmCl6Fdw5AZviJ1Op1PnfChYnjKTE3CkA7geIWO1rYmJiDeFZvvHUbnGbUrM1HxMxkCZJO+O4mBWYqj8Pmb4YyhWDqAGv4hY6TrriYmKilBjla/L/4j9T74c7PqsM1ztviYmAbo1WnU++EOI4h++PibYanS9vK2JiYK03rv95vc4T4viXkeNttz+9sTEwKYo8Q8fE3ucTiKzTT8Rs4Op1hscxMAyarcz74HTrsZlmPqcTEwFBUbmffpiwrNm+I6cziYmApUrv95t9zjvfN94+5xMTAD75s4GYx5nFK9Zr+I6Hc/dOJiYIPTrNfxN7nAErN94+5xMTFKuah5n3x1Kh5n388TEwAmrNJ8R9ziYmJgj//2Q==');">
+    <div class="max-w-7xl mx-auto px-4">
+        
+            <h1 class="text-4xl md:text-6xl text-black font-bold mb-4">Find Your Dream Job</h1>
+            <p class="text-lg text-black md:text-xl mb-8">Explore thousands of job opportunities tailored for you</p>
+            <a href="/jobs  " class="inline-block bg-blue-400 text-white py-3 px-8 rounded-lg font-bold text-lg hover:bg-blue-600 hover:text-white transition duration-300">Browse Jobs</a>
         </div>
-      </div>
-    </div>
-  </div>
+    </section>
 
-
-  <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col md:flex-row mt-20">
-  <div class="md:w-1/3">
-    <img src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Femployee-satisfaction.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.6696&fp-y=0.2932&h=415&q=88&w=622&s=407154855903dd6144a39dbf4a6ec0c3" alt="Company Logo" class="rounded-full mx-auto md:mx-0 md:mr-6 mb-4 md:mb-0">
-  </div>
-  <div class="md:w-2/3 ml-6">
-    <h2 class="text-xl font-semibold mb-2">About Us</h2>
-    <p class="mb-4">At CREWNNECT, we're dedicated to revolutionizing the way businesses connect with their manpower needs. With a commitment to excellence and innovation, we strive to be the premier destination for workforce solutions. Our team of industry experts is passionate about matching the right talent with the right opportunities, driving success for both businesses and individuals alike. By harnessing the power of technology and human insight, we deliver personalized, efficient, and reliable manpower services tailored to meet the unique demands of each client. With CREWNNECT, you can trust that your workforce needs are in capable hands. Join us in shaping the future of manpower management, one connection at a time.</p>
-
-    <button class="ml-36 font-bold mt-16 text-xl bg-red-800 text-white px-6 py-2 rounded-3xl hover:bg-blue-800">Learn More</button>
-
-  </div>
-</div>
-
-
-
-
-  <div class="flex justify-center bg-gray-100 mt-20">
-    <div>
-   <h1 class="mr-10 font-bold mt-16 text-xl" > JOB OPPORTUNITIES</h1>
-    <button class="mr-10 font-bold mt-16 text-xl bg-red-800 text-white px-6 py-2 rounded-3xl hover:bg-blue-800">Find More Jobs</button>
-    </div>
-        <div class="max-w-4xl grid grid-cols-3 gap-8">
-
-        <div class="max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
-                <div class="bg-cover bg-center h-64" style="background-image: url('https://media.istockphoto.com/id/1326873289/photo/shot-of-two-builders-shaking-hands-at-a-construction-site.jpg?s=612x612&w=0&k=20&c=mA32SatnpxHOQ66Imi5Ifh3MVRF9kkU2k1VMjUZwdp0=')">
-
-              </div>
-                <div class="p-4">
-                    <h2 class="font-bold text-xl mb-2 px-10">Sea Man</h2>
-                </div>
+    <section class="bg-white text-white py-20">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-4xl text-black font-bold mb-8">Our Success</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+           
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md p-6">
+                <h3 class="text-xl text-black font-bold mb-4">Client Testimonial 1</h3>
+                <p class="text-gray-700 mb-4">"Crewnnect has truly transformed our business. Their innovative solutions and dedicated team have helped us achieve unprecedented success in our industry."</p>
+                <p class="text-gray-600">- John Doe, CEO of ABC Corporation</p>
             </div>
 
-            <div class="max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
-                <div class="bg-cover bg-center h-64" style="background-image: url('https://media.istockphoto.com/id/1326873289/photo/shot-of-two-builders-shaking-hands-at-a-construction-site.jpg?s=612x612&w=0&k=20&c=mA32SatnpxHOQ66Imi5Ifh3MVRF9kkU2k1VMjUZwdp0=')">
-                </div>
-                <div class="p-4">
-                    <h2 class="font-bold text-xl mb-2 px-10">Architech</h2>
-                </div>
-            </div>
-
-            <div class="max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
-                <div class="bg-cover bg-center h-64" style="background-image: url('https://media.istockphoto.com/id/1326873289/photo/shot-of-two-builders-shaking-hands-at-a-construction-site.jpg?s=612x612&w=0&k=20&c=mA32SatnpxHOQ66Imi5Ifh3MVRF9kkU2k1VMjUZwdp0=')">
-                </div>
-                <div class="p-4">
-                    <h2 class="font-bold text-xl mb-2 px-10">Civil Engineer</h2>
-                </div>
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md p-6">
+                <h3 class="text-xl text-black font-bold mb-4">Client Testimonial 2</h3>
+                <p class="text-gray-700 mb-4">"Working with Crewnnect has been a game-changer for us. Their professionalism and expertise have elevated our projects to new heights, leading to remarkable growth and recognition."</p>
+                <p class="text-gray-600">- Jane Smith, Founder of XYZ Inc.</p>
             </div>
         </div>
     </div>
-    
-    <div class="relative bg-cover bg-center h-80 flex items-center justify-center mt-20">
-        <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
-        <div class="relative z-10 text-white text-center mx-4">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">CREWNNECT MANPOWER</h1>
-        <p class="text-lg md:text-xl lg:text-2xl">"Unlock the full potential of your team with CREWNNECT Manpower. Empower your crew to soar to new heights with our comprehensive manpower solutions. Whether you're seeking skilled professionals, seasoned experts, or enthusiastic newcomers, CREWNNECT has you covered. Our innovative approach to workforce management ensures seamless integration 
-          and optimal performance, allowing your organization to thrive in today's dynamic landscape."</p>
-
-          <div> <button class="text-white bg-red-800 px-10 py-2 rounded-3xl mt-10 font-bold hover:bg-blue-800"> Join Us </button></div>
-
-        </div>
-
-        <img src="{{url('images/joinus.png')}}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover z-0 blur-md" />
-        </div>
-
+</section>
 
 
 
@@ -148,11 +94,7 @@
 
 
 
-<script>
-    document.getElementById('menu-toggle').addEventListener('click', function() {
-      document.getElementById('mobile-menu').classList.toggle('hidden');
-    });
-  </script>
+
 
 
   
