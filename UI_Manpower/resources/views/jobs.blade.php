@@ -20,6 +20,8 @@
           <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us</a></li>
           <li><a href="/applyNow" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Apply Now</a></li>
           <li><a href="/login" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Login</a></li>
+          <a href="/login"><img class="h-8"
+            src="images/icon.png"></a>
         </ul>
       </div>
 
@@ -46,21 +48,54 @@
 
   <div class="flex h-screen">
 
+  
    <!-- Sidebar -->
 <div class="bg-gray-800 text-white w-48 flex-shrink-0">
     <div class="p-4">
         <div class="mb-4">
-            <h1 id="sidebarHeader" class="text-xl font-bold mb-2">Jobs Available</h1>
+            <h1 id="sidebarHeader" class="text-xl font-bold mb-2 text-center">Jobs Available</h1>
         </div>
-        <a href="#" onclick="showJobs(event, ['Steelmen', 'Plate Welders', 'Pipelayers', 'Electricians', 'Air Conditioning Technician', 'Aluminum and Glass Technicians', 'Pipe Fitters', 'Plumbers', 'Fire Protection Technicians', 'Carpenters', 'Gypsum Board Installers', 'Decorative Technicians', 'Plasterers', 'Masons', 'Bricklayers', 'Painters', 'Scaffolders'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Construction</a>
-        <a href="#" onclick="showJobs(event, ['Special Education', 'Early Childhood Education', 'Pre-School', 'Speech and Language', 'English Language', 'Physical Education', 'Elementary Education', 'Intermediate Education', 'College Professors', 'Special Tutors'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Education</a>
-        <a href="#" onclick="showJobs(event, ['Chef', 'Sous Chef', 'Waiters', 'Chamber Maids', 'Baristas', 'Receptionists', 'Front Desk Officers', 'Security Guards', 'Bellboys', 'Busboys', 'Kitchen Helpers'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Hospitality</a>
-        <a href="#" onclick="showJobs(event, ['Web Design', 'Data Science and Analytics', 'Cybersecurity', 'Artificial Intelligence and Machine Learning', 'Network and Systems Administration', 'Mobile Application Development', 'Technical Writing', 'Digital Marketing and E-Commerce', 'Cloud Computing'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Information Technology</a>
-        <a href="#" onclick="showJobs(event, ['Garments- Sewers, Cutters', 'Semi-Conductor-Assemblers', 'Food- Packers, Food Technichians', 'Automotive- Assemblers, Painters, Mechanics', 'Heavy Machineries- Mechanical Technicians', 'Specialized Machine Operators'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Manufacturing</a>
-        <a href="#" onclick="showJobs(event, ['NURSES with specialities in;', 'Emergency and Trauma', 'Critical Care', 'Oncology', 'Geriatrics', 'Pediatrics', 'Pre-operational Care', 'Cardiac', 'Dialysis', 'Neo-natal', 'Acute Care', 'Anesthetics', 'Other Medical Fields', 'Physical Therapists', 'Radiology Technicians', 'Bioinformatics Technicians', 'Biotechnologists', 'Biochemists', 'Speech Pathologists', 'Dental Technicians'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Medical and Healthcare</a>
-        <a href="#" onclick="showJobs(event, ['Aestheticians', 'Massage Therapist', 'Hair Dressers', 'Make-Up Artists', 'Nail Technician'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Personal Beauty and Wellness</a>
-        <a href="#" onclick="showJobs(event, ['Sales Specialist', 'Cashiers', 'Storekeepers', 'Stock and Inventory Personnel', 'Fashion Consultants', 'Personal Shoppers', 'Customer Service Specialists'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">Retail</a>
-        <!-- Add more sidebar links here -->
+    
+       
+        <a href="#" onclick="showJobs(event, ['Steelmen', 'Plate Welders', 'Pipelayers', 'Electricians', 'Air Conditioning Technician', 'Aluminum and Glass Technicians', 'Pipe Fitters', 'Plumbers', 'Fire Protection Technicians', 'Carpenters', 'Gypsum Board Installers', 'Decorative Technicians', 'Plasterers', 'Masons', 'Bricklayers', 'Painters', 'Scaffolders'], this)" class="sidebar-link flex items-center block py-2 px-4 rounded hover:bg-red-800 text-justify">
+    <img class="h-8 inline-block mr-2" src="https://i.ibb.co/dJwYxxZ/1.png" alt="Circular Saw Icon">
+    Construction
+</a>
+<div class="my-2"></div> 
+        <a href="#" onclick="showJobs(event, ['Special Education', 'Early Childhood Education', 'Pre-School', 'Speech and Language', 'English Language', 'Physical Education', 'Elementary Education', 'Intermediate Education', 'College Professors', 'Special Tutors'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">
+      <img class="h-8 inline-block mr-2" src="https://i.ibb.co/tsgFQVD/2.png" alt="Education Icon">
+      Education
+</a>
+<div class="my-2"></div> 
+        <a href="#" onclick="showJobs(event, ['Chef', 'Sous Chef', 'Waiters', 'Chamber Maids', 'Baristas', 'Receptionists', 'Front Desk Officers', 'Security Guards', 'Bellboys', 'Busboys', 'Kitchen Helpers'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">
+      <img class="h-8 inline-block mr-2" src="https://i.ibb.co/SnKcLpK/3.png" alt="Help Icon">
+      Hospitality
+</a>
+<div class="my-2"></div> 
+        <a href="#" onclick="showJobs(event, ['Web Design', 'Data Science and Analytics', 'Cybersecurity', 'Artificial Intelligence and Machine Learning', 'Network and Systems Administration', 'Mobile Application Development', 'Technical Writing', 'Digital Marketing and E-Commerce', 'Cloud Computing'], this)" class="sidebar-link block flex items-center py-2 px-4 rounded hover:bg-red-800 text-center text-justify">
+      <img class="h-8 inline-block mr-2" src="https://i.ibb.co/8dR5KVq/4.png" alt="IT Icon">
+       Information Technology
+</a>
+<div class="my-2"></div> 
+        <a href="#" onclick="showJobs(event, ['Garments- Sewers, Cutters', 'Semi-Conductor-Assemblers', 'Food- Packers, Food Technicians', 'Automotive- Assemblers, Painters, Mechanics', 'Heavy Machineries- Mechanical Technicians', 'Specialized Machine Operators'], this)" class="sidebar-link flex items-center py-2 px-4 rounded hover:bg-red-800 text-justify">
+     <img class="h-8 inline-block mr-2" src="https://i.ibb.co/F8R8bZj/5.png" alt="Manufacturing Icon">
+     Manufacturing
+</a>
+<div class="my-2"></div> 
+        <a href="#" onclick="showJobs(event, ['NURSES with specialities in;', 'Emergency and Trauma', 'Critical Care', 'Oncology', 'Geriatrics', 'Pediatrics', 'Pre-operational Care', 'Cardiac', 'Dialysis', 'Neo-natal', 'Acute Care', 'Anesthetics', 'Other Medical Fields', 'Physical Therapists', 'Radiology Technicians', 'Bioinformatics Technicians', 'Biotechnologists', 'Biochemists', 'Speech Pathologists', 'Dental Technicians'], this)" class="sidebar-link block flex items-center py-2 px-4 rounded hover:bg-red-800 text-center text-justify">
+      <img class="h-8 inline-block items-center justify-center mr-2" src="https://i.ibb.co/GJ51Xtr/6.png" alt="Hospital Icon">
+      Medical and Healthcare
+</a>
+<div class="my-2"></div> 
+        <a href="#" onclick="showJobs(event, ['Aestheticians', 'Massage Therapist', 'Hair Dressers', 'Make-Up Artists', 'Nail Technician'], this)" class="sidebar-link flex items-center block py-2 px-4 rounded hover:bg-red-800 text-center text-justify">
+      <img class="h-8 inline-block items-center justify-center mr-2" src="https://i.ibb.co/WGY7J32/7.png" alt="Make Up Icon">
+      Personal Beauty and Wellness
+</a>
+<div class="my-2"></div> 
+        <a href="#" onclick="showJobs(event, ['Sales Specialist', 'Cashiers', 'Storekeepers', 'Stock and Inventory Personnel', 'Fashion Consultants', 'Personal Shoppers', 'Customer Service Specialists'], this)" class="sidebar-link block py-2 px-4 rounded hover:bg-red-800">
+      <img class="h-8 inline-block mr-2" src="https://i.ibb.co/NSNctFv/8.png" alt="Shopping Icon">
+      Retail
+</a>
     </div>
 </div>
 
@@ -115,8 +150,9 @@
     const jobList = document.createElement("div");
     jobList.classList.add("grid", "grid-cols-2", "gap-4");
     jobs.forEach(job => {
-        const jobItem = document.createElement("div");
+        const jobItem = document.createElement("li");
         jobItem.textContent = job;
+        jobItem.classList.add("text-2xl");
         jobList.appendChild(jobItem);
     });
     jobListContainer.innerHTML = "";
