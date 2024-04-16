@@ -18,8 +18,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/aboutus', function () {
-    return view('aboutus');
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
 });
 
 Route::get('/jobs', function () {

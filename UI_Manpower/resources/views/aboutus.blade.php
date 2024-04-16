@@ -44,7 +44,7 @@
             <div class="hidden md:block">
                 <ul class="flex space-x-4">
                     <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
-                    <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
+                    <li><a href="/aboutUs" class="text-black hover:text-red-300">About Us</a></li>
                     <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
                     <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
                     <a href="/Contactus"><img class="h-6"
