@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form | Crewnnect</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+    <style>
+    /* Center the QR code container horizontally */
+    #qrcode-container {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
 </head>
 <body class="bg-red-500">
 
@@ -50,15 +58,23 @@
 
 <!-- Applying section -->
 <section id="apply" class="container mx-auto mt-8 px-10">
-    <div class="text-center bg-white p-4  rounded-lg shadow-md ">
-        <h2 class="text-2xl font-semibold mb-2">Apply to Crewnnect</h2>
-        <p class="text-gray-700 text-l">
-            Please take a moment to complete the form provided below in order to apply for the 
-            exciting job opportunities available with us. Your submission of this form will enable 
-            us to better understand your skills, qualifications, and interests, allowing us to match 
-            you with the most suitable positions within our organization. We appreciate your interest in 
-            joining our team and look forward to reviewing your application.
-        </p>
+    <div class="text-center bg-white p-4  rounded-lg shadow-md flex">
+        <div class="w-5/6 pr-4">
+            <h2 class="text-2xl font-semibold mb-2">Apply to Crewnnect</h2>
+            <div class="flex">
+                <p class=" text-gray-700 text-l">
+                    Please take a moment to complete the form provided below in order to apply for the 
+                    exciting job opportunities available with us. Your submission of this form will enable 
+                    us to better understand your skills, qualifications, and interests, allowing us to match 
+                    you with the most suitable positions within our organization. We appreciate your interest in 
+                    joining our team and look forward to reviewing your application.
+                </p>
+            </div>
+        </div>
+        <!-- QR Code -->
+        <div id="qrcode-container" class=" w-1/6">
+            <div id="qrcode"></div>
+        </div>
     </div>
     
     <!-- Application Form -->
@@ -467,6 +483,11 @@
                         </div>
                     </div>      
             </div>
+            <!-- QR Code -->
+            <div id="qrcode-container" class="mt-8">
+                <div id="qrcode"></div>
+            </div>
+
         </div>
     </section>
 
@@ -572,6 +593,16 @@
     // Add event listeners to checkboxes to trigger the checkAgreement function
     document.getElementById('agree1').addEventListener('change', checkAgreement);
     document.getElementById('agree2').addEventListener('change', checkAgreement);
+
+    var qr = new QRCode(document.getElementById("qrcode"), {
+      text: window.location.href,
+      width: 110,
+      height: 110,
+      colorDark : "#000000",
+      colorLight : "#ffffff",
+      correctLevel : QRCode.CorrectLevel.H
+      
+    });
 </script>
 
 </body>
