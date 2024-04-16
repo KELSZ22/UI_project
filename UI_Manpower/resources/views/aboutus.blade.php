@@ -44,7 +44,7 @@
             <div class="hidden md:block">
                 <ul class="flex space-x-4">
                     <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
-                    <li><a href="/aboutUs" class="text-black hover:text-red-300">About Us</a></li>
+                    <li><a href="/aboutus" class="text-black hover:text-red-300">About Us</a></li>
                     <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
                     <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
                     <a href="/Contactus"><img class="h-6"
@@ -56,29 +56,28 @@
                 </ul>
             </div>
 
-            <div class="block md:hidden">
-                <button id="menu-toggle" class="text-white focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
-                </button>
-            </div>
-        </div>
+      <div class="block md:hidden">
+        <button id="menu-toggle" class="text-white focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden">
+      <ul class="flex flex-col space-y-4">
+          <li><a href="/homepage" class="text-black hover:text-red-800">Home</a></li>
+          <li><a href="#" class="text-black hover:text-red-800">About Us</a></li>
+          <li><a href="/jobs" class="text-black hover:text-red-800">Jobs</a></li>
+          <li><a href="/Contactus" class="text-black hover:text-red-800">Contact Us</a></li>
+          <li><a href="/applyNow" class="text-black hover:text-red-800">Apply Now</a></li>
+          <li><a href="/login" class="text-black hover:text-red-800">Login</a></li>
+      </ul>
+    </div>
+  </nav>
 
 
-        <div id="mobile-menu" class="hidden md:hidden">
-            <ul class="flex flex-col space-y-4">
-                <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
-                <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
-                <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
-                <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
-                <li><a href="#" class="text-black hover:text-red-300">Apply Now</a></li>
-                <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
-            </ul>
-        </div>
-    </nav>
 
   <!-- Main Content -->
     <div class="flex-grow ">

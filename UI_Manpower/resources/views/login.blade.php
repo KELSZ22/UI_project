@@ -9,24 +9,22 @@
 
 </head>
 <body>
-  <nav class="bg-gray-300 p-4">
+<nav class="bg-gray-300 p-4">
     <div class="container mx-auto flex justify-between items-center">
-      <div >
-        <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
+      <div>
+        <a href="/homepage" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
-        <li><a href="/homepage" class="text-black hover:text-red-300">Home</a></li>
-          <li><a href="/aboutUs" class="text-black hover:text-red-300">About Us</a></li>
-          <li><a href="/jobs" class="text-black hover:text-red-300">Jobs</a></li>
-          <li><a href="/Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
-          
-          <li><a href="/applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
-          <li><a href="/login" class="text-black hover:text-red-300">Login</a></li>
-        
-</a>
+          <li><a href="/homepage" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Home</a></li>
+          <li><a href="#" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
+          <li><a href="/jobs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Jobs</a></li>
+          <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us</a></li>
+          <li><a href="/applyNow" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Apply Now</a></li>
+          <li><a href="/login" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Login</a></li>
         </ul>
       </div>
+
       <div class="block md:hidden">
         <button id="menu-toggle" class="text-white focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -35,26 +33,28 @@
         </button>
       </div>
     </div>
+
     <div id="mobile-menu" class="hidden md:hidden">
       <ul class="flex flex-col space-y-4">
-          <li><a href="#" class="text-black hover:text-red-300">Home</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">About Us</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Jobs</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Contact Us</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Apply Now</a></li>
-          <li><a href="#" class="text-black hover:text-red-300">Login</a></li>
+          <li><a href="/homepage" class="text-black hover:text-red-800">Home</a></li>
+          <li><a href="#" class="text-black hover:text-red-800">About Us</a></li>
+          <li><a href="/jobs" class="text-black hover:text-red-800">Jobs</a></li>
+          <li><a href="/Contactus" class="text-black hover:text-red-800">Contact Us</a></li>
+          <li><a href="/applyNow" class="text-black hover:text-red-800">Apply Now</a></li>
+          <li><a href="/login" class="text-black hover:text-red-800">Login</a></li>
       </ul>
     </div>
   </nav>
-  <div class="min-h-screen flex items-center justify-center">
-    <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+
+  <div class="min-h-screen flex items-center justify-center"style="background-image: url('images/draft background.jpg');">
+    <div class=" p-8 bg-white rounded shadow-md w-full max-w-md">
         <h2 class="text-2xl font-bold mb-2 text-center flex justify-center">
             <a href="#" class="h-15">
                 <img src="{{url('images/crewnnect1.png')}}" alt="">
             </a>
         </h2>
         <form>
-            <div class="mb-4 relative">
+            <div class="mb-4 relative ">
                 <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
                 <div class="absolute mt-5 inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                     <img src="https://www.svgrepo.com/show/522690/user.svg" alt="User SVG File" width="20" height="20">
@@ -79,7 +79,7 @@
                     <label for="remember" class="ml-2 block text-sm text-gray-900">Remember Me</label>
                 </div>
                 <div>
-                    <a href="#" class="text-sm text-indigo-600 hover:underline">Forgot your password?</a>
+                    <a href="/Data_Management" class="text-sm text-indigo-600 hover:underline">Forgot your password?</a>
                 </div>
             </div>
             <button type="submit"

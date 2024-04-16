@@ -134,7 +134,7 @@
                       </svg>
                                                                                                                     Home
                                                                                                                 </a>
-                                                                                                                <a href="/aboutus" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                                                <a href="/Aboutus" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                 <img class="flex-shrink-0 w-5 h-5 mr-4 " itemprop="contentUrl" src="https://www.svgrepo.com/show/356999/about.svg" alt="About SVG File" title="About SVG File" width="150" height="150">
                                                                                                                     About Us
                                                                                                                 </a>
@@ -228,7 +228,7 @@
                              hover:bg-gray-100">
             Profile
           </a>
-          <a href="#" class="block px-4 py-2 text-sm
+          <a href="/login" class="block px-4 py-2 text-sm
                              text-gray-700 
                              hover:bg-gray-100">
             Log-out

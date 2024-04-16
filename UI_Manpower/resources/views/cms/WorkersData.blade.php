@@ -133,7 +133,7 @@
                       </svg>
                                                                                                                     Home
                                                                                                                 </a>
-                                                                                                                <a href="/aboutus" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                                                <a href="/Aboutus" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                 <img class="flex-shrink-0 w-5 h-5 mr-4 " itemprop="contentUrl" src="https://www.svgrepo.com/show/356999/about.svg" alt="About SVG File" title="About SVG File" width="150" height="150">
                                                                                                                     About Us
                                                                                                                 </a>
@@ -214,7 +214,23 @@
             <path fill-rule="evenodd" d="M10 17a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L10 14.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 10 17z" clip-rule="evenodd" />
           </svg>
         </a>
-
+        <div class="hidden origin-top-right absolute 
+                    right-0 mt-2 w-56 rounded-md 
+                    shadow-lg bg-white ring-1
+                    ring-black ring-opacity-5
+                    animate-fadeIn"
+             id="dropdownMenuRight">
+          <a href="#" class="block px-4 py-2 text-sm 
+                             text-gray-700 
+                             hover:bg-gray-100">
+            Profile
+          </a>
+          <a href="/login" class="block px-4 py-2 text-sm
+                             text-gray-700 
+                             hover:bg-gray-100">
+            Log-out
+          </a>
+</div>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
