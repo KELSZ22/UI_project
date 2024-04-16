@@ -7,14 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
     <style>
-    /* Center the QR code container horizontally */
-    #qrcode-container {
-      display: flex;
-      justify-content: center;
-    }
+        #qrcode-container {
+        display: flex;
+        justify-content: center;
+        }
   </style>
 </head>
-<body class="bg-red-500">
+<body class="bg-blue-500">
 
 <!-- Navigation bar -->
 <nav class="bg-gray-300 p-4">
@@ -53,9 +52,6 @@
     </div>
 </nav>
 
-
-
-
 <!-- Applying section -->
 <section id="apply" class="container mx-auto mt-8 px-10">
     <div class="text-center bg-white p-4  rounded-lg shadow-md flex">
@@ -78,10 +74,7 @@
     </div>
     
     <!-- Application Form -->
-    <section class="container mx-auto mt-8 px-4 ">
-        
-        
-
+    <section class="container mx-auto mt-8 px-4 ">       
         <div class="bg-white p-4 rounded-lg shadow-md">
            
             <div id="notification" class="p-4 rounded-lg shadow-md bg-green-500 text-white text-center py-2 hidden">
@@ -89,13 +82,12 @@
             </div>
 
             <h2 class="text-2xl font-semibold text-center mb-4">Application Form</h2>
-            
             <!-- Job Position Picker -->
             <div class="mb-12 ">
                 <h3 class="text-lg font-semibold mb-2">Employment Applications</h3>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-3">
                     <div>
-                        <label for="job_position" class="block text-gray-700 font-semibold">Position 1st Option</label>
+                        <label for="job_position" class="block text-gray-700 font-semibold">*Position 1st Option</label>
                         <select type="text" id="job_position" name="job_position" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                             <option value="" disabled selected>Select Job Position</option>
                             <option value="Construction">Construction</option>
@@ -111,7 +103,7 @@
                         <span id="job_position_error" class="text-red-500 hidden">Please select a job position</span>
                     </div>
                     <div>
-                        <label for="job_position" class="block text-gray-700 font-semibold">Position 2nd Option</label>
+                        <label for="job_position2" class="block text-gray-700 font-semibold">Position 2nd Option</label>
                         <select type="text" id="job_position2" name="job_position2" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                             <option value="" disabled selected>Select Job Position</option>
                             <option value="Construction">Construction</option>
@@ -124,7 +116,6 @@
                             <option value="Retail">Retail</option>
                         </select>
                         <span id="job_position2_error" class="text-red-500 hidden">Please select a job position</span>
-                        
                     </div>
                 </div>             
             </div>
@@ -134,12 +125,12 @@
                 <h3 class="text-lg font-semibold mb-2">Personal Data</h3>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div>
-                        <label for="last_name" class="block text-gray-700 font-semibold">Last Name:</label>
+                        <label for="last_name" class="block text-gray-700 font-semibold">*Last Name:</label>
                         <input type="text" id="last_name" name="last_name" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         <span id="last_name_error" class="text-red-500 hidden">Please input Last Name</span>
                     </div>
                     <div>
-                        <label for="first_name" class="block text-gray-700 font-semibold">First Name:</label>
+                        <label for="first_name" class="block text-gray-700 font-semibold">*First Name:</label>
                         <input type="text" id="first_name" name="first_name" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         <span id="first_name_error" class="text-red-500 hidden">Please input First Name</span>
                     </div>
@@ -149,7 +140,7 @@
                         <span id="middle_name_error" class="text-red-500 hidden">Please input</span>
                     </div>
                     <div>
-                        <label for="dob" class="block text-gray-700 font-semibold">Date of Birth:</label>
+                        <label for="dob" class="block text-gray-700 font-semibold">*Date of Birth:</label>
                         <input type="date" id="dob" name="dob" class="w-full mt-1 px-4 py-2 border-gray-300 border-b-2 rounded-md focus:outline-none focus:border-gray-700" required>
                         <span id="dob_error" class="text-red-500 hidden">Please enter your date of birth</span>
                     </div>
@@ -186,12 +177,12 @@
                 <h3 class="text-lg font-semibold mb-2 ">Contact Information</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label for="email" class="block text-gray-700 font-semibold">Email:</label>
+                        <label for="email" class="block text-gray-700 font-semibold">*Email:</label>
                         <input type="email" id="email" name="email" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         <span id="email_error" class="text-red-500 hidden">Please enter your email address</span>
                     </div>
                     <div>
-                        <label for="phone" class="block text-gray-700 font-semibold">Phone:</label>
+                        <label for="phone" class="block text-gray-700 font-semibold">*Phone:</label>
                         <input type="tel" id="phone" name="phone" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         <span id="phone_error" class="text-red-500 hidden">Please enter your phone number</span>
                     </div>
@@ -261,6 +252,80 @@
                             <label for="zip" class="block text-gray-700 font-semibold">Zipcode:</label>
                             <input type="text" id="zip" name="zip" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                             <span id="zip_error" class="text-red-500 hidden">Please input</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Parents Information -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2">Parents Information</h3>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="CNFather" class="block text-gray-700 font-semibold">Complete Name of Father:</label>
+                            <input type="text" id="CNFather" name="CNFather" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="CNFOccupation" class="block text-gray-700 font-semibold">Occupation:</label>
+                            <input type="text" id="CNFOccupation" name="CNFOccupation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="CNMother" class="block text-gray-700 font-semibold">Complete Name of Mother:</label>
+                            <input type="text" id="CNFather" name="CNFather" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="CNMOccupation" class="block text-gray-700 font-semibold">Occupation:</label>
+                            <input type="text" id="CNFOccupation" name="CNFOccupation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
+                    <div>
+                        <label for="addressParents" class="block text-gray-700 font-semibold">Complete Address:</label>
+                        <input type="text" id="addressParents" name="addressParents" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emergency Contact -->
+            <div class="mb-12">
+                <h3 class="text-lg font-semibold mb-2">Emergency Contact</h3>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="emergencyName" class="block text-gray-700 font-semibold">Full Name:</label>
+                            <input type="text" id="emergencyName" name="emergencyName" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="emergencyRelation" class="block text-gray-700 font-semibold">Relation:</label>
+                            <input type="text" id="emergencyRelation" name="emergencyRelation" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
+                    <div>
+                        <label for="addressEmergency" class="block text-gray-700 font-semibold">Complete Address:</label>
+                        <input type="text" id="addressEmergency" name="addressEmergency" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div>
+                            <label for="emergencyMobile" class="block text-gray-700 font-semibold">Mobile:</label>
+                            <input type="text" id="emergencyMobile" name="emergencyMobile" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="emergencyLandline" class="block text-gray-700 font-semibold">Landline:</label>
+                            <input type="text" id="emergencyLandline" name="emergencyLandline" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
+                        </div>
+                        <div>
+                            <label for="emergencyEmail" class="block text-gray-700 font-semibold">Email:</label>
+                            <input type="text" id="emergencyEmail" name="emergencyEmail" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700" required>
                         </div>
                     </div>
                 </div>
@@ -483,17 +548,14 @@
                         </div>
                     </div>      
             </div>
-            <!-- QR Code -->
-            <div id="qrcode-container" class="mt-8">
-                <div id="qrcode"></div>
-            </div>
+            
 
         </div>
     </section>
-
+    
+    <!-- Agreement Checkbox -->
     <section class="container mx-auto mt-8 px-4">
         <div class="bg-white p-4 px-8 rounded-lg shadow-md">
-            <!-- Agreement Checkbox -->
             <div class="mb-4">
                 <label class="flex items-center">
                     <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" id="agree1">
@@ -506,9 +568,7 @@
             </div>
             <div class="mt-4 text-center">
                 <button id="submitBtn" onclick="validateForm()" class="text-center bg-red-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline hidden" type="button">Submit Application</button>
-            </div>
-   
-            
+            </div>  
         </div>
     </section>
 </section>
@@ -524,14 +584,24 @@
     document.getElementById('menu-toggle').addEventListener('click', function() {
       document.getElementById('mobile-menu').classList.toggle('hidden');
     });
+
     function validateForm(){
         const lastName = document.getElementById("last_name").value;
         const firstName = document.getElementById("first_name").value;
         const dob = document.getElementById("dob").value;
         const email = document.getElementById("email").value;
         const phone = document.getElementById("phone").value;
+        const jobPosition = document.getElementById("job_position").value;
 
         let hasError = false;
+
+        if (jobPosition === "") {
+            document.getElementById("job_position_error").classList.remove("hidden");
+            hasError = true;
+        } else {
+            document.getElementById("job_position_error").classList.add("hidden");
+            
+        }
 
         if (lastName === "") {
             document.getElementById("last_name_error").classList.remove("hidden");
@@ -576,7 +646,7 @@
             // Optionally, hide the notification after a certain time
             setTimeout(function() {
                 document.getElementById("notification").classList.add("hidden");
-            }, 5000); // 5000 milliseconds = 5 seconds (adjust as needed)
+            }, 7000); 
         }
     }
 
@@ -590,7 +660,6 @@
         submitBtn.classList.add('hidden');
       }
     }
-    // Add event listeners to checkboxes to trigger the checkAgreement function
     document.getElementById('agree1').addEventListener('change', checkAgreement);
     document.getElementById('agree2').addEventListener('change', checkAgreement);
 
