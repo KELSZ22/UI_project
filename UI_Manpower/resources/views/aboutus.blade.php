@@ -199,9 +199,9 @@
                 
 
                 <!-- Process Section -->
-                <div class="bg-gray-300 rounded-lg p-4 mt-8 ">
+                <div class=" p-4 mt-8 ">
                     <h2 class="text-5xl font-bold mb-2 text-center">Our Process</h2>
-                    <img src="{{url('images/process1.jpg')}}" class="w-3/4 h-1/2 mx-auto">
+                    <img src="{{url('images/process1.jpg')}}" class="w-full h-1/2 mx-auto">
                 </div>
 
                 <div class="flex mx-auto">
@@ -216,9 +216,13 @@
                         <!-- Contacts -->
                         <div class="bg-gray-300 rounded-lg w-2/4 p-4 mt-8 ml-2 ">
                             <h2 class="text-5xl text-center font-bold mb-2 shadow-2xl">Contacts</h2>
-                            <p class="text-gray-800 leading-relaxed">
-                            Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text 
-                            </p>
+            
+                            <ul class="text-gray-800 leading-relaxed">
+                                <li>Contact: 0987-654-3100</li>
+                                <li>Email: sampleemail@email.com</li>
+                                <li>Tel. No.: 8-7000</li>
+                            </ul>
+
                         </div>
                 </div>
 
@@ -230,7 +234,18 @@
                         Ready to take the next step in your career? Browse through our latest job listings and find your perfect match today!
                     </p>
                     <div class="mt-4">
-                        <a href="/jobs" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Browse Job Listings</a>
+                        <a href="/jobs" class="bg-red-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Browse Job Listings</a>
+                    </div>
+                </div>
+
+                 <!-- Apply Section -->
+                 <div class="bg-gray-300 rounded-lg p-4 mt-8">
+                    <h2 class="text-2xl font-bold mb-2">Apply Now</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                        Ready to aply for a job?
+                    </p>
+                    <div class="mt-4">
+                        <a href="/applyNow" class="bg-red-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Apply Now</a>
                     </div>
                 </div>
 
