@@ -13,7 +13,7 @@
         }
   </style>
 </head>
-<body class="bg-blue-500">
+<body class="bg-blue-400">
 
 <!-- Navigation bar -->
 <nav class="bg-gray-300 p-4">
@@ -24,7 +24,7 @@
       <div class="hidden md:block">
         <ul class="flex space-x-4">
             <li><a href="homepage" class="text-black hover:text-red-300">Home</a></li>
-            <li><a href="aboutus" class="text-black hover:text-red-300">About Us</a></li>
+            <li><a href="aboutUs" class="text-black hover:text-red-300">About Us</a></li>
             <li><a href="jobs" class="text-black hover:text-red-300">Jobs</a></li>
             <li><a href="Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
             <li><a href="applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
@@ -440,7 +440,6 @@
                     </div>
                 </div>
             </div>
-
 
             <!-- Character Reference -->
             <div class="mb-12">
