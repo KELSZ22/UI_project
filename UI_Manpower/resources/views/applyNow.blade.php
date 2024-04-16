@@ -18,20 +18,21 @@
 <!-- Navigation bar -->
 <nav class="bg-gray-300 p-4">
     <div class="container mx-auto flex justify-between items-center">
-      <div >
-        <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
+      <div>
+        <a href="/homepage" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
-            <li><a href="homepage" class="text-black hover:text-red-300">Home</a></li>
-            <li><a href="aboutUs" class="text-black hover:text-red-300">About Us</a></li>
-            <li><a href="jobs" class="text-black hover:text-red-300">Jobs</a></li>
-            <li><a href="Contactus" class="text-black hover:text-red-300">Contact Us</a></li>
-            <li><a href="applyNow" class="text-black hover:text-red-300">Apply Now</a></li>
-            <li><a href="login" class="text-black hover:text-red-300">Login</a></li>
-
+          <li><a href="/homepage" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Home</a></li>
+          <li><a href="aboutUs#" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
+          <li><a href="/jobs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Jobs</a></li>
+          <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us
+            <img class="h-6 mr-3 mb-1 inline-block" src="images/contact-us.png"> </a></li>
+          <li><a href="/applyNow" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Apply Now</a></li>
+          <a href="/login"><img class="h-8 inline-block my-1 rounded-full hover:bg-red-800" src="images/icon.png"></a>
         </ul>
       </div>
+
       <div class="block md:hidden">
         <button id="menu-toggle" class="text-white focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -573,10 +574,11 @@
 </section>
 
 <!-- Footer -->
-<footer class="bg-gray-800 text-white py-4 mt-8">
-    <div class="container mx-auto text-center">
-        <p>&copy; 2024 Crewnect. All rights reserved.</p>
-    </div>
+<footer class="px-2 sm:px-4 py-4 bg-gray-800 dark:bg-gray-600 items-center md:p-6 text-center flex flex-col relative">
+    <span class="text-sm text-white dark:text-red-200 sm:text-center">
+       © 2024 Crewnnect. All rights reserved.
+    </span>
+    <span class="absolute bottom-1 text-xs text-white dark:text-red-400">Powered by: <a href="https://www.negosyante-it.solutions">www.negosyante-it.solutions</a></span>
 </footer>
 
 <script>
