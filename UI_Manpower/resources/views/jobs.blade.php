@@ -64,7 +64,6 @@
     </div>
 </div>
 
-
     
      <!-- Content Area -->
      <div class="flex-grow p-8">
