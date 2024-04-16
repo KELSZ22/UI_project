@@ -53,7 +53,7 @@
   <div class="flex h-screen">
   
    <!-- Sidebar -->
-<div class="bg-gray-800 text-white w-48 flex-shrink-0">
+<div class="bg-gray-800 text-white w-50 flex-shrink-0">
     <div class="p-4">
         <div class="mb-4">
             <h1 id="sidebarHeader" class="text-xl font-bold mb-2 text-center">Jobs Available</h1>
@@ -101,6 +101,7 @@
     </div>
 </div>
 
+
      <!-- Content Area -->
      <div class="flex-grow p-4">
         <div id="jobList" class="hidden">
@@ -110,6 +111,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="bg-gray-300 p-5 relative grid grid-cols-2 left-0 right-0 ml-auto mr-auto">
                     <div class="place-items-center col-span-1 float-left">
