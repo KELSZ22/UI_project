@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link class="h-20 w-20" rel="icon" type="x-icon" href="images/logo.png">
   <title>WEBSITE | HOME</title>
+  <link class="h-20 w-20" rel="icon" type="x-icon" href="images/logo.png">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
@@ -39,7 +39,7 @@
             <div class="flex flex-col flex-1 px-3 mt-6">
                 <div class="space-y-4">
                 <nav class="flex-1 space-y-2">
-                        <a href="/Data_Management" title="" class="flex items-center px-4 py-2.5 text-sm font-medium hover:text-white transition-all duration-200 bg-indigo-500 hover:bg-indigo-900 rounded-lg group " >
+                        <a href="/Data_Management" title="" class="flex items-center px-4 py-2.5 text-sm font-medium hover:text-white transition-all duration-200  hover:bg-indigo-900 rounded-lg group " >
                         <img class="flex-shrink-0 w-5 h-5 mr-4 text-black hover:text-white" itemprop="contentUrl" src="https://www.svgrepo.com/show/36341/database.svg" alt="Database SVG File" title="Database SVG File" width="150" height="150">
                             Data Management
                         </a>
@@ -117,7 +117,7 @@
                                                                                                     </div>
                                 
                               
-                        <a href="#" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu4')">
+                        <a href="#" class="flex bg-indigo-500 items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"onclick="toggleDropdown('dropdownMenu4')">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="flex-shrink-0 w-5 h-5 mr-4 text-black">
                             <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path>
                         </svg>
@@ -129,7 +129,7 @@
                         </a>
                         <div class="hidden origin-bottom relative left-0 mt-2 w-44 rounded-md shadow-lg bg-white ring-1
                                                                                             ring-black ring-opacity-5 animate-fadeIn" id="dropdownMenu4">
-                                                                                                                <a href="/home" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                                                <a href="/home" class="flex  items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                 <img class="flex-shrink-0 w-5 h-5 mr-4 "itemprop="contentUrl" src="https://www.svgrepo.com/show/433078/home-detailed.svg" alt="Home Detailed SVG File" title="Home Detailed SVG File" width="150" height="150">
                       </svg>
                                                                                                                     Home
@@ -138,7 +138,7 @@
                                                                                                                 <img class="flex-shrink-0 w-5 h-5 mr-4 " itemprop="contentUrl" src="https://www.svgrepo.com/show/356999/about.svg" alt="About SVG File" title="About SVG File" width="150" height="150">
                                                                                                                     About Us
                                                                                                                 </a>
-                                                                                                                <a href="/job" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
+                                                                                                                <a href="/job" class="flex  bg-indigo-500 items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                 <img class="flex-shrink-0 w-5 h-5 mr-4"itemprop="contentUrl" src="https://www.svgrepo.com/show/375371/cloud-jobs-api.svg" alt="Cloud Jobs Api SVG File" title="Cloud Jobs Api SVG File" width="150" height="150">
                                                                                                                     Job
                                                                                                                 </a>
@@ -176,6 +176,7 @@
                                                                                                                 </a>
 
                                                                                                                 </a>
+                                                                                                                </a>
                                                                                                                 <a href="/Partner" class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group">
                                                                                                                                     <img  class="flex-shrink-0 w-5 h-5 mr-4" itemprop="contentUrl" src="https://www.svgrepo.com/show/58739/handshake.svg" alt="Handshake SVG File" title="Handshake SVG File" width="150" height="150">
                                                                                                                     Cards: Partner Lists
@@ -200,7 +201,6 @@
         </div>
         
     </div>
-    
     <div class="container mt-2 mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <!-- Dropdowns with buttons -->
     <div class="flex float-right mx-2">
@@ -232,16 +232,20 @@
                              hover:bg-gray-100">
             Log-out
           </a>
-        </div>
-      </div>
-    </div>
-    <div class="grid min-h-screen w-full place-items-center rounded-lg p-4 lg:overflow">
-  <figure class="relative w-full h-100%">
-    <img class="object-cover object-center w-full h-full rounded-xl"
-      src="images/ms.jpg"
-      alt="nature image" />
-   
 </div>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#example').DataTable({
+            // Add any customization options here
+        });
+    });
+</script>
+    </div>
 </div>
 
 <script>
@@ -251,7 +255,36 @@
     dropdownMenu.classList.toggle('hidden');
 }
 </script>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-200 h-96 mt-20" >
+    <h2 class="text-2xl font-bold mb-4">Job section(s)</h2>
+    <button class="float-right bg-green-500 rounded hover:bg-green-700 p-2 mb-2">Publish Records</button>
+    <table id="example" class="table-auto relative w-max">
+        <thead>
+        <tr>
+                <th class="px-4 py-2">#</th>
+                <th class="px-4 py-2">Name</th>
+                <th class="px-4 py-2">Description</th>
+                <th class="px-4 py-2">Status</th>
+                <th class="px-4 py-2">Rec</th>
+                <th class="px-4 py-2">Updates</th>
+            </tr>
+            <tbody>
+            <tr class="px-auto">
+                 <td class="border  px-auto py-2"> <a href="#"># </a></td>
+          
+                <td class="border px-4 py-2"> About Us</td>
+                <td class="border px-4 py-2">Events, Whats new!</td>
+                <td class="border px-4 py-2">active</td>
+                <td class="border px-4 py-2"> &check;</td>
+                
+                <td class="border px-4 py-2">06:25:06 2024/03/21</td>
+
+            </tr>
+        </thead>
+        <tbody>
 </div>
+</div>
+   
 </body>
 
 
