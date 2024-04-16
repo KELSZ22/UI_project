@@ -20,7 +20,7 @@
           <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us
             <img class="h-6 ml-4 mb-1 inline-block" src="images/contact-us.png"> </a></li>
           <li><a href="/applyNow" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Apply Now</a></li>
-          <a href="/login"><img class="h-8 inline-block my-1 rounded-full hover:bg-red-800" src="images/icon.png"></a>
+          <a href="/login"><img class="h-8 inline-block my-1 rounded hover:bg-red-800" src="images/icon.png"></a>
         </ul>
       </div>
 
