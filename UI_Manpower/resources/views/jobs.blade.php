@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JOBS | CREWNNECT</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .jobItem {
+      padding-left: 2rem; /* Adjust as needed */
+    }
+  </style>
 </head>
 <body>
   <nav class="bg-gray-300 p-4">
@@ -15,7 +20,7 @@
       <div class="hidden md:block">
         <ul class="flex space-x-4">
           <li><a href="/homepage" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Home</a></li>
-          <li><a href="aboutUs#" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
+          <li><a href="/aboutUs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
           <li><a href="/jobs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Jobs</a></li>
           <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us
             <img class="h-6 ml-4 mb-1 inline-block" src="images/contact-us.png"> </a></li>
@@ -36,7 +41,7 @@
     <div id="mobile-menu" class="hidden md:hidden">
       <ul class="flex flex-col space-y-4">
           <li><a href="/homepage" class="text-black hover:text-red-800">Home</a></li>
-          <li><a href="#" class="text-black hover:text-red-800">About Us</a></li>
+          <li><a href="/aboutus" class="text-black hover:text-red-800">About Us</a></li>
           <li><a href="/jobs" class="text-black hover:text-red-800">Jobs</a></li>
           <li><a href="/Contactus" class="text-black hover:text-red-800">Contact Us</a></li>
           <li><a href="/applyNow" class="text-black hover:text-red-800">Apply Now</a></li>
@@ -46,7 +51,6 @@
   </nav>
 
   <div class="flex h-screen">
-
   
    <!-- Sidebar -->
 <div class="bg-gray-800 text-white w-48 flex-shrink-0">
@@ -55,7 +59,6 @@
             <h1 id="sidebarHeader" class="text-xl font-bold mb-2 text-center">Jobs Available</h1>
         </div>
     
-       
         <a href="#" onclick="showJobs(event, ['Steelmen', 'Plate Welders', 'Pipelayers', 'Electricians', 'Air Conditioning Technician', 'Aluminum and Glass Technicians', 'Pipe Fitters', 'Plumbers', 'Fire Protection Technicians', 'Carpenters', 'Gypsum Board Installers', 'Decorative Technicians', 'Plasterers', 'Masons', 'Bricklayers', 'Painters', 'Scaffolders'], this)" class="sidebar-link flex items-center block py-2 px-4 rounded hover:bg-red-800 text-justify">
     <img class="h-8 inline-block mr-2" src="https://i.ibb.co/dJwYxxZ/1.png" alt="Circular Saw Icon">
     Construction
@@ -98,9 +101,8 @@
     </div>
 </div>
 
-    
      <!-- Content Area -->
-     <div class="flex-grow p-8">
+     <div class="flex-grow p-4">
         <div id="jobList" class="hidden">
             <div class="gap-4">
                 <!-- Jobs will be displayed here -->
@@ -109,7 +111,7 @@
     </div>
 </div>
 
-<div class="bg-gray-300 p-3 relative grid grid-cols-2 left-0 right-0 ml-auto mr-auto">
+<div class="bg-gray-300 p-5 relative grid grid-cols-2 left-0 right-0 ml-auto mr-auto">
                     <div class="place-items-center col-span-1 float-left">
                         <h1>NEED WORKERS?</h1>
                         <h2>Unlock Global Talent:</h2>
@@ -152,24 +154,24 @@
 
     if (jobs.length > 9) {
         // If there are more than 5 jobs, create a grid layout
-        const jobList = document.createElement("ul");
-        jobList.classList.add("grid", "grid-cols-2", "gap-2"); 
+        const jobList = document.createElement("li");
+        jobList.classList.add("list-disc", "grid", "grid-cols-2", "gap-4"); 
         // Add grid classes
         jobs.forEach(job => {
             const jobItem = document.createElement("li");
             jobItem.textContent = job;
-            jobItem.classList.add("list-disc", "text-lg", "gap-4"); 
+            jobItem.classList.add("text-lg", "gap-4", "jobItem"); 
             jobList.appendChild(jobItem);
         });
         jobListContainer.appendChild(jobList);
     } else {
         // If there are 5 or fewer jobs, create a single column list
-        const jobList = document.createElement("ul");
+        const jobList = document.createElement("li");
         jobList.classList.add("list-disc", "gap-6"); 
         jobs.forEach(job => {
             const jobItem = document.createElement("li");
             jobItem.textContent = job;
-            jobItem.classList.add("list-disc", "text-lg", "gap-6");
+            jobItem.classList.add("text-lg", "gap-6", "jobItem");
             jobList.appendChild(jobItem);
         });
         jobListContainer.appendChild(jobList);
