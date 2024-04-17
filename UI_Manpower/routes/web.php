@@ -113,3 +113,7 @@ Route::get('/Value', function () {
 Route::get('/Crewnnect', function () {
     return view('cms/Crewnnect');
 });
+
+Route::get('/registration', function () {
+    return view('/registration');
+});
