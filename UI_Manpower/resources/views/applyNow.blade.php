@@ -207,15 +207,15 @@
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                         <div>
                             <label for="spouse_Children" class="block text-gray-700 font-semibold">No of Children:</label>
-                            <input type="text" id="spouse_Children" name="spouse_Children" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                            <input type="number" id="spouse_Children" name="spouse_Children" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
                         </div>
                         <div>
                             <label for="spouse_Mobile" class="block text-gray-700 font-semibold">Mobile:</label>
-                            <input type="text" id="spouse_Mobile" name="spouse_Mobile" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                            <input type="number" id="spouse_Mobile" name="spouse_Mobile" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
                         </div>
                         <div>
                             <label for="spouse_Landline" class="block text-gray-700 font-semibold">Landline:</label>
-                            <input type="text" id="spouse_Landline" name="spouse_Landline" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
+                            <input type="number" id="spouse_Landline" name="spouse_Landline" class="w-full mt-1 px-4 py-2 border-b-2 border-gray-300 rounded-md focus:outline-none focus:border-gray-700">
                         </div>
                     </div>
                 </div>
