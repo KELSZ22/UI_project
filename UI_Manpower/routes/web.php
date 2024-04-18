@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthManager;
 
 Route::get('/', function () {
     return view('login');
@@ -14,9 +15,6 @@ Route::get('/Contactus', function () {
     return view('Contactus');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
 
 Route::get('/aboutUs', function () {
     return view('aboutUs');
@@ -60,7 +58,7 @@ Route::get('/Data_Management', function () {
 
 Route::get('/home', function () {
     return view('cms/home');
-});
+})->name('home');
 
 Route::get('/Aboutus', function () {
     return view('cms/Aboutus');
@@ -114,6 +112,10 @@ Route::get('/Crewnnect', function () {
     return view('cms/Crewnnect');
 });
 
-Route::get('/registration', function () {
-    return view('/registration');
-});
+Route::get('/login', [AuthManager::class, 'login'])->name(name:'login');
+Route::post('/login', [AuthManager::class, 'loginPost'])->name(name:'login.post');
+
+Route::get('/registration',[AuthManager::class, 'registration'])->name(name:'registration');
+Route::post('/registration',[AuthManager::class, 'registrationPost'])->name(name:'registration.post');
+
+Route::get('/logout', [AuthManager::class, 'logout'])->name(name:'logout');

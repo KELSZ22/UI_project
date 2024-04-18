@@ -53,16 +53,41 @@
                 <img src="{{url('images/crewnnect1.png')}}" alt="">
             </a>
         </h2>
-        <form>
+
+
+        <div class="mt-5">
+            @if($errors->any())
+                <div class="col-12">
+                  @foreach($errors->all() as $error)
+                    <div class="alert alert-danger"> {{$error}} </div>
+                  @endforeach
+                </div>
+            @endif
+
+            @if(session()->has('error'))
+                <div class="alert alert-danger"> {{session('error')}} </div>
+            @endif
+
+            @if(session()->has('success'))
+                <div class="alert alert-success"> {{session('success')}} </div>
+            @endif
+        </div>
+
+        <form action="{{route('login.post')}}" method="POST">
+            @csrf
+            <!--Username-->
             <div class="mb-4 relative ">
-                <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+                <label for="name" class="block text-sm font-medium text-gray-700">Username</label>
                 <div class="absolute mt-5 inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                     <img src="https://www.svgrepo.com/show/522690/user.svg" alt="User SVG File" width="20" height="20">
                 </div>
-                <input type="text" id="username" name="username"
+                <input type="text" id="name" name="name"
                     class="pl-10 pr-3 py-2 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                     placeholder="Username" required>
             </div>
+        
+
+            <!--Password-->
             <div class="mb-4 relative">
                 <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
                 <div class="absolute mt-5 inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -72,6 +97,8 @@
                     class="pl-10 pr-3 py-2 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                     placeholder="Password" required>
             </div>
+
+
             <div class="flex items-center justify-between mb-4">
                 <div class="flex items-center">
                     <input type="checkbox" id="remember" name="remember"
