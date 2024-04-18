@@ -7,7 +7,6 @@ Route::get('/', function () {
     return view('login');
 });
 
-
 Route::get('/homepage', function () {
     return view('homepage');
 });
@@ -29,8 +28,8 @@ Route::get('/applyNow', function () {
     return view('applyNow');
 });
 
-Route::get('/applicationdash', function () {
-    return view('applicationdash');
+Route::get('/jobs', function () {
+    return view('jobs');
 });
 
 //For Cms
@@ -57,7 +56,9 @@ Route::get('/Data_Management', function () {
     return view('cms/Data_Management');
 });
 
-
+Route::get('/home', function () {
+    return view('cms/home');
+})->name('home');
 
 Route::get('/Aboutus', function () {
     return view('cms/Aboutus');
@@ -111,14 +112,10 @@ Route::get('/Crewnnect', function () {
     return view('cms/Crewnnect');
 });
 
-Route::get('/home', function () {
-    return view('cms/home');
-})->name(name:'home');
-
 Route::get('/login', [AuthManager::class, 'login'])->name(name:'login');
 Route::post('/login', [AuthManager::class, 'loginPost'])->name(name:'login.post');
 
-Route::get('/registration', [AuthManager::class, 'registration'])->name('registration');
-Route::post('/registration', [AuthManager::class, 'registrationPost'])->name(name:'registration.post');
+Route::get('/registration',[AuthManager::class, 'registration'])->name(name:'registration');
+Route::post('/registration',[AuthManager::class, 'registrationPost'])->name(name:'registration.post');
 
 Route::get('/logout', [AuthManager::class, 'logout'])->name(name:'logout');
