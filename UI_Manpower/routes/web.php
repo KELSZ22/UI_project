@@ -1,10 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/', function () {
     return view('login');
 });
+
+
+
+Route::get('login', [LoginController::class, 'index'])->name('login');
+Route::post('login', [LoginController::class, 'login']);
+Route::post('logout', [LoginController::class, 'logout']);
 
 Route::get('/homepage', function () {
     return view('homepage');
@@ -14,9 +21,6 @@ Route::get('/Contactus', function () {
     return view('Contactus');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
 
 Route::get('/aboutUs', function () {
     return view('aboutUs');
@@ -60,7 +64,7 @@ Route::get('/Data_Management', function () {
 
 Route::get('/home', function () {
     return view('cms/home');
-});
+})->name('home');
 
 Route::get('/Aboutus', function () {
     return view('cms/Aboutus');

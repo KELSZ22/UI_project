@@ -112,13 +112,15 @@
         </div>
       </div>
     </section>
-<footer class="w-full  py-2"  >
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" >
+   
+<footer class="w-full bg-gray-300 py-2" >
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto">
+                <a href="#" class="flex justify-center "><img src="{{url('images/crewnnect1.png')}}" alt=""></a>
                     <span class="text-lg text-gray-500 text-center block">©<a href="#">Crewnnect</a> 2024, All rights reserved.</span>
             </div>
-          </div>
+        </div>
     </footer>
-             
+          
   </body>
 </html>
