@@ -129,3 +129,8 @@ Route::get('/applicationdash', function () {
 Route::get('/applicantlogin', function () {
     return view('applicantDashboard/applicantlogin');
 });
+
+
+Route::get('/hireNow', function () {
+    return view('Clients/clienthiringform');
+});
