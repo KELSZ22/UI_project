@@ -30,8 +30,8 @@ Route::get('/applyNow', function () {
     return view('applyNow');
 });
 
-Route::get('/jobs', function () {
-    return view('jobs');
+Route::get('/applicationdash', function () {
+    return view('applicationdash');
 });
 
 //For Cms
