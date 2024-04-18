@@ -108,10 +108,10 @@
 </nav>
 
 <!-- Main content area -->
-<div class="container mx-auto mt-8">
+<div class="container mx-auto mt-8 px-10">
     <div class="gap-4">
         <!-- Content sections -->
-        <div id="content1" class="bg-white p-4 rounded shadow-md content">
+        <div id="content1" class="bg-white p-4 rounded-lg shadow-md content">
             <h2 class="text-3xl font-semibold mb-4 text-center">Status</h2>
             <div id="statusDateTime" class="text-xl"></div> <!-- Placeholder for displaying date and time -->
             <ul class="custom-list mt-8">
