@@ -241,10 +241,21 @@
                  <div class="bg-gray-300 rounded-lg p-4 mt-8">
                     <h2 class="text-2xl font-bold mb-2">Apply Now</h2>
                     <p class="text-gray-800 leading-relaxed">
-                        Ready to aply for a job?
+                        Ready to apply for a job?
                     </p>
                     <div class="mt-4">
                         <a href="/applyNow" class="bg-red-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Apply Now</a>
+                    </div>
+                </div>
+
+                <!-- Client Hiring Form Section -->
+                <div class="bg-gray-300 rounded-lg p-4 mt-8">
+                    <h2 class="text-2xl font-bold mb-2">Hire Now</h2>
+                    <p class="text-gray-800 leading-relaxed">
+                        Ready to hire for a worker?
+                    </p>
+                    <div class="mt-4">
+                        <a href="/applyNow" class="bg-red-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Hire Now</a>
                     </div>
                 </div>
 
