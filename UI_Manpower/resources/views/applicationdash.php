@@ -115,7 +115,7 @@
             <h2 class="text-3xl font-semibold mb-4 text-center">Status</h2>
             <div id="statusDateTime" class="text-xl"></div> <!-- Placeholder for displaying date and time -->
             <ul class="custom-list mt-8">
-                <li class="unchecked">Pre:Approval</li>
+                <li class="checked">Pre:Approval</li>
                 <li class="checked">Employment Requirements</li>
                 <li class="unchecked">Pre-Deployment Requirements</li>
                 <li class="unchecked">Abroad Arrival</li>
@@ -153,15 +153,102 @@
         </div>
         <div id="content8" class="bg-white p-4 rounded shadow-md hidden content">
             <h2 class="text-lg font-semibold mb-4">Balikbayan</h2>
-            <p>View and manage your invoices.</p>
+            <p>Below are the documents currently attached:</p>
+            <ul class="list-disc pl-6 mt-4">
+                <li>Passport Photo</li>
+                <li>NBI Clearance</li>
+                <li>SSS ID</li>
+                <li>UMID ID</li>
+                <li>National ID</li>
+                <li>Residence Bill With Address</li>
+
+            </ul>
+            <hr class="my-4">
+            <h3 class="text-lg font-semibold mb-2">Passport Photo</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file" class="mb-2">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Upload</button>
+            </form>
+            <h3 class="text-lg font-semibold mb-2">NBI Clearance</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file" class="mb-2">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Upload</button>
+            </form>
+            <h3 class="text-lg font-semibold mb-2">SSS ID</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file" class="mb-2">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Upload</button>
+            </form>
+            <h3 class="text-lg font-semibold mb-2">UMID ID</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file" class="mb-2">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Upload</button>
+            </form>
+            <h3 class="text-lg font-semibold mb-2">National ID</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file" class="mb-2">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Upload</button>
+            </form>
+            <h3 class="text-lg font-semibold mb-2">Residence Bill With Address</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file" class="mb-2">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Upload</button>
+            </form>
         </div>
+        <!-- Attached Documents -->
         <div id="content9" class="bg-white p-4 rounded shadow-md hidden content">
-            <h2 class="text-lg font-semibold mb-4">Attached Documents</h2>
-            <p>Click here to logout from your account.</p>
+            <div class="bg-gray-300 container mx-auto  px-10">
+                <h2 class="text-3xl font-semibold mb-4 text-center">Passport Photo</h2>
+                <div class="bg-gray-400 container mx-auto  px-10">>
+                    Choose File:
+                </div>
+            </div>
+            
         </div>
         <div id="content10" class="bg-white p-4 rounded shadow-md hidden content">
-            <h2 class="text-lg font-semibold mb-4">Media Files</h2>
-            <p>Click here to logout from your account.</p>
+            <h2 class="text-lg font-semibold mb-4">Attached Documents</h2>
+            <p>Below are the documents currently attached:</p>
+            <ul class="list-disc pl-6 mt-4">
+                <li>Document 1</li>
+                <li>Document 2</li>
+                <li>Document 3</li>
+                <!-- Add more documents as needed -->
+            </ul>
+            <hr class="my-4">
+            <h3 class="text-lg font-semibold mb-2">Upload New Documents</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <!-- First file upload -->
+                <div class="mb-2">
+                    <label for="file1">Choose File 1:</label>
+                    <input type="file" name="file1" id="file1" class="block">
+                </div>
+                <!-- Second file upload -->
+                <div class="mb-2">
+                    <label for="file2">Choose File 2:</label>
+                    <input type="file" name="file2" id="file2" class="block">
+                </div>
+                <!-- Third file upload -->
+                <div class="mb-2">
+                    <label for="file3">Choose File 3:</label>
+                    <input type="file" name="file3" id="file3" class="block">
+                </div>
+                <!-- Fourth file upload -->
+                <div class="mb-2">
+                    <label for="file4">Choose File 4:</label>
+                    <input type="file" name="file4" id="file4" class="block">
+                </div>
+                <!-- Fifth file upload -->
+                <div class="mb-2">
+                    <label for="file5">Choose File 5:</label>
+                    <input type="file" name="file5" id="file5" class="block">
+                </div>
+                <!-- Sixth file upload -->
+                <div class="mb-2">
+                    <label for="file6">Choose File 6:</label>
+                    <input type="file" name="file6" id="file6" class="block">
+                </div>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Upload</button>
+            </form>
         </div>
         <div id="content11" class="bg-white p-4 rounded shadow-md hidden content">
             <h2 class="text-lg font-semibold mb-4">Signed Form</h2>
