@@ -119,3 +119,9 @@ Route::get('/registration',[AuthManager::class, 'registration'])->name(name:'reg
 Route::post('/registration',[AuthManager::class, 'registrationPost'])->name(name:'registration.post');
 
 Route::get('/logout', [AuthManager::class, 'logout'])->name(name:'logout');
+
+//for application dashboard
+
+Route::get('/applicationdash', function () {
+    return view('applicationdash');
+});
