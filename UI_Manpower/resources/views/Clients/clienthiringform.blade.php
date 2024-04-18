@@ -9,12 +9,25 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
+
 <body class="bg-gray-100">
+
+    <nav class="bg-gray-300 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+
+            <div>
+                <a href="#" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
+            </div>
+        </div>
+    </nav>
     <div class="container mx-auto py-8">
         <h1 class="text-3xl font-semibold text-center mb-8">Client Account Registration</h1>
         <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden shadow-md">
             <div class="px-6 py-4">
-                <form action="#" method="POST">
+                <form id="registrationForm" action="#" method="POST" onsubmit="return validateForm()">
+                    <div id="notification" class="p-4 rounded-lg shadow-md bg-green-500 text-white text-center py-2 hidden">
+                        Your registration has been successfully submitted!
+                    </div>
                     <div class="mb-4">
                         <label for="company_name" class="block text-gray-700 text-sm font-bold mb-2">Company Name (Optional):</label>
                         <input type="text" id="company_name" name="company_name"
@@ -23,7 +36,7 @@
                     <div class="mb-4">
                         <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
                         <input type="email" id="email" name="email"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
                     </div>
                     <div class="mb-4">
                         <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
@@ -35,6 +48,7 @@
                             class="block text-gray-700 text-sm font-bold mb-2">Confirm Password</label>
                         <input type="password" id="confirm_password" name="confirm_password"
                             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <p id="passwordError" class="text-red-500 text-xs italic hidden">Passwords do not match.</p>
                     </div>
                     <div class="mb-4">
                         <p class="text-gray-700 text-sm font-bold mb-2">Field of works they need:</p>
@@ -70,7 +84,8 @@
                             <input type="checkbox" id="checklist8" name="checklist8" class="mt-1 mr-2">
                             <label for="checklist8" class="text-gray-700">Manufacturing</label>
                         </div>
-                        <!-- Add more checklist items as needed -->
+                        
+                        <!-- Checkbox options -->
                     </div>
                     <div class="flex items-center justify-between">
                         <button type="submit"
@@ -82,6 +97,18 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function validateForm() {
+            var password = document.getElementById("password").value;
+            var confirm_password = document.getElementById("confirm_password").value;
+            if (password !== confirm_password) {
+                document.getElementById("passwordError").classList.remove("hidden");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 
 </html>
