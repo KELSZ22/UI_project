@@ -125,3 +125,7 @@ Route::get('/logout', [AuthManager::class, 'logout'])->name(name:'logout');
 Route::get('/applicationdash', function () {
     return view('applicantDashboard/applicationdash');
 });
+
+Route::get('/applicantlogin', function () {
+    return view('applicantDashboard/applicantlogin');
+});
