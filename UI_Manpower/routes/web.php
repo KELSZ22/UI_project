@@ -1,11 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthManager;
+use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/', function () {
     return view('login');
 });
+
+
+
+Route::get('login', [LoginController::class, 'index'])->name('login');
+Route::post('login', [LoginController::class, 'login']);
+Route::post('logout', [LoginController::class, 'logout']);
 
 Route::get('/homepage', function () {
     return view('homepage');
@@ -111,11 +117,3 @@ Route::get('/Value', function () {
 Route::get('/Crewnnect', function () {
     return view('cms/Crewnnect');
 });
-
-Route::get('/login', [AuthManager::class, 'login'])->name(name:'login');
-Route::post('/login', [AuthManager::class, 'loginPost'])->name(name:'login.post');
-
-Route::get('/registration',[AuthManager::class, 'registration'])->name(name:'registration');
-Route::post('/registration',[AuthManager::class, 'registrationPost'])->name(name:'registration.post');
-
-Route::get('/logout', [AuthManager::class, 'logout'])->name(name:'logout');

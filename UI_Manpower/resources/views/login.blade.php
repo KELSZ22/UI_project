@@ -17,7 +17,7 @@
       <div class="hidden md:block">
         <ul class="flex space-x-4">
           <li><a href="/homepage" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Home</a></li>
-          <li><a href="#" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
+          <li><a href="/aboutUs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
           <li><a href="/jobs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Jobs</a></li>
           <li><a href="/Contactus" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Contact Us</a></li>
           <li><a href="/applyNow" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">Apply Now</a></li>
@@ -37,7 +37,7 @@
     <div id="mobile-menu" class="hidden md:hidden">
       <ul class="flex flex-col space-y-4">
           <li><a href="/homepage" class="text-black hover:text-red-800">Home</a></li>
-          <li><a href="#" class="text-black hover:text-red-800">About Us</a></li>
+          <li><a href="aboutUs" class="text-black block py-2 px-4 rounded hover:bg-red-800 hover:text-white">About Us</a></li>
           <li><a href="/jobs" class="text-black hover:text-red-800">Jobs</a></li>
           <li><a href="/Contactus" class="text-black hover:text-red-800">Contact Us</a></li>
           <li><a href="/applyNow" class="text-black hover:text-red-800">Apply Now</a></li>
@@ -53,6 +53,9 @@
                 <img src="{{url('images/crewnnect1.png')}}" alt="">
             </a>
         </h2>
+        <form>
+
+  
 
 
         <div class="mt-5">
@@ -96,6 +99,7 @@
                 <input type="password" id="password" name="password"
                     class="pl-10 pr-3 py-2 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                     placeholder="Password" required>
+                    
             </div>
 
 
