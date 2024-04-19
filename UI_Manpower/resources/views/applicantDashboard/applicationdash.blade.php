@@ -46,32 +46,30 @@
 <body class="bg-gray-100">
 
 <!-- Navigation bar -->
-<nav class="bg-gray-300 p-4">
+<nav class="bg-gray-300 text-white p-4">
     <div class="container mx-auto flex justify-between items-center">
-        <div class="flex items-center">
-            <!-- Logo -->
-            <a href="/homepage" class="h-40 py-5"> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
-            <!-- Applicant Dashboard -->
-        </div>
-        <div class="text-2xl font-bold text-center">Applicant Dashboard</div>
-        <!-- Profile Picture with Name and Email -->
-        <div class="flex items-center space-x-2">
+        <a href="/homepage" class=" "> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
+        
+        <div class="flex text-2xl font-bold text-center text-black">Applicant Dashboard</div>
+        <div class="flex justify-items-end">
+            
             <!-- Profile Picture -->
-            <div class="h-12 w-12 rounded-full overflow-hidden flex-row">
+            <div class="h-12 w-12 rounded-full overflow-hidden">
                 <img src="https://via.placeholder.com/150" alt="Profile Picture">
             </div>
             <!-- Name and Email of Applicant -->
-            <div class="md:flex flex-col">
-                <p class="text-m font-semibold">John Doe</p>
+            <div class="ml-4 text-black">
+                <p class="text-m font-semibold text-center">John Doe</p>
                 <p class="text-xs text-gray-600">john@example.com</p>
             </div>
+            <!-- Icon beside the Profile Picture -->
+            <i class="fas fa-bell text-gray-600 ml-4"></i>
         </div>
+        
     </div>
 </nav>
 
-
-
-<nav class="bg-blue-800 text-white p-4">
+<nav class="bg-gray-800 text-white p-4">
     <div class="container mx-auto justify-center items-center hidden md:block">
         <div class="flex flex-wrap justify-center">
             <ul class="flex flex-wrap space-x-4">
