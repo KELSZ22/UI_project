@@ -72,22 +72,19 @@
         <div class="container flex flex-wrap bg-clip-content p-6 border-4 mx-auto">
             <ul class="flex flex-wrap space-x-3 items-center justify-center mx-auto">
                 <li class="ml-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content1"> 
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/VQX2hLK/1.png" alt="Status Icon">
-                    Status</a></li> 
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/VQX2hLK/1.png" alt="Status Icon">Status</a></li> 
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content2"> 
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/K7V8tg3/2.png" alt="Pre:Approval Icon">Pre:Approval</a></li>
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/K7V8tg3/2.png" alt="Pre:Approval Icon">Employee Candidates</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content3">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/RBP6WP9/3.png" alt="Icon">Employment Req</a></li>
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/RBP6WP9/3.png" alt="Icon">Enlisted for Employment </a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content4">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/mBDFWzs/4.png" alt="Hospital Icon">Pre:Deployement</a></li>
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/mBDFWzs/4.png" alt="Hospital Icon">Employee(s)</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content5">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/Z1Mk5cj/5.png" alt="Icon">Abroad Arrival</a></li>
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/Z1Mk5cj/5.png" alt="Icon">Pre:Approval</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content6">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/9TV66bB/6.png" alt="Hospital Icon">Employer Confirmation</a></li>
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/9TV66bB/6.png" alt="Hospital Icon">Client Accreditation</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content7">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">Pre:Balikbayan Checks</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content8">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">Balikbayan</a></li>
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">Contracts Documents</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content9">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/wBZg5GT/9.png" alt="Hospital Icon">Attached Documents      .</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content10">
@@ -112,25 +109,23 @@
                 Status</a></li>
             <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content2">
             <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/K7V8tg3/2.png" alt="Pre:Approval Icon">
-                Pre:Approval</a></li>
+                Employee Candidates</a></li>
             <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content3">
             <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/RBP6WP9/3.png" alt="Icon">
-                Employment Req</a></li>
+                Enlisted for Employment </a></li>
             <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content4">
             <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/mBDFWzs/4.png" alt="Hospital Icon">
-                Pre:Deployement</a></li>
+                Employee(s)</a></li>
             <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content5">
             <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/Z1Mk5cj/5.png" alt="Icon">
-                Abroad Arrival</a></li>
+                Pre:Approval</a></li>
             <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content6">
             <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/9TV66bB/6.png" alt="Hospital Icon">
-                Employer Confirmation</a></li>
+                Client Accreditation</a></li>
             <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content7">
             <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">
-                Pre:Balikbayan Checks</a></li>
-            <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content8">
-            <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">
-                Balikbayan</a></li>
+                Contracts Documents</a></li>
+            
             <li><a href="#" class="hover:text-gray-300 nav-link" data-target="content9">
             <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/wBZg5GT/9.png" alt="Hospital Icon">
                 Attached Documents</a></li>
@@ -151,18 +146,17 @@
         <div id="content1" class="bg-white p-4 rounded-lg shadow-md content">
             <h2 class="text-3xl font-semibold mb-4 text-center">Status</h2>
             <div id="statusDateTime" class="text-xl"></div> <!-- Placeholder for displaying date and time -->
-            <ul class="custom-list mt-8">
-                <li class="checked">Pre:Approval</li>
-                <li class="checked">Employment Requirements</li>
-                <li class="unchecked">Pre-Deployment Requirements</li>
-                <li class="unchecked">Abroad Arrival</li>
-                <li class="unchecked">pre:Balikbayan Check</li>
-                <li class="checked">Balikbayan Checks</li>
-                <li class="unchecked">Onlines Application Form</li>
-                <li class="unchecked">Required File Attachments</li>
-                <li class="checked">Worker's Various Contracts</li>
-                <li class="unchecked">Employee's Photos and Videos requirements</li>
-            </ul>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <ul class="custom-list mt-8">
+                    <li class="checked">Pre:Approval</li>
+                </ul>
+                <ul class="custom-list mt-8">
+                    <li class="checked">Onlines Application Form</li>
+                    <li class="unchecked">Required File Attachments</li>
+                    <li class="unchecked">Employer's Various Contracts</li>
+                    <li class="unchecked">Employer's Photos and Videos requirements</li>
+                </ul>
+            </div>
         </div>
         <div id="content2" class="bg-white p-4 rounded shadow-md hidden content">
             <h2 class="text-lg font-semibold mb-4">Pre:Approval</h2>
@@ -253,11 +247,10 @@
 </div>
 
 <!-- Footer -->
-<footer class="px-2 sm:px-4 py-4 bg-gray-800 dark:bg-gray-600 items-center md:p-6 text-center flex flex-col relative">
-    <span class="text-sm text-white dark:text-red-200 sm:text-center">
-       © 2024 Crewnnect. All rights reserved.
-    </span>
-    <span class="absolute bottom-1 text-xs text-white dark:text-red-400">Powered by: <a href="https://www.negosyante-it.solutions">www.negosyante-it.solutions</a></span>
+<footer class="fixed bottom-0 w-full bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2024 Crewnect. All rights reserved.</p>
+    </div>
 </footer>
 
 <script>
