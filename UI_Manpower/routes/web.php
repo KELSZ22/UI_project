@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthManager;
+use App\Http\Controllers\ClientManager;
 
 Route::get('/', function () {
     return view('login');
@@ -131,6 +132,17 @@ Route::get('/applicantlogin', function () {
 });
 
 
-Route::get('/hireNow', function () {
-    return view('Clients/clienthiringform');
+//for Client
+Route::get('/hirenow', function () {
+    return view('Clients/clientregistration');
 });
+
+Route::get('/clientlogin', [ClientManager::class, 'clientlogin'])->name(name:'clientlogin');
+Route::post('/clientlogin', [ClientManager::class, 'clientloginPost'])->name(name:'clientlogin.post');
+
+Route::get('/clientregistration',[ClientManager::class, 'clientregistration'])->name(name:'clientregistration');
+Route::post('/clientregistration',[ClientManager::class, 'clientregistrationPost'])->name(name:'clientregistration.post');
+
+Route::get('/clientlogout', [ClientManager::class, 'clientlogout'])->name(name:'clientlogout');
+
+
