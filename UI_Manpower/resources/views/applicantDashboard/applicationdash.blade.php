@@ -40,6 +40,7 @@
             color: #EF4444; /* Red color */
         }
 
+
     </style>
 </head>
 <body class="bg-gray-100">
