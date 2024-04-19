@@ -50,7 +50,7 @@
     <div class="container mx-auto flex justify-between items-center">
         <a href="/homepage" class=" "> <img src="{{url('images/crewnnect1.png')}}" alt=""></a>
         
-        <div class="flex text-2xl font-bold text-center text-black">Applicant Dashboard</div>
+        <div class="flex text-2xl font-semibold text-center text-black">Applicant Dashboard</div>
         <div class="flex justify-items-end">
             
             <!-- Profile Picture -->
@@ -59,11 +59,9 @@
             </div>
             <!-- Name and Email of Applicant -->
             <div class="ml-4 text-black">
-                <p class="text-m font-semibold text-center">John Doe</p>
+                <p class="text-m font-semibold">John Doe</p>
                 <p class="text-xs text-gray-600">john@example.com</p>
             </div>
-            <!-- Icon beside the Profile Picture -->
-            <i class="fas fa-bell text-gray-600 ml-4"></i>
         </div>
         
     </div>
@@ -71,30 +69,30 @@
 
 <nav class="bg-gray-800 text-white p-4">
     <div class="container mx-auto justify-center items-center hidden md:block">
-        <div class="flex flex-wrap justify-center">
-            <ul class="flex flex-wrap space-x-4">
-                <li class="ml-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content1"> 
+        <div class="container flex flex-wrap bg-clip-content p-6 border-4 mx-auto">
+            <ul class="flex flex-wrap space-x-3 items-center justify-center mx-auto">
+                <li class="ml-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content1"> 
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/VQX2hLK/1.png" alt="Status Icon">
                     Status</a></li> 
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-2 mr-3 hover:text-black nav-link" data-target="content2"> 
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content2"> 
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/K7V8tg3/2.png" alt="Pre:Approval Icon">Pre:Approval</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-2 mr-3 hover:text-black nav-link" data-target="content3">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content3">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/RBP6WP9/3.png" alt="Icon">Employment Req</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-2 mr-3 hover:text-black nav-link" data-target="content4">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content4">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/mBDFWzs/4.png" alt="Hospital Icon">Pre:Deployement</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content5">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content5">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/Z1Mk5cj/5.png" alt="Icon">Abroad Arrival</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content6">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content6">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/9TV66bB/6.png" alt="Hospital Icon">Employer Confirmation</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content7">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content7">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">Pre:Balikbayan Checks</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content8">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content8">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">Balikbayan</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content9">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/wBZg5GT/9.png" alt="Hospital Icon">Attached Documents</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content10">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content9">
+                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/wBZg5GT/9.png" alt="Hospital Icon">Attached Documents      .</a></li>
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content10">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/34xcnPB/10.png" alt="Hospital Icon">Media Files</a></li>
-                <li class="mr-0 border-r-2"><a href="#" class="block py-2 px-4 mr-3 hover:text-black nav-link" data-target="content11">
+                <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content11">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/Lgm8Ttx/11.png" alt="Hospital Icon">Signed Form</a></li>
             </ul>
         </div>
@@ -147,7 +145,7 @@
 </nav>
 
 <!-- Main content area -->
-<div class="container mx-auto mt-8 px-10">
+<div class="container mx-auto p-10">
     <div class="gap-4">
         <!-- Content sections -->
         <div id="content1" class="bg-white p-4 rounded-lg shadow-md content">
@@ -253,6 +251,14 @@
         </div>
     </div>
 </div>
+
+<!-- Footer -->
+<footer class="px-2 sm:px-4 py-4 bg-gray-800 dark:bg-gray-600 items-center md:p-6 text-center flex flex-col relative">
+    <span class="text-sm text-white dark:text-red-200 sm:text-center">
+       © 2024 Crewnnect. All rights reserved.
+    </span>
+    <span class="absolute bottom-1 text-xs text-white dark:text-red-400">Powered by: <a href="https://www.negosyante-it.solutions">www.negosyante-it.solutions</a></span>
+</footer>
 
 <script>
     // JavaScript to toggle visibility of content based on selected navigation
