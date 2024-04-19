@@ -131,9 +131,15 @@ Route::get('/applicantlogin', function () {
     return view('applicantDashboard/applicantlogin');
 });
 
+//for client dashboard
+Route::get('/clientdashboard', function () {
+    return view('Clients/clientdashboard');
+});
+
+
 
 //for Client
-Route::get('/hirenow', function () {
+Route::get('/clientregistration', function () {
     return view('Clients/clientregistration');
 });
 
