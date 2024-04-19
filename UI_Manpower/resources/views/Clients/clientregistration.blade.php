@@ -51,32 +51,68 @@
         <h1 class="text-3xl font-semibold text-center mb-8">Client Account Registration</h1>
         <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden shadow-md">
             <div class="px-6 py-4">
-                <form id="registrationForm" action="#" method="POST" onsubmit="return validateForm()">
+
+                <div class="mt-5">
+                        @if($errors->any())
+                            <div class="col-12">
+                            @foreach($errors->all() as $error)
+                                <div class="alert alert-danger"> {{$error}} </div>
+                            @endforeach
+                            </div>
+                        @endif
+
+                        @if(session()->has('error'))
+                            <div class="alert alert-danger"> {{session('error')}} </div>
+                        @endif
+
+                        @if(session()->has('success'))
+                            <div class="alert alert-success"> {{session('success')}} </div>
+                        @endif
+                    </div>
+
+                <form action="{{route('clientregistration.post')}}" method="POST">
+                    @csrf
                     <div id="notification" class="p-4 rounded-lg shadow-md bg-green-500 text-white text-center py-2 hidden">
                         Your registration has been successfully submitted!
                     </div>
+
+                    
+
                     <div class="mb-4">
-                        <label for="company_name" class="block text-gray-700 text-sm font-bold mb-2">Company Name (Optional):</label>
-                        <input type="text" id="company_name" name="company_name"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <label for="username" class="block text-gray-700 text-sm font-bold mb-2">Username:</label>
+                        <input type="text" id="username" name="username"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
                     </div>
+
+
                     <div class="mb-4">
-                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                        <label for="lastname" class="block text-gray-700 text-sm font-bold mb-2">Lastname:</label>
+                        <input type="text" id="lastname" name="lastname"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                    </div>
+
+
+                    <div class="mb-4">
+                        <label for="firstname" class="block text-gray-700 text-sm font-bold mb-2">Firstname:</label>
+                        <input type="text" id="firstname" name="firstname"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                    </div>
+
+
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
                         <input type="email" id="email" name="email"
                             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
                     </div>
+
+
                     <div class="mb-4">
-                        <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                        <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password:</label>
                         <input type="password" id="password" name="password"
                             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                     </div>
-                    <div class="mb-6">
-                        <label for="confirm_password"
-                            class="block text-gray-700 text-sm font-bold mb-2">Confirm Password</label>
-                        <input type="password" id="confirm_password" name="confirm_password"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
-                        <p id="passwordError" class="text-red-500 text-xs italic hidden">Passwords do not match.</p>
-                    </div>
+
+
                     <div class="mb-4">
                         <p class="text-gray-700 text-sm font-bold mb-2">Field of works they need:</p>
                         <div class="flex items-start">
