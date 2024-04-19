@@ -255,7 +255,7 @@
                         Ready to hire for a worker?
                     </p>
                     <div class="mt-4">
-                        <a href="/hireNow" class="bg-red-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Hire Now</a>
+                        <a href="/clientregistration" class="bg-red-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Hire Now</a>
                     </div>
                 </div>
 
