@@ -53,15 +53,16 @@
         <div class="flex text-2xl font-semibold text-center text-black">Applicant Dashboard</div>
         <div class="flex justify-items-end">
             
+             <!-- Name and Email of Applicant -->
+            <div class="ml-4 mr-2 text-black">
+                <p class="text-m text-right font-semibold">John Doe</p>
+                <p class="text-xs text-gray-600">john@example.com</p>
+            </div>
             <!-- Profile Picture -->
             <div class="h-12 w-12 rounded-full overflow-hidden">
                 <img src="https://via.placeholder.com/150" alt="Profile Picture">
             </div>
-            <!-- Name and Email of Applicant -->
-            <div class="ml-4 text-black">
-                <p class="text-m font-semibold">John Doe</p>
-                <p class="text-xs text-gray-600">john@example.com</p>
-            </div>
+          
         </div>
         
     </div>
@@ -72,12 +73,12 @@
         <div class="container flex flex-wrap bg-clip-content p-6 border-4 mx-auto">
             <ul class="flex flex-wrap space-x-3 items-center justify-center mx-auto">
                 <li class="ml-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content1"> 
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/VQX2hLK/1.png" alt="Status Icon">
+                    <img class="h-7 inline-block items-center justify-center mr-3" src="https://i.ibb.co/VQX2hLK/1.png" alt="Status Icon">
                     Status</a></li> 
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content2"> 
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/K7V8tg3/2.png" alt="Pre:Approval Icon">Pre:Approval</a></li>
+                    <img class="h-7 inline-block items-center justify-center mr-3" src="https://i.ibb.co/K7V8tg3/2.png" alt="Pre:Approval Icon">Pre:Approval</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content3">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/RBP6WP9/3.png" alt="Icon">Employment Req</a></li>
+                    <img class="h-7 inline-block items-center justify-center mr-3" src="https://i.ibb.co/RBP6WP9/3.png" alt="Icon">Employment Req</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content4">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/mBDFWzs/4.png" alt="Hospital Icon">Pre:Deployement</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content5">
@@ -89,7 +90,7 @@
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content8">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/YZbkvz8/8.png" alt="Hospital Icon">Balikbayan</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content9">
-                    <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/wBZg5GT/9.png" alt="Hospital Icon">Attached Documents      .</a></li>
+                    <img class="h-7 inline-block items-center justify-center mr-3" src="https://i.ibb.co/wBZg5GT/9.png" alt="Hospital Icon">Attached Documents      .</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content10">
                     <img class="h-8 inline-block items-center justify-center mr-3" src="https://i.ibb.co/34xcnPB/10.png" alt="Hospital Icon">Media Files</a></li>
                 <li class="mr-0 border-r-2"><a href="#" class="flex items-center py-2 px-4 mr-3 hover:text-blue-800 nav-link" data-target="content11">
@@ -156,7 +157,7 @@
                 <li class="checked">Employment Requirements</li>
                 <li class="unchecked">Pre-Deployment Requirements</li>
                 <li class="unchecked">Abroad Arrival</li>
-                <li class="unchecked">pre:Balikbayan Check</li>
+                <li class="unchecked">Pre:Balikbayan Check</li>
                 <li class="checked">Balikbayan Checks</li>
                 <li class="unchecked">Onlines Application Form</li>
                 <li class="unchecked">Required File Attachments</li>
@@ -166,7 +167,76 @@
         </div>
         <div id="content2" class="bg-white p-4 rounded shadow-md hidden content">
             <h2 class="text-lg font-semibold mb-4">Pre:Approval</h2>
-            <p>View and update your profile information here.</p>
+            <div class="table-container">
+    <table class="min-w-full">
+        <tbody>
+            <!-- Signed Form -->
+            <tr>
+                <td class="py-2">
+                    <div class="flex items-center justify-center">
+                        <input type="checkbox" id="signedForm" name="signedForm" class="mr-2">
+                        <label for="signedForm" class="text-sm">Signed Form</label>
+                    </div>
+                </td>
+            </tr>
+            <!-- Verified Email -->
+            <tr>
+                <td class="py-2">
+                    <div class="flex items-center justify-center">
+                        <input type="checkbox" id="verifiedEmail" name="verifiedEmail" class="mr-2">
+                        <label for="verifiedEmail" class="text-sm">Verified Email</label>
+                    </div>
+                </td>
+            </tr>
+            <!-- Verified Information -->
+            <tr>
+                <td class="py-2">
+                    <div class="flex items-center justify-center">
+                        <input type="checkbox" id="verifiedInformation" name="verifiedInformation" class="mr-2">
+                        <label for="verifiedInformation" class="text-sm">Verified Information</label>
+                    </div>
+                </td>
+            </tr>
+            <!-- Verified Emergency Contact -->
+            <tr>
+                <td class="py-2">
+                    <div class="flex items-center justify-center">
+                        <input type="checkbox" id="verifiedEmergencyContact" name="verifiedEmergencyContact" class="mr-2">
+                        <label for="verifiedEmergencyContact" class="text-sm">Verified Emergency Contact</label>
+                    </div>
+                </td>
+            </tr>
+            <!-- Verified Address -->
+            <tr>
+                <td class="py-2">
+                    <div class="flex items-center justify-center">
+                        <input type="checkbox" id="verifiedAddress" name="verifiedAddress" class="mr-2">
+                        <label for="verifiedAddress" class="text-sm">Verified Address</label>
+                    </div>
+                </td>
+            </tr>
+            <!-- Complete Documents -->
+            <tr>
+                <td class="py-2">
+                    <div class="flex items-center justify-center">
+                        <input type="checkbox" id="completeDocuments" name="completeDocuments" class="mr-2">
+                        <label for="completeDocuments" class="text-sm">Complete Documents</label>
+                    </div>
+                </td>
+            </tr>
+            <!-- Employment Contract Reviewed -->
+            <tr>
+                <td class="py-2">
+                    <div class="flex items-center justify-center">
+                        <input type="checkbox" id="employmentContractReviewed" name="employmentContractReviewed" class="mr-2">
+                        <label for="employmentContractReviewed" class="text-sm">Employment Contract Reviewed</label>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
         </div>
         <div id="content3" class="bg-white p-4 rounded shadow-md hidden content">
             <h2 class="text-lg font-semibold mb-4">Employment Req</h2>
