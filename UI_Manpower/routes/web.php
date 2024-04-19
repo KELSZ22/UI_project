@@ -139,7 +139,7 @@ Route::get('/clientdashboard', function () {
 
 
 //for Client
-Route::get('/hirenow', function () {
+Route::get('/clientregistration', function () {
     return view('Clients/clientregistration');
 });
 
