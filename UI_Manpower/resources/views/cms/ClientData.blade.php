@@ -253,6 +253,8 @@
     dropdownMenu.classList.toggle('hidden');
 }
 </script>
+
+
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-200 h-96 mt-20" >
     <h2 class="text-2xl font-bold mb-4">Client's Profile</h2>
     <table id="example" class="table-auto relative w-max">
@@ -260,18 +262,20 @@
             <tr>
             
             <tr>
+                <th class="px-2 py-2">#</th>
                 <th class="px-4 py-2">Name</th>
-                <th class="px-4 py-2">Position</th>
-                <th class="px-4 py-2">Office</th>
-                <th class="px-4 py-2">Age</th>
+                <th class="px-4 py-2">Email</th>
+                <th class="px-4 py-2">Rec</th>
+                <th class="px-4 py-2">Updates</th>
 
             </tr>
             <tbody>
-            <tr>
-                <td class="border px-4 py-2">Maricar Tolentino</td>
-                <td class="border px-4 py-2">System Architect</td>
-                <td class="border px-4 py-2">Kings Court</td>
-                <td class="border px-4 py-2">18</td>
+            <tr class="text-xs">
+                <td class="border px-4 py-2">0</td>
+                <td class="border px-4 py-2">Ortega, Sean Michael</td>
+                <td class="border px-4 py-2">seanmichaelortega060802@gmail.com</td>
+                <td class="border px-4 py-2">Buhay pa</td>
+                <td class="border px-4 py-2">Buhay pa</td>
             
 
         
