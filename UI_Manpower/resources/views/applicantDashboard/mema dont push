@@ -1,0 +1,25 @@
+<nav class="bg-gray-300 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <a href="/homepage">
+            <img src="{{url('images/crewnnect1.png')}}" alt="">
+        </a>
+
+        <!-- Applicant Dashboard -->
+        <div class="flex items-center">
+            <!-- Profile Picture -->
+            <div class="h-12 w-12 rounded-full overflow-hidden mr-2">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            </div>
+
+            <!-- Name and Email of Applicant -->
+            <div class="text-black">
+                <p class="text-m font-semibold">John Doe</p>
+                <p class="text-xs text-gray-600">john@example.com</p>
+            </div>
+        </div>
+
+        <!-- Applicant Dashboard Title -->
+        <div class="text-2xl font-bold text-center text-black">Applicant Dashboard</div>
+    </div>
+</nav>
